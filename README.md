@@ -2311,3 +2311,1974 @@ Direction cosines: l² + m² + n² = 1 (always!)
 
 ---
 
+# 🚀 IIT JEE CLASS 11 PHYSICS — COMPLETE NOTES
+### Every Concept | Every Formula | Every Detail
+
+> **Syllabus Coverage:** Complete NCERT + JEE Advanced Level  
+> **Chapters:** Units & Measurement → Thermodynamics → Kinetic Theory → Oscillations → Waves
+
+---
+
+## 📚 TABLE OF CONTENTS
+
+1. [Units & Measurements](#1-units--measurements)
+2. [Motion in a Straight Line (Kinematics 1D)](#2-motion-in-a-straight-line)
+3. [Motion in a Plane (Kinematics 2D)](#3-motion-in-a-plane)
+4. [Laws of Motion (Newton's Laws)](#4-laws-of-motion)
+5. [Work, Energy & Power](#5-work-energy--power)
+6. [System of Particles & Rotational Motion](#6-system-of-particles--rotational-motion)
+7. [Gravitation](#7-gravitation)
+8. [Mechanical Properties of Solids](#8-mechanical-properties-of-solids)
+9. [Mechanical Properties of Fluids](#9-mechanical-properties-of-fluids)
+10. [Thermal Properties of Matter](#10-thermal-properties-of-matter)
+11. [Thermodynamics](#11-thermodynamics)
+12. [Kinetic Theory of Gases](#12-kinetic-theory-of-gases)
+13. [Oscillations (SHM)](#13-oscillations-shm)
+14. [Waves](#14-waves)
+
+---
+
+# 1. UNITS & MEASUREMENTS
+
+## 1.1 Physical Quantities
+
+A **physical quantity** is anything that can be measured. Every physical quantity = **Numerical value × Unit**
+
+### Types:
+| Type | Definition | Examples |
+|------|-----------|---------|
+| **Fundamental (Base)** | Cannot be expressed in terms of others | Mass, Length, Time, Temperature, Current, Amount of substance, Luminous intensity |
+| **Derived** | Expressed using fundamental quantities | Force, Velocity, Pressure, Energy |
+| **Supplementary** | Plane angle (radian), Solid angle (steradian) |
+
+## 1.2 SI System — 7 Base Units
+
+| Quantity | Unit | Symbol |
+|----------|------|--------|
+| Length | metre | m |
+| Mass | kilogram | kg |
+| Time | second | s |
+| Electric current | ampere | A |
+| Temperature | kelvin | K |
+| Amount of substance | mole | mol |
+| Luminous intensity | candela | cd |
+
+## 1.3 Dimensions
+
+**Dimensional formula** expresses a physical quantity in terms of **M** (Mass), **L** (Length), **T** (Time), **A** (current), **K** (temperature), etc.
+
+### Key Dimensional Formulas:
+
+| Quantity | Formula | Dimensions |
+|---------|---------|-----------|
+| Velocity | v = L/T | [M⁰L¹T⁻¹] |
+| Acceleration | a = L/T² | [M⁰L¹T⁻²] |
+| Force | F = ma | [M¹L¹T⁻²] |
+| Work/Energy | W = F·d | [M¹L²T⁻²] |
+| Power | P = W/t | [M¹L²T⁻³] |
+| Pressure | P = F/A | [M¹L⁻¹T⁻²] |
+| Momentum | p = mv | [M¹L¹T⁻¹] |
+| Impulse | J = F·t | [M¹L¹T⁻¹] |
+| Torque | τ = r × F | [M¹L²T⁻²] |
+| Angular Momentum | L = mvr | [M¹L²T⁻¹] |
+| Gravitational Constant G | F = Gm₁m₂/r² | [M⁻¹L³T⁻²] |
+| Planck's Constant h | E = hν | [M¹L²T⁻¹] |
+| Boltzmann Constant k | PV = nkT | [M¹L²T⁻²K⁻¹] |
+| Stefan's Constant σ | E = σT⁴ | [M¹L⁰T⁻³K⁻⁴] |
+| Coefficient of Viscosity η | F = ηA(dv/dx) | [M¹L⁻¹T⁻¹] |
+| Surface Tension | T = F/L | [M¹L⁰T⁻²] |
+
+### Dimensional Analysis Applications:
+1. **Checking correctness** — both sides must have same dimensions
+2. **Deriving formulas** — find unknown exponents
+3. **Unit conversion** — between systems
+
+### Conversion Formula:
+```
+n₁u₁ = n₂u₂
+n₂ = n₁ × [M₁/M₂]^a × [L₁/L₂]^b × [T₁/T₂]^c
+```
+
+### Limitations of Dimensional Analysis:
+- Cannot determine dimensionless constants (like 2π, ½)
+- Cannot distinguish between quantities with same dimensions (Work vs Torque)
+- Cannot analyze equations with + or − of quantities
+
+## 1.4 Significant Figures
+
+**Rules:**
+1. All non-zero digits are significant: 1234 → 4 sig figs
+2. Zeros between non-zero digits: 1002 → 4 sig figs
+3. Leading zeros (before non-zero): 0.0045 → 2 sig figs
+4. Trailing zeros with decimal: 3.200 → 4 sig figs
+5. Trailing zeros without decimal: 200 → ambiguous (use scientific notation)
+
+### Operations:
+- **Addition/Subtraction:** Result has same number of decimal places as the least precise operand
+- **Multiplication/Division:** Result has same number of significant figures as the least precise operand
+
+## 1.5 Errors in Measurement
+
+### Types of Errors:
+| Type | Description | Example |
+|------|-------------|---------|
+| **Systematic Error** | Consistent, one-directional | Instrument zero error, personal bias |
+| **Random Error** | Irregular, unpredictable | Fluctuations in reading |
+| **Gross Error** | Blunders by observer | Misreading scale |
+| **Least Count Error** | Due to instrument resolution | ½ of smallest division |
+
+### Error Formulas:
+
+**Absolute Error:** `Δa = |a_mean - aᵢ|`
+
+**Mean Absolute Error:** `Δā = (Δa₁ + Δa₂ + ... + Δaₙ) / n`
+
+**Relative (Fractional) Error:** `Δa/a`
+
+**Percentage Error:** `(Δa/a) × 100%`
+
+### Error Propagation:
+- **Sum/Difference:** `Z = A ± B` → `ΔZ = ΔA + ΔB`
+- **Product/Division:** `Z = A × B or A/B` → `ΔZ/Z = ΔA/A + ΔB/B`
+- **Power:** `Z = Aᵐ Bⁿ / Cᵖ` → `ΔZ/Z = m(ΔA/A) + n(ΔB/B) + p(ΔC/C)`
+
+> **JEE Tip:** Maximum possible error always uses sum of individual errors.
+
+---
+
+# 2. MOTION IN A STRAIGHT LINE
+
+## 2.1 Definitions
+
+| Term | Definition | Formula |
+|------|-----------|---------|
+| **Distance** | Total path length (scalar) | Always ≥ 0 |
+| **Displacement** | Shortest path from start to end (vector) | Can be +, −, 0 |
+| **Speed** | Distance/Time (scalar) | s = d/t |
+| **Velocity** | Displacement/Time (vector) | v = Δx/Δt |
+| **Acceleration** | Rate of change of velocity | a = Δv/Δt |
+
+### Average vs Instantaneous:
+```
+v_avg = Total Displacement / Total Time = Δx/Δt
+
+v_inst = lim(Δt→0) Δx/Δt = dx/dt
+
+a_avg = Δv/Δt
+
+a_inst = dv/dt = d²x/dt²
+```
+
+## 2.2 Equations of Motion (Uniform Acceleration)
+
+These are the **5 golden equations** — valid only when acceleration is constant:
+
+```
+① v = u + at
+② s = ut + ½at²
+③ v² = u² + 2as
+④ s = (u + v)/2 × t
+⑤ sₙ = u + a(2n − 1)/2   [Distance in nth second]
+```
+
+Where: u = initial velocity, v = final velocity, a = acceleration, t = time, s = displacement
+
+## 2.3 Motion Under Gravity (Free Fall)
+
+Take **downward as positive** (or upward positive — be consistent):
+
+```
+Taking upward as positive:
+a = −g = −9.8 m/s² ≈ −10 m/s²
+
+v = u − gt
+h = ut − ½gt²
+v² = u² − 2gh
+
+Time to reach max height: t = u/g
+Maximum height: H = u²/2g
+Time of flight (return to same level): T = 2u/g
+```
+
+## 2.4 Relative Motion (1D)
+
+```
+Velocity of A relative to B: v_AB = v_A − v_B
+Acceleration of A relative to B: a_AB = a_A − a_B
+```
+
+## 2.5 Graphs (Critical for JEE)
+
+| Graph | Slope | Area Under Curve |
+|-------|-------|-----------------|
+| x-t graph | velocity | — |
+| v-t graph | acceleration | displacement |
+| a-t graph | — | change in velocity |
+
+### Key Graph Shapes:
+- **Uniform velocity:** x-t is straight line, v-t is horizontal line
+- **Uniform acceleration:** x-t is parabola, v-t is straight line
+- **SHM:** x-t is sinusoidal
+
+---
+
+# 3. MOTION IN A PLANE
+
+## 3.1 Vectors
+
+### Basic Operations:
+```
+Addition: A⃗ + B⃗ (Triangle / Parallelogram law)
+Subtraction: A⃗ − B⃗ = A⃗ + (−B⃗)
+Scalar multiplication: k·A⃗
+```
+
+### Resultant of Two Vectors:
+```
+R = √(A² + B² + 2AB·cosθ)
+
+tan α = B·sinθ / (A + B·cosθ)
+```
+Where θ = angle between A⃗ and B⃗, α = angle of R with A⃗
+
+### Dot Product (Scalar Product):
+```
+A⃗ · B⃗ = AB·cosθ
+A⃗ · B⃗ = AₓBₓ + AᵧBᵧ + AᵤBᵤ
+
+Properties:
+- Commutative: A⃗ · B⃗ = B⃗ · A⃗
+- î·î = ĵ·ĵ = k̂·k̂ = 1
+- î·ĵ = ĵ·k̂ = k̂·î = 0
+```
+
+### Cross Product (Vector Product):
+```
+|A⃗ × B⃗| = AB·sinθ (direction: right-hand rule)
+
+A⃗ × B⃗ = |î  ĵ  k̂ |
+           |Aₓ Aᵧ Aᵤ|
+           |Bₓ Bᵧ Bᵤ|
+
+Properties:
+- Anti-commutative: A⃗ × B⃗ = −(B⃗ × A⃗)
+- î×î = ĵ×ĵ = k̂×k̂ = 0
+- î×ĵ = k̂, ĵ×k̂ = î, k̂×î = ĵ
+```
+
+## 3.2 Projectile Motion
+
+**Conditions:** No air resistance, g = constant, horizontal & vertical motions are independent
+
+### Setup:
+- Launch angle: θ with horizontal
+- Initial velocity: u
+- Horizontal: uₓ = u·cosθ (constant throughout)
+- Vertical: uᵧ = u·sinθ (changes due to g)
+
+### Key Equations:
+```
+Horizontal: x = u·cosθ·t
+Vertical: y = u·sinθ·t − ½gt²
+
+Equation of trajectory:
+y = x·tanθ − gx²/(2u²cos²θ)   ← This is a PARABOLA
+
+Time of flight: T = 2u·sinθ / g
+
+Maximum Height: H = u²·sin²θ / 2g
+
+Horizontal Range: R = u²·sin2θ / g
+
+Maximum Range: R_max = u²/g (when θ = 45°)
+```
+
+### Important Relations:
+```
+R = 4H·cotθ
+H/R = tanθ/4
+
+Same range for angles: θ and (90° − θ)
+```
+
+### Projectile on Inclined Plane:
+```
+Range along incline:
+R = 2u²·sin(α − β)·cosα / (g·cos²β)
+
+where α = angle with incline, β = incline angle
+
+Maximum range on incline: R_max = u²/[g(1 + sinβ)]
+```
+
+## 3.3 Circular Motion
+
+### Angular Quantities:
+```
+Angular displacement: θ (radians)
+Angular velocity: ω = dθ/dt (rad/s)
+Angular acceleration: α = dω/dt (rad/s²)
+
+Relation with linear: v = rω, a_t = rα
+```
+
+### Equations for Uniform Angular Acceleration:
+```
+ω = ω₀ + αt
+θ = ω₀t + ½αt²
+ω² = ω₀² + 2αθ
+```
+
+### Centripetal Acceleration:
+```
+a_c = v²/r = ω²r = vω
+
+Centripetal Force: F_c = mv²/r = mω²r
+```
+> **Direction:** Always toward center (centripetal = center-seeking)
+
+### Non-Uniform Circular Motion:
+```
+Total acceleration:
+|a| = √(a_c² + a_t²)
+
+a_c = v²/r (centripetal, toward center)
+a_t = dv/dt (tangential, along velocity)
+
+Angle of net acceleration with radius:
+tanφ = a_t/a_c
+```
+
+### Banking of Roads:
+```
+Without friction:
+tanθ = v²/rg   →   v_optimal = √(rg·tanθ)
+
+With friction (maximum speed):
+v_max = √[rg·(tanθ + μ)/(1 − μtanθ)]
+
+With friction (minimum speed):
+v_min = √[rg·(tanθ − μ)/(1 + μtanθ)]
+```
+
+### Vertical Circular Motion:
+```
+At bottom of circle:
+N − mg = mv²_bottom/r
+N = mg + mv²/r (N is maximum here)
+
+At top of circle:
+mg + N = mv²_top/r
+N = mv²/r − mg
+
+Minimum speed at top (N = 0):
+v_top(min) = √(gr)
+
+Minimum speed at bottom (to complete circle):
+v_bottom(min) = √(5gr)
+
+Speed relation (energy conservation):
+v_bottom² = v_top² + 4gr
+```
+
+---
+
+# 4. LAWS OF MOTION
+
+## 4.1 Newton's Three Laws
+
+### First Law (Law of Inertia):
+> "A body continues in its state of rest or uniform motion unless acted upon by a net external force."
+
+- Defines **inertia** (resistance to change in motion)
+- Inertia ∝ Mass
+- Defines concept of inertial frame of reference
+
+### Second Law:
+> "Rate of change of momentum = Net external force"
+
+```
+F⃗_net = dp⃗/dt = m·a⃗  (when mass is constant)
+
+F⃗ = ma⃗
+
+In components:
+Fₓ = maₓ
+Fᵧ = maᵧ
+Fᵤ = maᵤ
+```
+
+### Third Law:
+> "For every action there is an equal and opposite reaction."
+
+```
+F⃗_AB = −F⃗_BA
+```
+- Action and reaction act on **different** bodies
+- They are always equal in magnitude, opposite in direction
+- They act simultaneously
+
+## 4.2 Momentum & Impulse
+
+```
+Linear Momentum: p⃗ = mv⃗  [M¹L¹T⁻¹]
+
+Impulse: J⃗ = F⃗·Δt = Δp⃗  [M¹L¹T⁻¹]
+
+Impulse-Momentum Theorem:
+J = F_avg × Δt = m(v − u)
+```
+
+### Law of Conservation of Momentum:
+> If net external force = 0, total momentum of system is conserved.
+
+```
+p⃗_initial = p⃗_final
+m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂
+```
+
+## 4.3 Friction
+
+### Types:
+| Type | Description | Formula |
+|------|-------------|---------|
+| Static friction | Prevents relative motion | 0 ≤ f_s ≤ μ_s·N |
+| Kinetic friction | Opposes sliding motion | f_k = μ_k·N |
+| Rolling friction | Opposes rolling | f_r = μ_r·N |
+
+**Always: μ_s > μ_k > μ_r**
+
+### Key Points:
+- Friction is **self-adjusting** up to its maximum (static)
+- Maximum static friction = μ_s × N (normal force)
+- **Limiting friction** = just before sliding begins
+- Kinetic friction is constant and independent of speed
+
+### Angle of Friction (λ):
+```
+tanλ = μ_s
+```
+
+### Angle of Repose (θ_r):
+```
+tanθ_r = μ_s
+(angle at which block just starts sliding on incline)
+```
+
+## 4.4 Constraint Motions
+
+### Atwood Machine:
+```
+Two masses m₁ and m₂ over a pulley:
+
+a = (m₁ − m₂)g / (m₁ + m₂)
+
+T = 2m₁m₂g / (m₁ + m₂)
+```
+
+### Wedge-Block System:
+Use constraint: acceleration of block relative to wedge = −acceleration of wedge
+
+## 4.5 Pseudo Force (Non-Inertial Frames)
+
+In an accelerating frame (acceleration = a₀):
+```
+F_pseudo = −m·a⃗₀
+
+(acts on every object, opposite to frame's acceleration)
+```
+
+**Examples:**
+- Person in lift: Apparent weight = m(g ± a)
+  - Going up with acceleration: W_app = m(g + a)
+  - Going down with acceleration: W_app = m(g − a)
+  - Free fall: W_app = 0 (weightlessness)
+
+## 4.6 Pulley Problems — Strategy
+
+1. Identify all forces on each mass
+2. Choose positive direction for each mass
+3. Write F = ma for each mass
+4. Use constraint equations (string inextensible)
+5. Solve simultaneously
+
+---
+
+# 5. WORK, ENERGY & POWER
+
+## 5.1 Work
+
+```
+W = F⃗ · d⃗ = Fd·cosθ
+
+where θ = angle between F⃗ and displacement d⃗
+```
+
+### Cases:
+| θ | Work |
+|---|------|
+| 0° | W = Fd (maximum positive) |
+| 90° | W = 0 (no work) |
+| 180° | W = −Fd (maximum negative) |
+
+### Work Done by Variable Force:
+```
+W = ∫F·dx  (area under F-x graph)
+```
+
+### Work-Energy Theorem:
+```
+W_net = ΔKE = ½mv² − ½mu²
+
+(Net work done = Change in kinetic energy)
+```
+
+## 5.2 Kinetic Energy
+
+```
+KE = ½mv² = p²/2m
+
+Relation: p = √(2m·KE)
+
+If KE increases by n times: v increases by √n times
+```
+
+## 5.3 Potential Energy
+
+```
+Gravitational PE: U = mgh (near Earth's surface)
+
+Elastic PE (spring): U = ½kx²
+
+Electric PE: U = kq₁q₂/r
+```
+
+### Relation between Force and PE:
+```
+F = −dU/dx
+
+(Force = negative gradient of PE)
+
+In 3D: F⃗ = −∇U = −(∂U/∂x î + ∂U/∂y ĵ + ∂U/∂z k̂)
+```
+
+## 5.4 Conservation of Mechanical Energy
+
+```
+KE + PE = constant  (when only conservative forces act)
+
+½mv₁² + U₁ = ½mv₂² + U₂
+```
+
+**Conservative forces:** Gravity, Spring force, Electrostatic force (path independent)
+
+**Non-conservative forces:** Friction, Air drag (path dependent) — they dissipate energy
+
+## 5.5 Spring Force
+
+```
+F = −kx  (Hooke's Law, k = spring constant)
+
+Work done in stretching/compressing by x:
+W = ½kx²
+
+Spring constant combinations:
+Series: 1/k_eff = 1/k₁ + 1/k₂
+Parallel: k_eff = k₁ + k₂
+```
+
+## 5.6 Power
+
+```
+P = W/t = F·v·cosθ
+
+Instantaneous Power: P = F⃗ · v⃗
+
+Unit: Watt (W) = J/s
+1 horsepower (hp) = 746 W
+```
+
+## 5.7 Collisions
+
+### Elastic Collision (KE conserved, momentum conserved):
+```
+v₁ = [(m₁ − m₂)u₁ + 2m₂u₂] / (m₁ + m₂)
+v₂ = [(m₂ − m₁)u₂ + 2m₁u₁] / (m₁ + m₂)
+
+Special case (m₁ = m₂): velocities exchange!
+v₁ = u₂, v₂ = u₁
+
+Special case (m₂ >> m₁, m₂ stationary):
+v₁ ≈ −u₁ (bounces back)
+v₂ ≈ 0 (barely moves)
+```
+
+### Inelastic Collision (KE not conserved, momentum conserved):
+```
+Perfectly inelastic (stick together):
+m₁u₁ + m₂u₂ = (m₁ + m₂)v_common
+
+Energy lost: ΔKE = m₁m₂(u₁ − u₂)² / [2(m₁ + m₂)]
+```
+
+### Coefficient of Restitution (e):
+```
+e = (v₂ − v₁)/(u₁ − u₂) = Relative velocity after / Relative velocity before
+
+e = 1: Perfectly elastic
+e = 0: Perfectly inelastic
+0 < e < 1: Partially elastic
+```
+
+### Height after bounce:
+```
+After n bounces: h_n = e^(2n) × h₀
+```
+
+---
+
+# 6. SYSTEM OF PARTICLES & ROTATIONAL MOTION
+
+## 6.1 Centre of Mass
+
+```
+For discrete system:
+x_cm = (m₁x₁ + m₂x₂ + ... + mₙxₙ) / (m₁ + m₂ + ... + mₙ)
+     = Σmᵢxᵢ / Σmᵢ
+
+Similarly for y_cm and z_cm
+
+For continuous body:
+x_cm = ∫x·dm / ∫dm
+```
+
+### CM of Common Shapes:
+| Shape | CM Position |
+|-------|------------|
+| Uniform rod | Midpoint |
+| Triangle | Intersection of medians (centroid) — at H/3 from base |
+| Semicircle (arc) | 2R/π from center |
+| Semicircular disc | 4R/3π from center |
+| Hemisphere (solid) | 3R/8 from flat face |
+| Hemisphere (shell) | R/2 from flat face |
+| Cone (solid) | H/4 from base |
+| Cone (shell) | H/3 from base |
+
+### Motion of CM:
+```
+v_cm = Σmᵢvᵢ / M = p_total / M
+
+a_cm = Σmᵢaᵢ / M = F_ext / M
+
+F_ext = M·a_cm  (Newton's 2nd law for system)
+```
+
+> **Key:** Internal forces don't move the CM. Only external forces do.
+
+## 6.2 Angular Quantities
+
+```
+Angular velocity: ω = dθ/dt  (rad/s)
+Angular acceleration: α = dω/dt  (rad/s²)
+
+Relation with linear:
+v = rω
+a_t = rα
+a_c = rω²
+```
+
+## 6.3 Torque
+
+```
+τ⃗ = r⃗ × F⃗
+|τ| = rF·sinθ = F × (perpendicular distance)
+
+τ_net = I·α  (rotational analog of F = ma)
+```
+
+## 6.4 Moment of Inertia (MI)
+
+```
+For discrete: I = Σmᵢrᵢ²
+For continuous: I = ∫r²·dm
+```
+
+### Moments of Inertia of Common Bodies:
+
+| Body | Axis | MI (I) |
+|------|------|--------|
+| Thin rod (length L) | Through center ⊥ rod | ML²/12 |
+| Thin rod | Through end ⊥ rod | ML²/3 |
+| Ring (radius R) | Through center ⊥ plane | MR² |
+| Ring | Diameter | MR²/2 |
+| Disc (radius R) | Through center ⊥ plane | MR²/2 |
+| Disc | Diameter | MR²/4 |
+| Solid sphere | Through center | 2MR²/5 |
+| Hollow sphere (shell) | Through center | 2MR²/3 |
+| Solid cylinder | Own axis | MR²/2 |
+| Hollow cylinder | Own axis | MR² |
+| Rectangle (a × b) | Through center ⊥ plane | M(a² + b²)/12 |
+
+### Parallel Axis Theorem:
+```
+I = I_cm + Md²
+
+where d = distance between the two parallel axes
+I_cm = MI about axis through CM
+```
+
+### Perpendicular Axis Theorem (for laminar/flat bodies only):
+```
+I_z = I_x + I_y
+
+where z ⊥ plane of lamina, x and y are in plane
+```
+
+## 6.5 Angular Momentum
+
+```
+For a particle: L⃗ = r⃗ × p⃗ = m(r⃗ × v⃗)
+|L| = mvr·sinθ = m·v·d   (d = perpendicular distance)
+
+For rotating body: L = Iω
+
+Relation: τ = dL/dt
+
+Conservation: If τ_ext = 0, then L = constant
+```
+
+> **Classic JEE Example:** Ice skater pulls arms in → I decreases → ω increases (L conserved)
+
+## 6.6 Rolling Motion
+
+### Pure Rolling (no slipping):
+```
+v_cm = Rω  (rolling condition)
+
+KE_total = KE_translation + KE_rotation
+         = ½Mv_cm² + ½Iω²
+         = ½Mv_cm²(1 + I/MR²)
+         = ½Mv_cm²(1 + k²/R²)
+
+where k = radius of gyration, I = Mk²
+```
+
+### Rolling on inclined plane:
+```
+Acceleration:
+a = g·sinθ / (1 + I/MR²) = g·sinθ / (1 + k²/R²)
+
+Speed at bottom (height h):
+v = √[2gh/(1 + k²/R²)]
+
+For comparison: Solid sphere > Solid cylinder > Hollow sphere > Hollow cylinder
+```
+
+### k²/R² values:
+- Solid sphere: 2/5
+- Solid cylinder/disc: 1/2
+- Hollow sphere: 2/3
+- Hollow cylinder/ring: 1
+
+## 6.7 Equilibrium of Rigid Body
+
+For static equilibrium:
+```
+ΣF = 0  (translational equilibrium)
+Στ = 0  (rotational equilibrium, about any point)
+```
+
+---
+
+# 7. GRAVITATION
+
+## 7.1 Newton's Law of Gravitation
+
+```
+F = Gm₁m₂/r²
+
+G = 6.674 × 10⁻¹¹ N·m²/kg²
+
+Vector form: F⃗₁₂ = −Gm₁m₂r̂₁₂/r²
+```
+
+> Gravitational force is: Universal, always attractive, central, conservative, weakest fundamental force
+
+## 7.2 Gravitational Field
+
+```
+g⃗ = F⃗/m = gravitational field intensity
+
+Due to point mass M at distance r:
+g = GM/r²  (toward M)
+```
+
+### Variation of g:
+
+**With Altitude (h above surface):**
+```
+g_h = g(1 + h/R)⁻² ≈ g(1 − 2h/R)  for h << R
+
+g_h = GM/(R + h)² = gR²/(R + h)²
+```
+
+**With Depth (d below surface):**
+```
+g_d = g(1 − d/R)
+
+At center: g = 0
+```
+
+**With Latitude (φ):**
+```
+g_φ = g − Rω²cos²φ
+
+At poles (φ = 90°): g_pole = g (maximum)
+At equator (φ = 0°): g_eq = g − Rω² (minimum)
+```
+
+**Due to shape of Earth (oblate spheroid):**
+g_pole > g_equator
+
+## 7.3 Gravitational Potential Energy
+
+```
+U = −GMm/r  (zero reference at infinity)
+
+Escape velocity: v_e = √(2GM/R) = √(2gR) ≈ 11.2 km/s
+
+Note: U is always negative (bound system)
+```
+
+## 7.4 Gravitational Potential
+
+```
+V = −GM/r  (potential at distance r from mass M)
+
+Relation: g = −dV/dr
+
+V due to shell:
+- Outside (r > R): V = −GM/r
+- On surface (r = R): V = −GM/R
+- Inside (r < R): V = −GM/R (constant!)
+
+g due to shell:
+- Outside: g = GM/r²
+- Inside: g = 0
+```
+
+## 7.5 Satellites & Orbital Motion
+
+### Orbital Velocity:
+```
+mv²/r = GMm/r²
+
+v_o = √(GM/r) = √(gR²/r)
+
+At surface: v_o = √(gR) ≈ 7.9 km/s
+```
+
+### Time Period of Satellite:
+```
+T = 2πr/v_o = 2π√(r³/GM)
+
+Kepler's 3rd Law: T² ∝ r³
+
+T²/r³ = 4π²/GM = constant (for same central body)
+```
+
+### Energy of Satellite:
+```
+KE = ½mv_o² = GMm/2r
+
+PE = −GMm/r
+
+Total Energy: E = KE + PE = −GMm/2r
+
+Note: |PE| = 2KE (always), E = −KE (always negative = bound)
+```
+
+### Binding Energy:
+```
+BE = −E = GMm/2r
+(energy needed to free the satellite)
+```
+
+### Geostationary Satellite:
+- T = 24 hours (same as Earth's rotation)
+- Orbit is in equatorial plane
+- Height ≈ 36,000 km above Earth
+- Appears stationary from Earth
+
+### Escape Velocity vs Orbital Velocity:
+```
+v_e = √2 × v_o  (at same height)
+v_e/v_o = √2
+```
+
+## 7.6 Kepler's Laws
+
+1. **Law of Orbits:** Planets move in elliptical orbits with Sun at one focus
+
+2. **Law of Areas:** A line joining Sun and planet sweeps equal areas in equal times
+   ```
+   dA/dt = L/2m = constant  (L = angular momentum)
+   At perihelion: v_max, r_min → v·r = constant
+   At aphelion: v_min, r_max
+   ```
+
+3. **Law of Periods:** T² ∝ a³ (a = semi-major axis)
+   ```
+   T₁²/T₂² = a₁³/a₂³
+   ```
+
+---
+
+# 8. MECHANICAL PROPERTIES OF SOLIDS
+
+## 8.1 Stress
+
+```
+Stress = Force / Area = F/A
+
+Unit: N/m² = Pascal (Pa)
+Dimensions: [M¹L⁻¹T⁻²]
+```
+
+### Types:
+| Type | Description | Formula |
+|------|-------------|---------|
+| **Tensile/Compressive** | Normal to surface | F/A |
+| **Shear** | Tangential to surface | F/A |
+| **Volumetric/Hydraulic** | Equal from all sides | F/A |
+
+## 8.2 Strain
+
+```
+Strain = Change / Original = ΔX/X
+(dimensionless)
+```
+
+### Types:
+```
+Longitudinal strain = ΔL/L
+Shear strain = tanφ ≈ φ (for small angles)
+Volumetric strain = ΔV/V
+```
+
+## 8.3 Elastic Moduli
+
+### Young's Modulus (Y):
+```
+Y = Longitudinal Stress / Longitudinal Strain
+Y = (F/A) / (ΔL/L) = FL/(AΔL)
+
+Unit: N/m² or Pa
+Steel: ~2 × 10¹¹ Pa
+```
+
+### Shear Modulus (G) / Rigidity Modulus:
+```
+G = Shear Stress / Shear Strain
+G = (F/A) / φ = F/(Aφ)
+```
+
+### Bulk Modulus (B):
+```
+B = Volumetric Stress / Volumetric Strain
+B = −P / (ΔV/V)   (negative sign: pressure increase → volume decrease)
+
+Compressibility = 1/B
+```
+
+### Poisson's Ratio (σ):
+```
+σ = Lateral strain / Longitudinal strain
+σ = −(Δd/d) / (ΔL/L)
+
+Range: −1 < σ < 0.5
+Rubber: ~0.5 (nearly incompressible)
+```
+
+### Relations between elastic constants:
+```
+Y = 3B(1 − 2σ)
+Y = 2G(1 + σ)
+Y = 9BG/(3B + G)
+```
+
+## 8.4 Elastic Potential Energy
+
+```
+Energy stored per unit volume:
+u = ½ × stress × strain = ½ × Y × (strain)² = (stress)²/2Y
+
+Total energy stored in wire:
+U = ½ × Stress × Strain × Volume
+U = ½ × (F/A) × (ΔL/L) × (AL)
+U = ½FΔL
+```
+
+## 8.5 Stress-Strain Curve
+
+```
+O→A: Proportionality limit (Hooke's law valid)
+A→B: Elastic limit (no permanent deformation)
+B→C: Yield point (plastic deformation begins)
+C→D: Strain hardening
+D: Ultimate tensile strength
+D→E: Necking
+E: Breaking point (fracture)
+```
+
+---
+
+# 9. MECHANICAL PROPERTIES OF FLUIDS
+
+## 9.1 Pressure in Fluids
+
+```
+P = F/A
+
+Pressure at depth h:
+P = P₀ + ρgh
+
+where P₀ = atmospheric pressure, ρ = fluid density
+
+Gauge pressure: P_gauge = P − P₀ = ρgh
+```
+
+### Pascal's Law:
+> Pressure applied to an enclosed fluid is transmitted equally in all directions.
+
+```
+F₁/A₁ = F₂/A₂   (hydraulic machines)
+```
+
+## 9.2 Archimedes' Principle
+
+> A body immersed in fluid experiences an upward buoyant force = weight of fluid displaced.
+
+```
+F_buoyancy = ρ_fluid × V_submerged × g
+
+Floating condition: F_buoyancy = Weight
+ρ_fluid × V_sub × g = ρ_body × V_body × g
+V_sub/V_body = ρ_body/ρ_fluid
+```
+
+## 9.3 Equation of Continuity
+
+For steady, incompressible fluid flow:
+```
+A₁v₁ = A₂v₂ = constant  (Conservation of mass)
+
+where A = cross-sectional area, v = velocity
+```
+
+## 9.4 Bernoulli's Theorem
+
+For ideal fluid (non-viscous, incompressible, steady flow):
+```
+P + ½ρv² + ρgh = constant
+
+P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂
+```
+
+**Physical meaning:** Sum of pressure energy + kinetic energy + potential energy per unit volume = constant
+
+### Applications:
+
+**Venturimeter:**
+```
+v₁ = A₂√[2gh/(A₁² − A₂²)] × √(ρ_Hg/ρ_fluid − 1)
+```
+
+**Torricelli's Theorem** (speed of efflux):
+```
+v = √(2gh)
+
+(speed of liquid from a hole at depth h below free surface)
+```
+
+**Lift on aircraft wing:**
+```
+F_lift = ½ρ(v_upper² − v_lower²) × A
+```
+
+## 9.5 Viscosity
+
+```
+F = ηA(dv/dx)   (Newton's law of viscosity)
+
+η = viscosity coefficient
+Unit: Pa·s or N·s/m² or Poise (CGS: 1 Pa·s = 10 Poise)
+```
+
+### Stokes' Law:
+```
+F_drag = 6πηrv
+
+Terminal velocity (when drag + buoyancy = gravity):
+v_t = 2r²(ρ_body − ρ_fluid)g / 9η
+```
+
+### Reynold's Number:
+```
+Re = ρvd/η
+
+Re < 1000: Laminar flow
+Re > 2000: Turbulent flow
+1000 < Re < 2000: Transition
+```
+
+## 9.6 Surface Tension
+
+### Definitions:
+```
+Surface Tension T = F/L = W/A
+
+Unit: N/m or J/m²
+```
+
+### Excess Pressure:
+```
+Soap bubble (2 surfaces): ΔP = 4T/R
+Liquid drop (1 surface): ΔP = 2T/R
+Air bubble in liquid (1 surface): ΔP = 2T/R
+```
+
+### Capillary Rise/Fall:
+```
+h = 2T·cosθ / ρgr
+
+θ < 90°: liquid rises (wets glass, e.g., water)
+θ > 90°: liquid falls (doesn't wet, e.g., mercury)
+
+Jurin's Law: h·r = constant (for same liquid)
+```
+
+### Energy of Surface:
+```
+Work done in forming surface:
+W = T × ΔA  (increase in surface area)
+```
+
+---
+
+# 10. THERMAL PROPERTIES OF MATTER
+
+## 10.1 Temperature Scales
+
+```
+Celsius to Kelvin: T(K) = T(°C) + 273.15
+
+Celsius to Fahrenheit: F = (9/5)C + 32
+
+K/5 = (C + 40)/9 = (F + 40)/5  ← Memory trick!
+```
+
+## 10.2 Thermal Expansion
+
+### Linear Expansion:
+```
+ΔL = L₀αΔT
+L = L₀(1 + αΔT)
+α = coefficient of linear expansion (K⁻¹)
+```
+
+### Area Expansion:
+```
+ΔA = A₀βΔT
+β = 2α
+```
+
+### Volume Expansion:
+```
+ΔV = V₀γΔT
+γ = 3α
+
+Relation: γ = 3α, β = 2α
+```
+
+### Anomalous Expansion of Water:
+- Maximum density at 4°C: ρ_max = 1000 kg/m³
+- Expands both above and below 4°C
+- This is why ice forms at top of lakes
+
+## 10.3 Specific Heat Capacity
+
+```
+Q = mcΔT
+
+c = Q/(mΔT)
+
+Unit: J/(kg·K) or J/(kg·°C)
+
+Water: c = 4186 J/(kg·K) = 1 cal/(g·°C)
+```
+
+### Calorimetry (Method of Mixtures):
+```
+Heat lost = Heat gained
+m₁c₁(T₁ − T_mix) = m₂c₂(T_mix − T₂)
+```
+
+### Latent Heat:
+```
+Q = mL
+
+Latent heat of fusion (ice → water at 0°C): L_f = 3.36 × 10⁵ J/kg = 80 cal/g
+Latent heat of vaporization (water → steam at 100°C): L_v = 2.26 × 10⁶ J/kg = 540 cal/g
+```
+
+## 10.4 Heat Transfer
+
+### Conduction:
+```
+Rate of heat flow: dQ/dt = −KA(dT/dx)
+
+where K = thermal conductivity (W/m·K)
+
+For steady state, slab of thickness L:
+dQ/dt = KA(T₁ − T₂)/L
+
+Thermal Resistance: R = L/(KA)
+
+Slabs in series: R_total = R₁ + R₂
+Slabs in parallel: 1/R_total = 1/R₁ + 1/R₂
+```
+
+### Convection:
+Heat transfer through movement of fluid itself. Newton's law of cooling is an approximation for convection.
+
+### Radiation:
+```
+Stefan-Boltzmann Law:
+P = εσAT⁴
+
+σ = Stefan's constant = 5.67 × 10⁻⁸ W/m²·K⁴
+ε = emissivity (0 to 1; 1 for black body)
+
+Net radiation from body at T in surrounding T₀:
+P_net = εσA(T⁴ − T₀⁴)
+```
+
+### Wien's Displacement Law:
+```
+λ_max × T = b = 2.898 × 10⁻³ m·K
+
+(wavelength of peak emission × temperature = constant)
+```
+
+### Newton's Law of Cooling:
+```
+dT/dt = −k(T − T_s)
+
+T(t) = T_s + (T₀ − T_s)e^(−kt)
+
+Approximate formula: (T₁ − T₂)/t = k × [(T₁ + T₂)/2 − T_s]
+```
+
+### Kirchhoff's Law:
+```
+Good absorbers are good emitters:
+a_λ = e_λ  (at same wavelength and temperature)
+
+Black body: a = 1, e = 1 (perfect absorber and emitter)
+```
+
+---
+
+# 11. THERMODYNAMICS
+
+## 11.1 Zeroth Law
+
+> If A is in thermal equilibrium with C, and B is in thermal equilibrium with C, then A and B are in thermal equilibrium with each other.
+
+This defines **temperature**.
+
+## 11.2 First Law of Thermodynamics
+
+```
+ΔU = Q − W
+
+Q = heat added to system
+W = work done BY the system
+ΔU = change in internal energy
+
+Sign convention:
+Q > 0: heat absorbed by system
+Q < 0: heat released by system
+W > 0: work done BY system (expansion)
+W < 0: work done ON system (compression)
+```
+
+### Work done by gas:
+```
+W = ∫P·dV  (area under P-V graph)
+```
+
+## 11.3 Thermodynamic Processes
+
+### Isothermal Process (T = constant):
+```
+PV = constant  (Boyle's Law)
+P₁V₁ = P₂V₂
+ΔU = 0 (for ideal gas)
+Q = W = nRT·ln(V₂/V₁)
+```
+
+### Adiabatic Process (Q = 0):
+```
+PVᵞ = constant
+TV^(γ−1) = constant
+T^γ P^(1−γ) = constant
+
+W = −ΔU = −nCᵥΔT = (P₁V₁ − P₂V₂)/(γ − 1) = nR(T₁ − T₂)/(γ − 1)
+Q = 0, ΔU = −W
+```
+
+### Isochoric Process (V = constant):
+```
+W = 0
+Q = ΔU = nCᵥΔT
+
+Charles' Law at constant V: P/T = constant
+P₁/T₁ = P₂/T₂
+```
+
+### Isobaric Process (P = constant):
+```
+W = PΔV = nRΔT
+Q = nCₚΔT
+ΔU = nCᵥΔT
+
+Charles' Law: V/T = constant
+V₁/T₁ = V₂/T₂
+```
+
+## 11.4 Specific Heats of Ideal Gas
+
+```
+Cᵥ = (f/2)R   (molar specific heat at constant volume)
+Cₚ = (f/2 + 1)R = Cᵥ + R   (molar specific heat at constant pressure)
+
+γ = Cₚ/Cᵥ = (f + 2)/f
+
+where f = degrees of freedom
+```
+
+| Gas Type | f | Cᵥ | Cₚ | γ |
+|----------|---|----|----|---|
+| Monoatomic (He, Ar) | 3 | 3R/2 | 5R/2 | 5/3 ≈ 1.67 |
+| Diatomic (H₂, O₂, N₂) at room T | 5 | 5R/2 | 7R/2 | 7/5 = 1.4 |
+| Diatomic (high T) | 7 | 7R/2 | 9R/2 | 9/7 |
+| Triatomic (CO₂) | 6 | 3R | 4R | 4/3 ≈ 1.33 |
+
+### Mayer's Relation:
+```
+Cₚ − Cᵥ = R
+```
+
+## 11.5 Second Law of Thermodynamics
+
+**Kelvin-Planck Statement:**
+> It is impossible to construct a device that, operating in a cycle, absorbs heat from a single reservoir and converts it entirely to work.
+
+**Clausius Statement:**
+> It is impossible to transfer heat from a colder body to a hotter body without external work.
+
+## 11.6 Heat Engines
+
+```
+Efficiency: η = W/Q_H = 1 − Q_L/Q_H
+
+where Q_H = heat absorbed from hot reservoir
+      Q_L = heat rejected to cold reservoir
+      W = useful work = Q_H − Q_L
+```
+
+### Carnot Engine (maximum efficiency):
+```
+η_Carnot = 1 − T_L/T_H = (T_H − T_L)/T_H
+
+T_H = temperature of hot reservoir (K)
+T_L = temperature of cold reservoir (K)
+```
+
+> **Critical JEE Point:** No real engine can be more efficient than Carnot engine operating between same temperatures.
+
+### Refrigerator (Coefficient of Performance):
+```
+COP = Q_L/W = Q_L/(Q_H − Q_L) = T_L/(T_H − T_L)
+
+(Carnot refrigerator has maximum COP)
+```
+
+## 11.7 Entropy
+
+```
+ΔS = Q_reversible/T
+
+For irreversible process: ΔS_universe > 0
+Second Law: Total entropy of universe always increases
+```
+
+---
+
+# 12. KINETIC THEORY OF GASES
+
+## 12.1 Ideal Gas Law
+
+```
+PV = nRT = NkT
+
+R = 8.314 J/(mol·K) = universal gas constant
+k = R/Nₐ = 1.38 × 10⁻²³ J/K = Boltzmann constant
+Nₐ = 6.022 × 10²³ = Avogadro's number
+n = number of moles
+N = number of molecules
+```
+
+## 12.2 Kinetic Theory Assumptions
+
+1. Gases consist of large number of molecules in random motion
+2. Molecules are point masses (negligible volume)
+3. No intermolecular forces except during collision
+4. Collisions are perfectly elastic
+5. Molecules obey Newton's laws
+
+## 12.3 Pressure of Ideal Gas
+
+```
+P = ⅓ρv̄² = ⅓(mn/V)v̄²
+
+where v̄² = mean square speed
+m = mass of one molecule
+n = number density
+```
+
+## 12.4 Temperature and Kinetic Energy
+
+```
+Average KE per molecule: ½mv̄² = (3/2)kT
+
+For f degrees of freedom:
+KE per molecule = (f/2)kT
+
+Per mole: KE = (f/2)RT
+
+For ideal gas: KE_total = (f/2)nRT = (f/2)NkT = (f/2)PV
+```
+
+## 12.5 Molecular Speeds
+
+### Root Mean Square (RMS) Speed:
+```
+v_rms = √(3kT/m) = √(3RT/M) = √(3P/ρ)
+
+where M = molar mass
+```
+
+### Average Speed:
+```
+v_avg = √(8kT/πm) = √(8RT/πM)
+```
+
+### Most Probable Speed:
+```
+v_mp = √(2kT/m) = √(2RT/M)
+```
+
+### Comparison:
+```
+v_mp : v_avg : v_rms = √2 : √(8/π) : √3
+                      = 1 : 1.128 : 1.225
+                      ≈ 1 : 1.13 : 1.22
+```
+
+> **Memory Trick:** v_mp < v_avg < v_rms (alphabetical order of their prefix)
+
+## 12.6 Mean Free Path
+
+```
+λ = 1/(√2 × n × πd²)
+
+= kT/(√2 × πd² × P)
+
+where n = number density, d = diameter of molecule
+
+Collision frequency: Z = n × πd² × v_avg × √2
+```
+
+## 12.7 Degrees of Freedom
+
+- **Monoatomic** (He, Ne, Ar): f = 3 (3 translational)
+- **Diatomic** (H₂, O₂, N₂) at room temperature: f = 5 (3 trans + 2 rotational)
+- **Diatomic at high T:** f = 7 (+ 2 vibrational)
+- **Non-linear triatomic** (H₂O): f = 6
+
+### Equipartition Theorem:
+> Each degree of freedom contributes ½kT of energy per molecule (or ½RT per mole)
+
+---
+
+# 13. OSCILLATIONS (SHM)
+
+## 13.1 Simple Harmonic Motion
+
+### Definition:
+A particle undergoes SHM if restoring force ∝ displacement from equilibrium
+
+```
+F = −kx
+a = −ω²x
+
+where ω = √(k/m) = angular frequency
+```
+
+### General Equations:
+```
+x(t) = A·sin(ωt + φ)   or   A·cos(ωt + φ)
+
+v(t) = Aω·cos(ωt + φ) = ω√(A² − x²)
+
+a(t) = −Aω²·sin(ωt + φ) = −ω²x
+
+where A = amplitude, φ = initial phase, ω = angular frequency
+```
+
+### Time Period and Frequency:
+```
+T = 2π/ω = 2π√(m/k)
+
+f = 1/T = ω/2π
+
+ω = √(k/m) = 2π/T = 2πf
+```
+
+## 13.2 Energy in SHM
+
+```
+KE = ½mv² = ½mω²(A² − x²) = ½k(A² − x²)
+
+PE = ½kx² = ½mω²x²
+
+Total Energy: E = ½kA² = ½mω²A²  (constant)
+
+At x = 0 (equilibrium): KE = max = ½kA², PE = 0
+At x = ±A (extreme): PE = max = ½kA², KE = 0
+
+When KE = PE: x = A/√2 = 0.707A
+```
+
+## 13.3 Simple Pendulum
+
+```
+T = 2π√(L/g)
+
+For small angles: F = −mg·sinθ ≈ −mgθ (for small θ)
+ω = √(g/L)
+
+Effective g in accelerating lift:
+g_eff = g + a (lift going up)
+g_eff = g − a (lift going down)
+g_eff = 0 (free fall — pendulum doesn't oscillate!)
+
+At height h: g_h = g(1 − 2h/R) → T increases
+Underground: g_d = g(1 − d/R) → T increases
+```
+
+## 13.4 Spring-Mass Systems
+
+### Horizontal spring:
+```
+T = 2π√(m/k)
+```
+
+### Vertical spring:
+```
+T = 2π√(m/k)  [same! gravity doesn't affect T]
+
+At equilibrium: mg = kx₀  (static extension)
+```
+
+### Spring Combinations:
+```
+Series: T = 2π√[m(1/k₁ + 1/k₂)] = 2π√[m(k₁+k₂)/(k₁k₂)]
+Parallel: T = 2π√[m/(k₁ + k₂)]
+```
+
+### Spring cut into n equal pieces:
+```
+k_new = nk  (spring constant increases)
+```
+
+## 13.5 Other SHM Systems
+
+### Physical (Compound) Pendulum:
+```
+T = 2π√(I/mgd)
+
+where I = MI about pivot, d = distance of CM from pivot
+
+Equivalent simple pendulum length: L_eq = I/(md)
+```
+
+### Liquid in U-tube:
+```
+T = 2π√(L/2g)
+
+where L = total length of liquid column
+```
+
+### Floating Body:
+```
+T = 2π√(m/A·ρ·g) = 2π√(h/g)
+
+where h = length submerged, A = cross-section area
+```
+
+## 13.6 Damped Oscillations
+
+```
+x(t) = Ae^(−bt/2m) · cos(ω'd·t + φ)
+
+ω'd = √(ω₀² − b²/4m²)
+
+where b = damping coefficient
+
+Energy: E(t) = E₀ · e^(−bt/m)
+```
+
+### Types:
+- **Underdamped:** b < 2mω₀ (oscillates with decreasing amplitude)
+- **Critically damped:** b = 2mω₀ (returns to equilibrium fastest, no oscillation)
+- **Overdamped:** b > 2mω₀ (slow return, no oscillation)
+
+## 13.7 Resonance
+
+```
+Driven oscillation frequency: ω_d
+
+Resonance when: ω_d = ω₀ (natural frequency)
+
+At resonance: Amplitude is maximum, energy transfer is maximum
+```
+
+---
+
+# 14. WAVES
+
+## 14.1 Wave Motion
+
+A **wave** is a disturbance that transfers energy without transfer of matter.
+
+### Types:
+| Property | Transverse | Longitudinal |
+|----------|-----------|-------------|
+| Particle motion | ⊥ to wave | ∥ to wave |
+| Examples | Light, string waves | Sound, spring waves |
+| Can travel in | Solid, surface | All media |
+| Polarization | Possible | Not possible |
+
+## 14.2 Wave Equation
+
+### Sinusoidal Wave:
+```
+y(x, t) = A·sin(kx − ωt + φ)   ← wave moving in +x direction
+y(x, t) = A·sin(kx + ωt + φ)   ← wave moving in −x direction
+
+where:
+A = amplitude
+k = wave number = 2π/λ
+ω = angular frequency = 2πf
+λ = wavelength
+f = frequency
+T = time period = 1/f
+v = wave speed = λf = ω/k
+```
+
+### General Wave Equation (Differential):
+```
+∂²y/∂x² = (1/v²) · ∂²y/∂t²
+```
+
+## 14.3 Speed of Waves
+
+### On a String:
+```
+v = √(T/μ)
+
+T = tension, μ = linear mass density (kg/m)
+```
+
+### Sound in a Medium:
+```
+v = √(B/ρ)   (Newton's formula, isothermal)
+
+v = √(γP/ρ) = √(γRT/M)   (Laplace correction, adiabatic)
+
+In air at 0°C: v ≈ 331 m/s
+Effect of temperature: v ∝ √T → v_t = v₀√(T/273) = 331√(T/273)
+```
+
+> **Laplace Correction:** Sound propagation is adiabatic (not isothermal), so multiply Newton's result by √γ
+
+### Speed of Sound in different media:
+- Gases: v = √(γRT/M) ≈ 300-350 m/s
+- Liquids: v ≈ 1500 m/s (water)
+- Solids: v = √(Y/ρ) ≈ 5000 m/s (steel)
+
+## 14.4 Intensity and Loudness
+
+```
+Intensity: I = P/A = ½ρv·ω²A²
+
+Intensity ∝ A² (square of amplitude)
+Intensity ∝ f² (square of frequency)
+Intensity ∝ 1/r² (inverse square law for point source)
+
+Sound Level (Decibels):
+β = 10·log₁₀(I/I₀)  dB
+
+I₀ = 10⁻¹² W/m² (threshold of hearing)
+```
+
+## 14.5 Superposition & Interference
+
+```
+Principle of Superposition:
+y = y₁ + y₂ (displacements add)
+
+For two waves: y₁ = A·sin(kx − ωt) and y₂ = A·sin(kx − ωt + φ)
+Resultant: y = 2A·cos(φ/2)·sin(kx − ωt + φ/2)
+Resultant amplitude: A_R = 2A·cos(φ/2)
+```
+
+### Constructive Interference:
+```
+φ = 2nπ (even multiples of π)  or  Δx = nλ
+A_R = 2A (maximum)
+I_max = 4I₀
+```
+
+### Destructive Interference:
+```
+φ = (2n+1)π (odd multiples of π)  or  Δx = (2n+1)λ/2
+A_R = 0 (minimum)
+I_min = 0
+```
+
+## 14.6 Standing Waves (Stationary Waves)
+
+```
+y₁ = A·sin(kx − ωt)   (incident)
+y₂ = A·sin(kx + ωt)   (reflected)
+
+Superposition:
+y = 2A·sin(kx)·cos(ωt)
+
+Nodes (zero displacement): kx = nπ → x = nλ/2
+Antinodes (max displacement): kx = (2n+1)π/2 → x = (2n+1)λ/4
+```
+
+**Distance between consecutive nodes = λ/2**  
+**Distance between node and adjacent antinode = λ/4**
+
+## 14.7 Standing Waves in Strings
+
+### Both ends fixed:
+```
+L = nλ/2  →  λ_n = 2L/n
+
+f_n = nv/2L = n·f₁
+
+Fundamental: f₁ = v/2L (n = 1)
+1st overtone: f₂ = 2v/2L = 2f₁ (n = 2)
+2nd overtone: f₃ = 3f₁ (n = 3)
+
+All harmonics present: f₁ : f₂ : f₃ : ... = 1 : 2 : 3 : ...
+```
+
+## 14.8 Standing Waves in Air Columns
+
+### Open Pipe (both ends open):
+```
+L = nλ/2  →  λ_n = 2L/n
+
+f_n = nv/2L
+
+All harmonics: 1, 2, 3, ... × f₁
+```
+
+### Closed Pipe (one end closed):
+```
+L = (2n−1)λ/4  →  λ_n = 4L/(2n−1)
+
+f_n = (2n−1)v/4L
+
+Only ODD harmonics: 1, 3, 5, ... × f₁
+
+Fundamental f₁ = v/4L (half that of open pipe!)
+```
+
+### End Correction (e):
+```
+Effective length = L + e (for closed end) = L + 2e (for open pipe)
+e ≈ 0.6r  where r = radius of pipe
+```
+
+## 14.9 Beats
+
+```
+Beats occur when two waves of slightly different frequencies superpose.
+
+Beat frequency: f_beat = |f₁ − f₂|
+
+Beat time period: T_beat = 1/f_beat
+
+y = 2A·cos[2π(f₁−f₂)t/2]·sin[2π(f₁+f₂)t/2]
+```
+
+## 14.10 Doppler Effect
+
+### General Formula:
+```
+f_observed = f_source × (v ± v_observer)/(v ∓ v_source)
+
+Convention:
+- Upper sign when approaching each other
+- Lower sign when moving away
+```
+
+### Cases:
+
+| Situation | Formula |
+|-----------|---------|
+| Observer moves toward stationary source | f' = f(v + v_o)/v |
+| Observer moves away from stationary source | f' = f(v − v_o)/v |
+| Source moves toward stationary observer | f' = fv/(v − v_s) |
+| Source moves away from stationary observer | f' = fv/(v + v_s) |
+| Both moving toward each other | f' = f(v + v_o)/(v − v_s) |
+| Both moving away from each other | f' = f(v − v_o)/(v + v_s) |
+
+```
+v = speed of sound
+v_o = speed of observer
+v_s = speed of source
+```
+
+### Apparent Wavelength:
+```
+λ' = (v − v_s)/f   (source approaching)
+λ' = (v + v_s)/f   (source receding)
+```
+
+### Doppler Effect for Light (Relativistic):
+```
+f_observed = f_source × √[(c − v)/(c + v)]  (source moving away)
+```
+
+---
+
+# 📊 QUICK REFERENCE — IMPORTANT CONSTANTS
+
+| Constant | Value |
+|----------|-------|
+| g (Earth's surface) | 9.8 m/s² ≈ 10 m/s² |
+| G (Gravitational constant) | 6.674 × 10⁻¹¹ N·m²/kg² |
+| R (Gas constant) | 8.314 J/(mol·K) |
+| k (Boltzmann) | 1.38 × 10⁻²³ J/K |
+| Nₐ (Avogadro) | 6.022 × 10²³ mol⁻¹ |
+| σ (Stefan-Boltzmann) | 5.67 × 10⁻⁸ W/(m²·K⁴) |
+| Speed of sound in air (0°C) | 331 m/s |
+| Speed of light | 3 × 10⁸ m/s |
+| Radius of Earth | 6.4 × 10⁶ m |
+| Mass of Earth | 6 × 10²⁴ kg |
+| Escape velocity (Earth) | 11.2 km/s |
+| 1 atm | 1.013 × 10⁵ Pa |
+| 1 cal | 4.186 J |
+
+---
+
+# 🎯 JEE-SPECIFIC TIPS & TRICKS
+
+## High-Weightage Topics (based on past trends):
+1. **Rotational Mechanics** — highest weightage, most questions
+2. **Waves & SHM** — frequently tested together
+3. **Thermodynamics** — numerical-heavy, formula-based
+4. **Gravitation** — conceptual + numerical
+5. **Laws of Motion + Friction** — tricky scenarios
+
+## Common Mistakes to Avoid:
+- In projectile, forgetting that range is same for θ and (90−θ)
+- Using g = 10 instead of 9.8 when precision matters
+- Forgetting end correction in resonance tube problems
+- Confusing Cᵥ and Cₚ in adiabatic processes
+- Not using constraint equations in pulley problems
+- Forgetting pseudo force in non-inertial frame problems
+
+## Dimensional Analysis Hacks:
+- All energy terms: [ML²T⁻²]
+- All power terms: [ML²T⁻³]
+- All pressure/modulus terms: [ML⁻¹T⁻²]
+- If in doubt, check both sides have same dimensions
+
+## SHM Memory:
+- x: oscillates as sin/cos
+- v: 90° ahead of x
+- a: 180° (opposite) to x
+- KE + PE = constant = ½kA²
+
+## Waves Memory:
+- Open pipe: ALL harmonics (like string fixed at both ends)
+- Closed pipe: ODD harmonics ONLY
+- Fundamental freq of closed = HALF of open (same length)
+
+---
+
+# 📝 FORMULA SHEET — ONE-PAGE SUMMARY
+
+```
+KINEMATICS
+v = u + at | s = ut + ½at² | v² = u² + 2as
+Projectile: R = u²sin2θ/g | H = u²sin²θ/2g | T = 2usinθ/g
+Circular: a_c = v²/r | F_c = mv²/r
+
+LAWS OF MOTION
+F = ma | f_k = μN | f_s ≤ μ_sN
+
+WORK-ENERGY-POWER
+W = Fd·cosθ | KE = ½mv² | PE = mgh | W_net = ΔKE
+P = F·v | e = v_rel_after / v_rel_before
+
+ROTATION
+τ = Iα | L = Iω | KE_rot = ½Iω²
+v_cm = rω (rolling) | Parallel axis: I = I_cm + Md²
+
+GRAVITATION
+F = Gm₁m₂/r² | g = GM/R² | v_e = √(2gR)
+v_o = √(GM/r) | T = 2π√(r³/GM) | E = -GMm/2r
+
+THERMODYNAMICS
+PV = nRT | Q = mcΔT | ΔU = Q - W
+η_Carnot = 1 - T_L/T_H | Cₚ - Cᵥ = R | γ = Cₚ/Cᵥ
+
+KINETIC THEORY
+v_rms = √(3RT/M) | v_avg = √(8RT/πM) | v_mp = √(2RT/M)
+KE = (f/2)kT per molecule = (f/2)RT per mole
+
+SHM
+x = A·sin(ωt+φ) | T = 2π/ω | ω = √(k/m)
+T_pendulum = 2π√(L/g) | E = ½kA²
+
+WAVES
+v = fλ | v_string = √(T/μ) | v_sound = √(γRT/M)
+Open pipe: f_n = nv/2L | Closed pipe: f_n = (2n-1)v/4L
+Doppler: f' = f(v ± v_o)/(v ∓ v_s)
+```
+
+---
+
