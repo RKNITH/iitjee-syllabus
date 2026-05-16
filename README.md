@@ -6514,3 +6514,2661 @@ A_v(CE) = −βR_C/r_be | NAND/NOR are universal gates
 
 ---
 
+# 🧪 IIT JEE Class 11 Chemistry — Complete Study Guide
+### Every Concept | Every Formula | Every Reaction
+
+> **Covers:** NCERT + JEE Advanced Level | Chapters 1–14 (Class 11)
+
+---
+
+## 📋 TABLE OF CONTENTS
+
+1. [Some Basic Concepts of Chemistry](#1-some-basic-concepts-of-chemistry)
+2. [Structure of Atom](#2-structure-of-atom)
+3. [Classification of Elements & Periodicity](#3-classification-of-elements--periodicity-in-properties)
+4. [Chemical Bonding & Molecular Structure](#4-chemical-bonding--molecular-structure)
+5. [States of Matter](#5-states-of-matter-gases--liquids)
+6. [Thermodynamics](#6-thermodynamics)
+7. [Equilibrium](#7-equilibrium)
+8. [Redox Reactions](#8-redox-reactions)
+9. [Hydrogen](#9-hydrogen)
+10. [s-Block Elements](#10-s-block-elements)
+11. [p-Block Elements (Group 13 & 14)](#11-p-block-elements-group-13--14)
+12. [Organic Chemistry — Basic Principles](#12-organic-chemistry--basic-principles--techniques)
+13. [Hydrocarbons](#13-hydrocarbons)
+14. [Environmental Chemistry](#14-environmental-chemistry)
+
+---
+
+---
+
+# 1. SOME BASIC CONCEPTS OF CHEMISTRY
+
+## 1.1 Matter and Its Classification
+
+```
+Matter
+├── Pure Substances
+│   ├── Elements (H, O, Fe...)
+│   └── Compounds (H₂O, NaCl...)
+└── Mixtures
+    ├── Homogeneous (solutions)
+    └── Heterogeneous (suspensions, colloids)
+```
+
+## 1.2 SI Units (Fundamental)
+
+| Physical Quantity | SI Unit | Symbol |
+|---|---|---|
+| Mass | Kilogram | kg |
+| Length | Metre | m |
+| Time | Second | s |
+| Temperature | Kelvin | K |
+| Amount of substance | Mole | mol |
+| Electric current | Ampere | A |
+| Luminous intensity | Candela | cd |
+
+### Derived Units
+
+- **Pressure:** Pa = N/m² = kg·m⁻¹·s⁻²
+- **Energy:** J = kg·m²·s⁻²
+- **Density:** kg·m⁻³
+
+### Temperature Conversions
+
+```
+K = °C + 273.15
+°F = (9/5)°C + 32
+°C = (°F − 32) × 5/9
+```
+
+## 1.3 Significant Figures Rules
+
+1. All non-zero digits are significant
+2. Zeros between non-zero digits are significant (e.g., 1007 → 4 sig figs)
+3. Leading zeros are NOT significant (e.g., 0.0045 → 2 sig figs)
+4. Trailing zeros after decimal ARE significant (e.g., 3.600 → 4 sig figs)
+5. Trailing zeros in a whole number are ambiguous → use scientific notation
+
+**Arithmetic Rules:**
+- Addition/Subtraction → Answer has fewest decimal places
+- Multiplication/Division → Answer has fewest significant figures
+
+## 1.4 Laws of Chemical Combination
+
+### Law of Conservation of Mass (Lavoisier, 1774)
+> *Mass of reactants = Mass of products in a chemical reaction*
+
+### Law of Definite Proportions (Proust, 1799)
+> *A pure compound always contains the same elements in the same proportion by mass*
+
+### Law of Multiple Proportions (Dalton, 1803)
+> *When two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a small whole number ratio*
+
+**Example:** CO and CO₂
+- In CO: mass of O per 12g C = 16g
+- In CO₂: mass of O per 12g C = 32g
+- Ratio = 1 : 2 ✓
+
+### Gay-Lussac's Law of Gaseous Volumes (1808)
+> *Gases combine in simple whole number ratios by volume at constant T and P*
+
+### Avogadro's Law
+> *Equal volumes of all gases at same T and P contain equal number of molecules*
+
+## 1.5 Atomic and Molecular Masses
+
+- **Atomic Mass Unit (amu or u):** 1 amu = 1/12 × mass of ¹²C = 1.66056 × 10⁻²⁷ kg
+- **Atomic mass** = average mass relative to 1/12 of ¹²C
+
+### Molecular Mass
+```
+Molecular Mass = Σ (atomic mass × number of atoms)
+
+Example: H₂SO₄
+= 2(1) + 32 + 4(16) = 98 u
+```
+
+### Formula Mass (for ionic compounds)
+```
+NaCl = 23 + 35.5 = 58.5 u
+```
+
+## 1.6 Mole Concept ⭐ (Most Important for JEE)
+
+### Mole Definition
+> *1 mole = 6.022 × 10²³ particles (Avogadro's number, Nₐ)*
+
+### Key Formulas
+
+```
+                  Given mass (g)
+Number of moles = ──────────────────
+                  Molar mass (g/mol)
+
+Number of particles = n × Nₐ
+
+                Volume at STP (L)
+For gases: n = ──────────────────
+                    22.4 L/mol
+```
+
+> **STP (Standard Temperature & Pressure):**
+> - Old STP: 0°C (273.15 K), 1 atm → Molar volume = 22.4 L/mol
+> - New IUPAC STP: 0°C, 1 bar → Molar volume = 22.7 L/mol
+> *(JEE uses 22.4 L/mol — old STP)*
+
+### Molar Mass
+- Equal to atomic/molecular mass in g/mol
+- H₂O = 18 g/mol, NaCl = 58.5 g/mol
+
+## 1.7 Percentage Composition
+
+```
+               Mass of element in 1 mol of compound
+% by mass = ─────────────────────────────────────── × 100
+                    Molar mass of compound
+```
+
+**Example:** % of H in H₂O = (2/18) × 100 = 11.11%
+
+## 1.8 Empirical and Molecular Formula
+
+### Steps to find Empirical Formula:
+1. Find % composition of each element
+2. Divide by atomic mass → mole ratio
+3. Divide by smallest mole ratio → simplest whole number ratio
+4. That gives Empirical Formula
+
+### Molecular Formula from Empirical Formula:
+```
+Molecular Formula = n × Empirical Formula
+
+        Molecular mass
+n = ───────────────────
+      Empirical Formula mass
+```
+
+## 1.9 Stoichiometry and Limiting Reagent
+
+### Steps for Stoichiometry Problems:
+1. Write balanced chemical equation
+2. Convert masses to moles
+3. Use mole ratio from equation
+4. Convert back to mass/volume
+
+### Limiting Reagent
+> *The reagent that is completely consumed first, limiting the amount of product formed*
+
+**To find:** Divide moles of each reactant by its stoichiometric coefficient → smallest ratio is limiting reagent
+
+### Percent Yield
+```
+           Actual yield
+% Yield = ─────────────── × 100
+          Theoretical yield
+```
+
+## 1.10 Concentration Terms (Solutions)
+
+### Molarity (M)
+```
+         Moles of solute
+M = ──────────────────────
+    Volume of solution (L)
+
+     W × 1000
+M = ──────────
+     M.M × V(mL)
+```
+
+### Molality (m)
+```
+         Moles of solute
+m = ──────────────────────────────
+    Mass of solvent (kg)
+
+     W_solute × 1000
+m = ─────────────────────────
+    M.M_solute × W_solvent(g)
+```
+
+### Mole Fraction (χ)
+```
+         n_A
+χ_A = ─────────
+       n_A + n_B
+
+χ_A + χ_B = 1
+```
+
+### Mass Percent (w/w)
+```
+           Mass of solute
+w/w % = ─────────────────── × 100
+         Mass of solution
+```
+
+### Parts per million (ppm)
+```
+         Mass of solute
+ppm = ─────────────────── × 10⁶
+      Mass of solution
+```
+
+### Normality (N)
+```
+N = M × n-factor
+
+         Equivalents of solute
+N = ─────────────────────────────
+    Volume of solution (L)
+```
+
+---
+
+---
+
+# 2. STRUCTURE OF ATOM
+
+## 2.1 Subatomic Particles
+
+| Particle | Symbol | Charge | Mass (amu) | Discovered by |
+|---|---|---|---|---|
+| Electron | e⁻ | −1 | 1/1836 ≈ 0.00055 | J.J. Thomson (1897) |
+| Proton | p⁺ | +1 | 1.00728 | Rutherford (1919) |
+| Neutron | n⁰ | 0 | 1.00867 | Chadwick (1932) |
+
+## 2.2 Thomson's Model (Plum Pudding, 1904)
+- Atom = sphere of positive charge with electrons embedded
+- **Failed:** Could not explain Rutherford's α-scattering experiment
+
+## 2.3 Rutherford's Nuclear Model (1911)
+
+### α-Particle Scattering Experiment:
+- Most α-particles passed through (atom is mostly empty space)
+- Few deflected at large angles (positive nucleus exists)
+- Very few bounced back (nucleus is very small and dense)
+
+### Rutherford's Conclusions:
+- Atom has a tiny, dense, positively charged **nucleus**
+- Electrons revolve around nucleus in circular orbits
+- Most of atom's volume is empty space
+
+### Atomic Number (Z) = Number of protons
+### Mass Number (A) = Protons + Neutrons
+```
+Number of neutrons = A − Z
+```
+
+### Isotopes, Isobars, Isotones
+
+| Term | Same | Different | Example |
+|---|---|---|---|
+| Isotopes | Z | A, n | ¹H, ²H, ³H |
+| Isobars | A | Z | ¹⁴C, ¹⁴N |
+| Isotones | n | Z, A | ¹⁴C (n=8), ¹⁵N (n=8) |
+| Isoelectronic | e⁻ | Z | Na⁺, Mg²⁺, Al³⁺ |
+
+### Rutherford Model Failure:
+- Accelerating electron should radiate energy → spiral into nucleus
+- Cannot explain atomic spectra (line spectrum)
+
+## 2.4 Developments Leading to Bohr's Model
+
+### Electromagnetic Radiation
+```
+c = νλ
+```
+- c = 3 × 10⁸ m/s (speed of light)
+- ν = frequency (Hz = s⁻¹)
+- λ = wavelength (m)
+
+```
+      c
+ν = ─────
+      λ
+
+E = hν = hc/λ
+```
+- h = Planck's constant = 6.626 × 10⁻³⁴ J·s
+
+### Wave Number (ν̃)
+```
+ν̃ = 1/λ (in cm⁻¹ or m⁻¹)
+```
+
+### Electromagnetic Spectrum (Increasing wavelength)
+```
+γ-rays < X-rays < UV < Visible < IR < Microwaves < Radio waves
+```
+
+**Visible Light (VIBGYOR):**
+```
+Violet (400 nm) → Indigo → Blue → Green → Yellow → Orange → Red (700 nm)
+```
+
+## 2.5 Planck's Quantum Theory (1900)
+
+> *Energy is not continuous but emitted/absorbed in discrete packets called **quanta** (photons)*
+
+```
+E = nhν   (n = 1, 2, 3...)
+```
+
+### Photoelectric Effect (Einstein, 1905)
+> *When light of sufficient frequency falls on a metal, electrons are ejected*
+
+```
+KE_max = hν − hν₀ = hν − W
+
+W = hν₀ = work function (minimum energy to remove electron)
+ν₀ = threshold frequency
+```
+
+**Key Points:**
+- KE depends only on frequency, NOT intensity
+- Number of electrons depends on intensity
+- If ν < ν₀, no electron emission regardless of intensity
+
+## 2.6 Atomic Spectra
+
+### Line Spectrum of Hydrogen
+- Only specific wavelengths → atom has discrete energy levels
+
+### Spectral Series of Hydrogen
+
+| Series | Region | n₁ | n₂ |
+|---|---|---|---|
+| Lyman | UV | 1 | 2, 3, 4... |
+| Balmer | Visible | 2 | 3, 4, 5... |
+| Paschen | Near-IR | 3 | 4, 5, 6... |
+| Brackett | IR | 4 | 5, 6, 7... |
+| Pfund | Far-IR | 5 | 6, 7, 8... |
+
+### Rydberg Formula ⭐
+```
+      1         1     1
+ν̃ = ─── = RH(─── − ───)
+      λ        n₁²   n₂²
+```
+- RH = Rydberg constant = 1.097 × 10⁷ m⁻¹ = 109677 cm⁻¹
+- n₂ > n₁
+
+## 2.7 Bohr's Model of Hydrogen Atom (1913) ⭐⭐
+
+### Postulates:
+1. Electrons revolve in fixed circular orbits (stationary states) without radiating energy
+2. Only those orbits are allowed where angular momentum = nh/2π
+3. Energy is emitted/absorbed when electron jumps between orbits
+
+### Quantization of Angular Momentum
+```
+      nh
+mvr = ────
+      2π
+```
+
+### Bohr's Equations for Hydrogen-like Atoms (Z = atomic number):
+
+```
+              n²a₀         n²(0.529 Å)
+Radius: rₙ = ────── = ─────────────────
+               Z               Z
+
+             -13.6 eV × Z²
+Energy: Eₙ = ─────────────────
+                  n²
+
+           2.18 × 10⁻¹⁸ × Z²
+Eₙ = − ─────────────────────── J
+                 n²
+```
+
+where a₀ = Bohr radius = 0.529 Å = 52.9 pm
+
+```
+Velocity: vₙ = (2.18 × 10⁶ × Z)/n  m/s
+
+Frequency of revolution: νₙ = vₙ/2πrₙ
+```
+
+### Energy of Photon Emitted
+```
+          1     1
+ΔE = RH(─── − ───)hc
+         n₁²   n₂²
+
+ΔE = 13.6 eV × Z² (1/n₁² − 1/n₂²)
+```
+
+### Limitations of Bohr's Model:
+1. Cannot explain spectra of multi-electron atoms
+2. Cannot explain splitting of spectral lines (Zeeman & Stark effect)
+3. Cannot explain chemical bonding
+4. Violates Heisenberg's Uncertainty Principle (fixed orbit = known position AND momentum)
+
+## 2.8 de Broglie's Wave-Particle Duality
+
+> *Every moving particle has an associated wave*
+
+```
+      h        h
+λ = ───── = ──────
+      mv       p
+
+      h
+λ = ───────────────
+    √(2mKE)
+
+       h
+λ = ─────────────
+    √(2meV)    (for accelerated electron through potential V)
+```
+
+## 2.9 Heisenberg's Uncertainty Principle ⭐
+
+> *It is impossible to simultaneously determine the exact position and exact momentum of a microscopic particle*
+
+```
+Δx × Δp ≥ h/4π
+
+Δx × mΔv ≥ h/4π
+
+ΔE × Δt ≥ h/4π
+```
+
+**Important:** This is NOT due to experimental limitations — it's a fundamental property of nature.
+
+## 2.10 Quantum Mechanical Model of Atom
+
+### Schrödinger Wave Equation
+```
+∂²ψ   ∂²ψ   ∂²ψ   8π²m
+─── + ─── + ─── + ─────(E − V)ψ = 0
+∂x²   ∂y²   ∂z²    h²
+```
+- ψ = wave function (orbital)
+- ψ² = probability of finding electron (electron density)
+
+### Quantum Numbers ⭐⭐
+
+**1. Principal Quantum Number (n)**
+- n = 1, 2, 3, 4... (K, L, M, N shells)
+- Determines energy and size of orbital
+- Max electrons in shell = 2n²
+
+**2. Azimuthal/Angular Momentum Quantum Number (l)**
+- l = 0, 1, 2, ..., (n−1)
+- Determines shape of orbital
+
+| l | Subshell | Shape |
+|---|---|---|
+| 0 | s | Sphere |
+| 1 | p | Dumbbell |
+| 2 | d | Double dumbbell / cloverleaf |
+| 3 | f | Complex |
+
+- Orbital angular momentum = √(l(l+1)) × h/2π
+
+**3. Magnetic Quantum Number (mₗ)**
+- mₗ = −l, ..., 0, ..., +l → (2l+1) values
+- Determines orientation of orbital in space
+
+| Subshell | l | mₗ values | # Orbitals |
+|---|---|---|---|
+| s | 0 | 0 | 1 |
+| p | 1 | −1, 0, +1 | 3 |
+| d | 2 | −2,−1,0,+1,+2 | 5 |
+| f | 3 | −3,...,+3 | 7 |
+
+**4. Spin Quantum Number (mₛ)**
+- mₛ = +1/2 (spin up ↑) or −1/2 (spin down ↓)
+- Spin angular momentum = √(s(s+1)) × h/2π = √3/2 × h/2π
+
+## 2.11 Shapes of Orbitals
+
+### s-orbital: Spherical, non-directional
+- 1s: 1 node (at nucleus only conceptually)
+- 2s: 1 radial node, larger sphere
+- ns has (n−1) radial nodes
+
+### p-orbital: Dumbbell shape
+- Three degenerate orbitals: px, py, pz
+- 1 nodal plane (the plane perpendicular to the axis)
+- 2p has 0 radial nodes, 1 angular node
+
+### d-orbital: 5 degenerate orbitals
+- dxy, dyz, dxz, dx²-y², dz²
+- dz² has a donut (torus) around the middle
+
+### Number of Nodes
+```
+Radial nodes = n − l − 1
+Angular nodes = l
+Total nodes = n − 1
+```
+
+## 2.12 Electronic Configuration
+
+### Rules:
+
+**Aufbau Principle:**
+> Fill orbitals in order of increasing energy
+
+**Energy order (use n+l rule):**
+```
+1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p < 5s < 4d < 5p < 6s < 4f < 5d < 6p...
+```
+
+**Pauli Exclusion Principle:**
+> No two electrons in an atom can have all four quantum numbers identical → max 2 electrons per orbital (with opposite spins)
+
+**Hund's Rule of Maximum Multiplicity:**
+> Electrons in degenerate orbitals occupy separate orbitals first with parallel spins, then pair up
+
+### Exceptional Configurations ⭐
+```
+Cr: [Ar] 3d⁵ 4s¹  (not 3d⁴ 4s²) — half-filled d is extra stable
+Cu: [Ar] 3d¹⁰ 4s¹ (not 3d⁹ 4s²) — fully-filled d is extra stable
+```
+
+**Reason:** Half-filled and fully-filled subshells have:
+1. Symmetrical electron distribution → extra stability
+2. Maximum exchange energy → lower energy
+
+### Magnetic Properties
+```
+Number of unpaired electrons (n) →
+
+Magnetic moment μ = √(n(n+2)) BM
+```
+(BM = Bohr Magneton)
+
+- Paramagnetic: has unpaired electrons (attracted to magnetic field)
+- Diamagnetic: all electrons paired (repelled by magnetic field)
+
+---
+
+---
+
+# 3. CLASSIFICATION OF ELEMENTS & PERIODICITY IN PROPERTIES
+
+## 3.1 Historical Development
+
+| Contribution | Scientist | Year |
+|---|---|---|
+| Law of Triads | Döbereiner | 1817 |
+| Newlands' Octaves | Newlands | 1864 |
+| Periodic Law (by atomic mass) | Mendeleev | 1869 |
+| Modern Periodic Law (by Z) | Moseley | 1913 |
+
+### Mendeleev's Periodic Law
+> *Properties of elements are periodic functions of their atomic masses*
+
+**Merits:** Predicted existence of missing elements (Eka-boron=Sc, Eka-Al=Ga, Eka-Si=Ge)
+**Defects:** Wrong atomic mass order (Ar/K, Co/Ni), no position for isotopes, H placement unclear
+
+### Modern Periodic Law
+> *Properties of elements are periodic functions of their atomic numbers (Z)*
+
+## 3.2 Modern Periodic Table
+
+### Structure:
+- **Periods:** 7 horizontal rows (Period 1: 2 elements, Period 2&3: 8 each, Period 4&5: 18 each, Period 6&7: 32 each)
+- **Groups:** 18 vertical columns (1–18)
+
+### Blocks of Periodic Table
+
+| Block | Elements | Filling orbital |
+|---|---|---|
+| s-block | Groups 1, 2 | ns¹ or ns² |
+| p-block | Groups 13–18 | np¹ to np⁶ |
+| d-block | Groups 3–12 | (n−1)d¹⁻¹⁰ ns¹⁻² |
+| f-block | Lanthanides, Actinides | (n−2)f¹⁻¹⁴ |
+
+## 3.3 Periodic Trends ⭐⭐
+
+### Atomic Radius
+
+**Covalent Radius** = half the distance between two bonded atoms of same element
+**Van der Waals Radius** > Covalent Radius
+
+**Trends:**
+```
+Across period (left → right): DECREASES
+     (Z increases → more nuclear attraction → electrons pulled in)
+
+Down group (top → bottom): INCREASES
+     (new shells added → electron-electron repulsion increases)
+```
+
+**Exception:** Noble gases have largest Van der Waals radii in their period
+
+### Ionic Radius
+
+```
+Cation (M⁺): smaller than neutral atom (lost electrons, same Z, less repulsion)
+Anion (X⁻): larger than neutral atom (gained electrons, more repulsion)
+```
+
+**Isoelectronic species:** Same electrons, different Z
+- As Z increases → smaller radius
+- Example: N³⁻ > O²⁻ > F⁻ > Ne > Na⁺ > Mg²⁺ > Al³⁺
+
+### Ionization Enthalpy (IE) ⭐
+
+> *Energy required to remove the most loosely bound electron from isolated gaseous atom*
+
+```
+M(g) → M⁺(g) + e⁻    ΔH = IE₁
+
+M⁺(g) → M²⁺(g) + e⁻  ΔH = IE₂
+
+Always: IE₁ < IE₂ < IE₃...
+```
+
+**Trends:**
+```
+Across period: Generally INCREASES
+     (Z increases, radius decreases → electrons held tighter)
+
+Down group: DECREASES
+     (radius increases → outermost electrons farther, more shielded)
+```
+
+**Exceptions (Lower IE than expected):**
+- Be > B: 2s² is more stable than 2p¹ (B has lower IE than Be)
+- N > O: N has half-filled 2p (extra stable), O pairs electrons (easier to remove paired e⁻)
+- Mg > Al: similar reason (3s² > 3p¹)
+- P > S: half-filled 3p in P
+
+**Factors affecting IE:**
+1. Nuclear charge (Z) — increases IE
+2. Atomic radius — increases IE (as r decreases)
+3. Shielding effect — decreases IE
+4. Penetration effect — increases IE
+5. Orbital type — s > p > d > f (s-orbital has more penetration)
+
+### Electron Gain Enthalpy (Electron Affinity)
+
+> *Enthalpy change when an electron is added to neutral gaseous atom*
+
+```
+X(g) + e⁻ → X⁻(g)    ΔegH
+
+More negative ΔegH → greater tendency to accept electron
+```
+
+**Trends:** Similar to IE (increases across period, decreases down group)
+
+**Exceptions:**
+- Cl has higher EA than F (F is too small → high electron-electron repulsion in small 2p orbitals)
+- N has lower EA than C and O (half-filled 2p = extra stable → less tendency to accept e⁻)
+- Be, Mg have very low EA (stable ns² configuration)
+- Noble gases have positive EA (no tendency)
+
+**Successive Electron Affinities:**
+- EA₁ is usually exothermic (−ΔH)
+- EA₂ is always endothermic (energy needed to force e⁻ into negative ion)
+
+### Electronegativity ⭐
+
+> *Tendency of an atom in a molecule to attract shared electrons towards itself*
+
+**Scales:**
+- Pauling scale (most common): F = 4.0 (highest)
+- Mulliken scale: EN = (IE + EA)/2
+- Allred-Rochow scale: based on electrostatic force
+
+**Trends:**
+```
+Across period: INCREASES (F is most electronegative)
+Down group: DECREASES
+```
+
+**Order:** F > O > N ≈ Cl > Br > C ≈ S > I > H > metals
+
+**Uses:**
+1. Predict polarity of bonds
+2. Estimate ionic character:
+   - ΔEN > 1.7 → mostly ionic
+   - ΔEN < 0.4 → mostly covalent
+3. Determine oxidation states
+
+### Valence / Valency
+
+- s & p block: Valence = Group number (or 8 − Group for high groups)
+- Transition metals: Multiple valences
+
+## 3.4 Periodic Trends in Chemical Properties
+
+### Metallic and Non-metallic Character
+```
+Metallic character: DECREASES across period, INCREASES down group
+Non-metallic character: INCREASES across period, DECREASES down group
+```
+
+### Oxides
+```
+Left side: Basic oxides (Na₂O, MgO, CaO)
+Middle: Amphoteric oxides (Al₂O₃, ZnO, Cr₂O₃)
+Right side: Acidic oxides (SO₃, P₄O₁₀, Cl₂O₇)
+```
+
+### Hydrides
+```
+Left side: Ionic hydrides (NaH, CaH₂) — reducing agents
+Right side: Covalent hydrides (HF, HCl, NH₃, H₂O)
+Acid strength of hydrides: HF < HCl < HBr < HI (down group)
+Base strength: NH₃ > PH₃ > AsH₃ > SbH₃ (down group)
+```
+
+---
+
+---
+
+# 4. CHEMICAL BONDING & MOLECULAR STRUCTURE
+
+## 4.1 Kossel-Lewis Theory
+
+### Octet Rule
+> *Atoms tend to gain, lose, or share electrons to achieve 8 electrons in their outermost shell (like noble gases)*
+
+**Exceptions to Octet Rule:**
+1. **Incomplete octet:** BF₃ (6e⁻ around B), BeCl₂ (4e⁻ around Be), AlCl₃
+2. **Expanded octet:** PCl₅ (10e⁻ around P), SF₆ (12e⁻ around S) — possible only for 3rd period and beyond (d-orbitals)
+3. **Odd-electron molecules:** NO, NO₂, ClO₂
+
+### Lewis Structures — Rules for Drawing:
+1. Count total valence electrons
+2. Connect atoms with single bonds
+3. Complete octets of terminal atoms first
+4. Remaining electrons → lone pairs on central atom
+5. If central atom lacks octet → form multiple bonds
+
+### Formal Charge
+```
+Formal Charge = Valence electrons − Non-bonding electrons − (1/2 × Bonding electrons)
+
+FC = V − L − B/2
+```
+**Best Lewis structure has lowest formal charges (preferably zero)**
+
+### Resonance
+> *When a molecule can be represented by two or more equivalent Lewis structures, it is called resonance; actual structure is a hybrid (average)*
+
+**Examples:**
+- O₃: Two equivalent structures, bond order = 1.5
+- CO₃²⁻: Three equivalent structures, bond order = 4/3
+- Benzene: C₆H₆, bond order = 1.5
+
+**Resonance Stabilization:** Resonance hybrid is more stable than any single structure
+
+## 4.2 Ionic Bonding
+
+> *Complete transfer of electrons from metal to non-metal → electrostatic attraction between ions*
+
+### Conditions Favoring Ionic Bond Formation:
+- Low IE of cation-forming element
+- High EA of anion-forming element
+- High lattice energy
+
+### Lattice Energy (U)
+> *Energy released when 1 mole of ionic compound is formed from its gaseous ions*
+
+**Born-Haber Cycle (for NaCl):**
+```
+Na(s) + ½Cl₂(g) → NaCl(s)    ΔHf°
+
+ΔHf° = ΔHsub(Na) + ½ΔHdiss(Cl₂) + IE(Na) + EA(Cl) + U(NaCl)
+```
+
+**Lattice Energy (Born-Landé Equation):**
+```
+U = -NAMz⁺z⁻e²/4πε₀r₀ × (1 - 1/n)
+```
+- M = Madelung constant (depends on structure)
+- z⁺, z⁻ = charges on ions
+- r₀ = interionic distance
+- n = Born exponent
+
+**Factors:**
+- U increases as charge increases (CaCl₂ > NaCl)
+- U increases as ionic radius decreases (LiF > NaF > KF)
+
+### Properties of Ionic Compounds:
+- High melting/boiling points
+- Conduct electricity in molten state or in solution (not solid state)
+- Soluble in polar solvents
+- Hard but brittle
+
+## 4.3 Covalent Bonding
+
+> *Sharing of electron pairs between atoms*
+
+### Types of Covalent Bonds:
+- Single bond: 1 shared pair (σ bond only)
+- Double bond: 1 σ + 1 π bond
+- Triple bond: 1 σ + 2 π bonds
+
+### Bond Parameters ⭐
+
+**Bond Length:** Distance between nuclei of bonded atoms
+```
+Single > Double > Triple (bond length decreases)
+Single < Double < Triple (bond strength increases)
+```
+
+**Bond Enthalpy (Bond Energy):**
+> Energy needed to break 1 mole of bonds in gaseous state
+
+```
+ΔHrxn = Σ(bonds broken) − Σ(bonds formed)
+      = Σ BE(reactants) − Σ BE(products)
+```
+
+**Bond Order:**
+```
+         Bonding e⁻ − Antibonding e⁻
+BO = ─────────────────────────────────
+                    2
+
+Higher BO → shorter bond length, higher bond energy
+```
+
+## 4.4 VSEPR Theory ⭐⭐ (Valence Shell Electron Pair Repulsion)
+
+**Principle:** Electron pairs around central atom arrange to minimize repulsion
+
+**Repulsion order:**
+```
+Lone pair–Lone pair > Lone pair–Bond pair > Bond pair–Bond pair
+```
+
+### VSEPR Table
+
+| Formula | BP | LP | Shape | Example | Bond Angle |
+|---|---|---|---|---|---|
+| AX₂ | 2 | 0 | Linear | BeCl₂, CO₂ | 180° |
+| AX₃ | 3 | 0 | Trigonal planar | BF₃, SO₃ | 120° |
+| AX₂E | 2 | 1 | Bent/Angular | SO₂, SnCl₂ | <120° |
+| AX₄ | 4 | 0 | Tetrahedral | CH₄, SiCl₄ | 109.5° |
+| AX₃E | 3 | 1 | Trigonal pyramidal | NH₃, PCl₃ | <109.5° |
+| AX₂E₂ | 2 | 2 | Bent/V-shape | H₂O, H₂S | <109.5° |
+| AX₅ | 5 | 0 | Trigonal bipyramidal | PCl₅ | 90°, 120° |
+| AX₄E | 4 | 1 | See-saw | SF₄ | |
+| AX₃E₂ | 3 | 2 | T-shaped | ClF₃ | |
+| AX₂E₃ | 2 | 3 | Linear | XeF₂, I₃⁻ | 180° |
+| AX₆ | 6 | 0 | Octahedral | SF₆ | 90° |
+| AX₅E | 5 | 1 | Square pyramidal | BrF₅ | |
+| AX₄E₂ | 4 | 2 | Square planar | XeF₄, [PtCl₄]²⁻ | 90° |
+
+**Bond angle order:** CH₄ (109.5°) > NH₃ (107°) > H₂O (104.5°)
+(Lone pairs compress bond angles)
+
+## 4.5 Valence Bond Theory (VBT)
+
+> *Covalent bond forms by overlap of atomic orbitals; maximum overlap = strongest bond*
+
+### Types of Orbital Overlap:
+
+**σ (sigma) bond:** Head-on (axial) overlap
+- s-s, s-p, p-p head-on overlap
+- Cylindrically symmetric about internuclear axis
+- Free rotation possible
+
+**π (pi) bond:** Lateral (sideways) overlap
+- p-p sideways overlap
+- Has a nodal plane containing bond axis
+- No free rotation (restricted)
+
+### Hybridization ⭐⭐
+
+> *Mixing of atomic orbitals of similar energy to form new hybrid orbitals of equivalent energy*
+
+| Hybridization | Orbitals Mixed | Shape | Bond Angle | Examples |
+|---|---|---|---|---|
+| sp | s + p | Linear | 180° | BeCl₂, C₂H₂, CO₂ |
+| sp² | s + 2p | Trigonal Planar | 120° | BF₃, C₂H₄, benzene |
+| sp³ | s + 3p | Tetrahedral | 109.5° | CH₄, NH₃, H₂O, CCl₄ |
+| sp³d | s+3p+d | Trigonal Bipyramidal | 90°,120° | PCl₅, SF₄ |
+| sp³d² | s+3p+2d | Octahedral | 90° | SF₆, [CrF₆]³⁻ |
+| dsp² | d+s+2p | Square Planar | 90° | [Ni(CN)₄]²⁻, [PtCl₄]²⁻ |
+
+**Quick method for finding hybridization:**
+```
+Hybridization number = (Bond pairs + Lone pairs on central atom)
+= 2 → sp
+= 3 → sp²
+= 4 → sp³
+= 5 → sp³d
+= 6 → sp³d²
+```
+
+## 4.6 Molecular Orbital Theory (MOT) ⭐
+
+### Linear Combination of Atomic Orbitals (LCAO):
+```
+Bonding MO (σ) : ψ_b = ψ_A + ψ_B  (lower energy)
+Antibonding MO (σ*): ψ_a = ψ_A − ψ_B  (higher energy)
+```
+
+### MO Energy Level Diagram for O₂, F₂, Ne₂:
+```
+σ1s < σ*1s < σ2s < σ*2s < σ2p < π2p = π2p < π*2p = π*2p < σ*2p
+```
+
+### MO Energy Level for B₂, C₂, N₂ (π before σ in 2p):
+```
+σ1s < σ*1s < σ2s < σ*2s < π2p = π2p < σ2p < π*2p = π*2p < σ*2p
+```
+
+### Bond Order (MO):
+```
+         Nb − Na
+BO = ─────────────
+           2
+```
+Nb = bonding electrons, Na = antibonding electrons
+
+### MO Properties Table:
+
+| Molecule | Config | BO | Magnetic |
+|---|---|---|---|
+| H₂ | (σ1s)² | 1 | Diamagnetic |
+| He₂ | (σ1s)²(σ*1s)² | 0 | Doesn't exist |
+| Li₂ | ....(σ2s)² | 1 | Diamagnetic |
+| B₂ | ....(π2p)¹(π2p)¹ | 1 | Paramagnetic |
+| C₂ | ....(π2p)²(π2p)² | 2 | Diamagnetic |
+| N₂ | ...(σ2p)²(π2p)⁴ | 3 | Diamagnetic |
+| O₂ | ...(σ2p)²(π2p)⁴(π*2p)¹(π*2p)¹ | 2 | Paramagnetic |
+| F₂ | ...(π*2p)⁴ | 1 | Diamagnetic |
+| Ne₂ | ...(σ*2p)² | 0 | Doesn't exist |
+
+## 4.7 Hydrogen Bonding ⭐
+
+> *Electrostatic attraction between H bonded to highly electronegative atom (F, O, N) and lone pair on another electronegative atom*
+
+**Condition:** H must be bonded to F, O, or N (very high EN + small size)
+
+### Types:
+
+**Intermolecular H-bond:** Between different molecules (HF, H₂O, NH₃, alcohols, carboxylic acids)
+
+**Intramolecular H-bond:** Within same molecule (o-nitrophenol, salicylaldehyde)
+
+### Effects of H-bonding:
+- Higher boiling/melting points (H₂O > H₂S, HF > HCl)
+- Higher viscosity and surface tension
+- Lower vapor pressure
+- Anomalous expansion of water below 4°C
+
+### Hydrogen Bond Strength: F–H···F > O–H···O > N–H···N
+
+## 4.8 Polarity of Molecules
+
+**Dipole Moment (μ):**
+```
+μ = q × d
+
+SI unit: Coulomb-metre (C·m)
+Common unit: Debye (D)  [1 D = 3.336 × 10⁻³⁰ C·m]
+```
+
+**For polyatomic molecules:** Vector sum of all bond dipoles
+
+**Examples:**
+- CO₂ (linear) → μ = 0 (symmetric, dipoles cancel)
+- H₂O (bent) → μ ≠ 0
+- BF₃ (trigonal planar) → μ = 0
+- NH₃ (pyramidal) → μ ≠ 0
+- CCl₄ (tetrahedral) → μ = 0
+- CHCl₃ → μ ≠ 0
+
+---
+
+---
+
+# 5. STATES OF MATTER: GASES & LIQUIDS
+
+## 5.1 The Gas Laws ⭐⭐
+
+### Boyle's Law (1662) — Isothermal
+> *At constant T and n, V ∝ 1/P*
+
+```
+PV = constant
+
+P₁V₁ = P₂V₂  (at constant T, n)
+```
+
+### Charles' Law (1787) — Isobaric
+> *At constant P and n, V ∝ T*
+
+```
+V/T = constant
+
+V₁/T₁ = V₂/T₂  (at constant P, n)
+```
+
+### Gay-Lussac's Law — Isochoric
+> *At constant V and n, P ∝ T*
+
+```
+P/T = constant
+
+P₁/T₁ = P₂/T₂  (at constant V, n)
+```
+
+### Avogadro's Law
+> *At constant T and P, V ∝ n*
+
+```
+V/n = constant
+```
+
+## 5.2 Ideal Gas Equation ⭐
+
+```
+PV = nRT
+
+P = pressure (Pa or atm)
+V = volume (m³ or L)
+n = moles
+R = universal gas constant
+T = temperature (K) — ALWAYS Kelvin!
+```
+
+### Values of R:
+```
+R = 8.314 J/(mol·K) = 8.314 Pa·m³/(mol·K)
+R = 0.0821 L·atm/(mol·K)
+R = 1.987 cal/(mol·K)
+R = 62.36 L·mmHg/(mol·K)
+```
+
+### Combined Gas Law:
+```
+P₁V₁/T₁ = P₂V₂/T₂  (n constant)
+
+PV/nT = R
+```
+
+### Molar Mass from Ideal Gas Law:
+```
+        mRT         dRT
+M = ─────── = ──────
+        PV          P
+
+(d = density = m/V)
+```
+
+## 5.3 Dalton's Law of Partial Pressures
+
+> *Total pressure of mixture of non-reacting gases = sum of partial pressures*
+
+```
+P_total = P₁ + P₂ + P₃ + ...
+
+Partial pressure: Pᵢ = χᵢ × P_total
+
+         nᵢ
+χᵢ = ─────────
+      n_total
+```
+
+**Pressure of dry gas collected over water:**
+```
+P_dry gas = P_total − P_water vapour (aqueous tension)
+```
+
+## 5.4 Kinetic Theory of Gases ⭐⭐
+
+### Postulates:
+1. Gas molecules are point masses (negligible volume)
+2. No intermolecular forces
+3. Molecules in continuous, random motion
+4. Elastic collisions
+5. Average KE ∝ absolute temperature
+
+### Kinetic Gas Equation:
+```
+PV = (1/3)mNu²rms
+
+P = (1/3)ρu²rms
+```
+(m = mass of one molecule, N = number of molecules, u_rms = root mean square speed)
+
+### Molecular Speeds ⭐
+
+```
+                    3RT          3PV
+u_rms = √─────── = √─────
+                     M            m
+
+                  8RT
+u_avg = √─────── = 0.9213 u_rms
+                  πM
+
+u_mp (most probable) = √(2RT/M) = 0.8165 u_rms
+```
+
+**Relationship:**
+```
+u_mp : u_avg : u_rms = 1 : 1.128 : 1.225 = √2 : √(8/π) : √3
+```
+
+### Kinetic Energy
+
+```
+Average KE per molecule = (3/2)kT    (k = Boltzmann constant = 1.38 × 10⁻²³ J/K)
+
+Average KE per mole = (3/2)RT
+
+Total KE = (3/2)nRT
+```
+
+### Degrees of Freedom and Energy
+
+```
+Monatomic gas: f = 3 (translational)  → KE = (3/2)RT per mole
+Diatomic gas: f = 5 (3 trans + 2 rot) → KE = (5/2)RT per mole
+Polyatomic: f = 6 (3 trans + 3 rot)   → KE = 3RT per mole
+```
+
+### Equipartition of Energy
+> *Average KE associated with each degree of freedom = (1/2)kT per molecule or (1/2)RT per mole*
+
+## 5.5 Real Gases and Deviation from Ideal Behavior
+
+### Compressibility Factor (Z):
+```
+        PV
+Z = ────────
+       nRT
+
+Z = 1 → Ideal gas
+Z < 1 → Attractive forces dominate (at moderate P)
+Z > 1 → Repulsive forces dominate (at very high P)
+```
+
+### Van der Waals Equation ⭐
+
+```
+[P + a(n/V)²][V − nb] = nRT
+
+For 1 mole:
+(P + a/V²)(V − b) = RT
+```
+- **'a'** = intermolecular attraction constant (pressure correction)
+- **'b'** = excluded volume / co-volume (volume correction), b = 4 × actual volume of molecules
+
+### Boyle Temperature (T_B):
+> *Temperature at which real gas behaves like ideal gas over a wide pressure range*
+
+```
+T_B = a/(Rb)
+```
+
+### Van der Waals Constants for Common Gases:
+
+| Gas | a (L²·atm/mol²) | b (L/mol) |
+|---|---|---|
+| H₂ | 0.244 | 0.0266 |
+| N₂ | 1.39 | 0.0391 |
+| O₂ | 1.36 | 0.0318 |
+| CO₂ | 3.59 | 0.0427 |
+| NH₃ | 4.17 | 0.0371 |
+
+### Critical Constants:
+```
+Tc = 8a/27Rb
+Pc = a/27b²
+Vc = 3b
+
+Zc = PcVc/RTc = 3/8 = 0.375 (for Van der Waals gas)
+```
+
+## 5.6 Mean Free Path (λ)
+
+```
+           1
+λ = ────────────────
+    √2 π d² N/V
+
+where d = diameter of molecule, N/V = number density
+```
+
+## 5.7 Liquefaction of Gases
+
+### Joule-Thomson Effect:
+> *Real gases cool down on expansion through a porous plug (throttling) if T < inversion temperature*
+
+### Inversion Temperature:
+```
+Tᵢ = 2a/Rb = 2T_B
+```
+- H₂ and He have very low Tᵢ → must be pre-cooled before throttling
+- CO₂, N₂, O₂: Tᵢ > room temperature → cool on expansion
+
+## 5.8 Liquid State
+
+### Vapour Pressure:
+- Liquid in equilibrium with its vapour → vapour pressure
+- Increases with temperature
+- Independent of amount of liquid
+
+### Boiling Point:
+> *Temperature at which vapour pressure = external pressure*
+
+**Clausius-Clapeyron Equation:**
+```
+     ln(P₂/P₁) = ΔHvap/R × (1/T₁ − 1/T₂)
+```
+
+### Surface Tension (γ):
+> *Force per unit length acting along the surface, tending to minimize surface area*
+
+Units: N/m or J/m²
+- Decreases with increasing temperature
+- Causes capillary rise: h = 2γcosθ/rρg
+
+### Viscosity (η):
+> *Resistance to flow; measure of internal friction between layers of fluid*
+
+Units: Poise (P) = g/(cm·s) = 0.1 Pa·s
+
+**Stokes' Law:** F = 6πηrv
+
+- Decreases with increasing temperature (liquids)
+- Increases with temperature (gases)
+
+---
+
+---
+
+# 6. THERMODYNAMICS
+
+## 6.1 Basic Terminology
+
+- **System:** Part under study
+- **Surroundings:** Rest of universe
+- **Open system:** Exchange of mass and energy
+- **Closed system:** Only energy exchange
+- **Isolated system:** No exchange
+
+### Types of Processes:
+- **Isothermal:** T = constant
+- **Adiabatic:** q = 0 (no heat exchange)
+- **Isobaric:** P = constant
+- **Isochoric:** V = constant (ΔV = 0)
+- **Reversible:** Infinitely slow, at each step system in equilibrium
+- **Irreversible:** Real, spontaneous, faster
+
+## 6.2 Zeroth Law of Thermodynamics
+> *If A is in thermal equilibrium with B, and B with C, then A is in equilibrium with C*
+> → Defines temperature
+
+## 6.3 First Law of Thermodynamics ⭐
+
+> *Energy cannot be created or destroyed; total energy of universe is constant*
+
+```
+ΔU = q + w      [IUPAC convention]
+ΔU = q − w      [older convention — JEE often uses this]
+```
+- ΔU = change in internal energy
+- q = heat absorbed by system (+ve if absorbed, −ve if released)
+- w = work done ON system (+ve if compressed)
+
+### Work
+
+**For expansion/compression:**
+```
+w = −P_ext × ΔV  (work done BY system against constant external pressure)
+
+For reversible process:
+w_rev = −nRT ln(V₂/V₁) = −nRT ln(P₁/P₂)
+
+For irreversible process:
+w_irrev = −P_ext(V₂ − V₁)
+```
+
+### For Ideal Gas:
+
+**Isothermal:**
+```
+ΔU = 0 (internal energy depends only on T)
+q = −w = nRT ln(V₂/V₁)
+```
+
+**Adiabatic:**
+```
+q = 0
+ΔU = w = nCᵥΔT
+```
+
+**Isochoric:**
+```
+w = 0 (no volume change)
+ΔU = qᵥ = nCᵥΔT
+```
+
+**Isobaric:**
+```
+w = −PΔV = −nRΔT
+ΔH = qₚ = nCₚΔT
+```
+
+## 6.4 Enthalpy (H) ⭐
+
+```
+H = U + PV
+
+ΔH = ΔU + Δ(PV) = ΔU + PΔV (at constant P)
+ΔH = ΔU + ΔnᵍRT   (Δnᵍ = moles of gaseous products − moles of gaseous reactants)
+
+ΔH = qₚ (heat at constant pressure)
+ΔU = qᵥ (heat at constant volume)
+```
+
+### Relationship:
+```
+ΔH = ΔU + ΔnᵍRT
+```
+
+### Heat Capacity ⭐
+
+```
+         q
+C = ────────
+       ΔT
+
+Cᵥ = (∂U/∂T)ᵥ    (at constant volume)
+Cₚ = (∂H/∂T)ₚ    (at constant pressure)
+
+For ideal gas: Cₚ − Cᵥ = R
+
+         Cₚ
+γ = ──────── (adiabatic index / heat capacity ratio)
+         Cᵥ
+
+Monatomic: Cᵥ = 3R/2, Cₚ = 5R/2, γ = 5/3
+Diatomic: Cᵥ = 5R/2, Cₚ = 7R/2, γ = 7/5
+Polyatomic: Cᵥ = 3R, Cₚ = 4R, γ = 4/3
+```
+
+### Adiabatic Process Equations:
+```
+TV^(γ−1) = constant
+TP^(1−γ)/γ = constant (or T/P^((γ−1)/γ) = constant)
+PV^γ = constant
+
+Work in reversible adiabatic:
+w = nCᵥ(T₂ − T₁) = (P₁V₁ − P₂V₂)/(γ − 1)
+```
+
+## 6.5 Standard Enthalpy Changes ⭐⭐
+
+### Standard Conditions: 298 K, 1 bar (100 kPa), 1 M solutions
+
+**Standard Enthalpy of Formation (ΔHf°):**
+> Enthalpy change when 1 mole of compound forms from elements in standard state
+
+- ΔHf° of any element in standard state = 0
+
+**Hess's Law:**
+> *Enthalpy change of a reaction is independent of the path taken*
+
+```
+ΔHrxn = ΣΔHf°(products) − ΣΔHf°(reactants)
+```
+
+### Types of Enthalpy Changes:
+
+| Type | Definition |
+|---|---|
+| ΔH_combustion | Burning 1 mole completely in O₂ |
+| ΔH_neutralization | Neutralization of 1 mole of H⁺ with OH⁻ → −57.1 kJ/mol (strong acid + strong base) |
+| ΔH_hydration | Hydration of 1 mole of gaseous ions |
+| ΔH_solution | Dissolving 1 mole of solute in large excess solvent |
+| ΔH_atomization | 1 mole of atoms from element in standard state |
+| ΔH_ionization | Removing electron from 1 mole gaseous atoms |
+| ΔH_sublimation | Converting 1 mole solid to gas |
+| ΔH_fusion | Melting 1 mole of solid |
+| ΔH_vaporization | Vaporizing 1 mole of liquid |
+
+**Bond Enthalpy Method:**
+```
+ΔHrxn = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed)
+```
+
+### Kirchhoff's Equation:
+```
+ΔH(T₂) = ΔH(T₁) + ΔCₚ(T₂ − T₁)
+
+where ΔCₚ = Σ(Cₚ of products) − Σ(Cₚ of reactants)
+```
+
+## 6.6 Entropy (S) ⭐⭐
+
+> *Measure of randomness/disorder in a system*
+
+```
+ΔS = qrev/T  (for reversible process)
+
+ΔS > qirrev/T  (for irreversible process)
+```
+
+### Third Law of Thermodynamics:
+> *Entropy of a perfectly crystalline solid at 0 K is zero (S = 0 at 0 K)*
+
+### Standard Entropy Change:
+```
+ΔS°rxn = ΣS°(products) − ΣS°(reactants)
+```
+
+**Entropy changes:**
+- Solid < Liquid < Gas
+- ΔS > 0: Gas produced, mixing, dissolution of most solids
+- ΔS < 0: Gas consumed, ordering
+
+## 6.7 Second Law of Thermodynamics
+
+> *For a spontaneous process, entropy of universe increases*
+
+```
+ΔS_universe = ΔS_system + ΔS_surroundings > 0  (spontaneous)
+ΔS_universe = 0  (reversible/equilibrium)
+ΔS_universe < 0  (non-spontaneous)
+```
+
+## 6.8 Gibbs Free Energy (G) ⭐⭐⭐
+
+```
+G = H − TS
+
+ΔG = ΔH − TΔS   (at constant T and P)
+
+ΔG°rxn = ΣΔGf°(products) − ΣΔGf°(reactants)
+```
+
+### Spontaneity Criteria:
+
+| ΔH | ΔS | ΔG = ΔH − TΔS | Spontaneity |
+|---|---|---|---|
+| − | + | Always − | Always spontaneous |
+| + | − | Always + | Never spontaneous |
+| − | − | − at low T | Spontaneous at low T |
+| + | + | − at high T | Spontaneous at high T |
+
+### Relationship with Equilibrium:
+```
+ΔG = ΔG° + RT ln Q
+
+At equilibrium (Q = K): ΔG = 0
+ΔG° = −RT ln Kp = −RT ln Kc (approximately)
+
+ΔG° = −nFE°cell (for electrochemical cells)
+```
+
+**Work from Gibbs Energy:**
+```
+Maximum non-PV work = −ΔG
+```
+
+---
+
+---
+
+# 7. EQUILIBRIUM
+
+## 7.1 Dynamic Equilibrium
+
+> *Forward and reverse reaction rates are equal; concentrations remain constant*
+
+**Physical equilibrium:** Phase changes, dissolution
+**Chemical equilibrium:** Reversible chemical reactions
+
+## 7.2 Law of Mass Action & Equilibrium Constant ⭐⭐
+
+For: **aA + bB ⇌ cC + dD**
+
+```
+         [C]^c [D]^d
+Kc = ─────────────────
+         [A]^a [B]^b
+
+         (Pc)^c (Pd)^d
+Kp = ──────────────────
+         (Pa)^a (Pb)^b
+```
+
+### Relationship between Kp and Kc:
+```
+Kp = Kc (RT)^Δnᵍ
+
+Δnᵍ = (c + d) − (a + b) = moles of gaseous products − moles of gaseous reactants
+```
+
+### Properties of K:
+- Dimensionless (activities, not concentrations)
+- Depends only on temperature
+- Large K → products favored; Small K → reactants favored
+- K > 10³ → forward reaction nearly complete
+- K < 10⁻³ → reverse reaction predominates
+
+### Manipulating K:
+```
+If reaction is reversed: K' = 1/K
+If equation is multiplied by n: K' = K^n
+If equations are added: K' = K₁ × K₂
+```
+
+## 7.3 Reaction Quotient (Q) and Predicting Direction
+
+```
+Q < K → Reaction proceeds forward (products form)
+Q > K → Reaction proceeds backward (reactants form)
+Q = K → System at equilibrium
+```
+
+## 7.4 Le Chatelier's Principle ⭐
+
+> *If a system at equilibrium is disturbed, it will shift to counteract the disturbance*
+
+| Disturbance | System Response |
+|---|---|
+| Add reactant | Shift right (forward) |
+| Remove reactant | Shift left (backward) |
+| Add product | Shift left |
+| Remove product | Shift right |
+| Increase pressure (compress) | Shift toward fewer moles of gas |
+| Decrease pressure (expand) | Shift toward more moles of gas |
+| Increase temperature | Shift toward endothermic side |
+| Decrease temperature | Shift toward exothermic side |
+| Add inert gas (constant V) | No effect |
+| Add catalyst | No effect on K or equilibrium position; only speeds up reaching equilibrium |
+
+## 7.5 Haber Process (Industrial Application)
+```
+N₂(g) + 3H₂(g) ⇌ 2NH₃(g)    ΔH = −92 kJ/mol
+
+Conditions: 400–500°C, 200 atm, Fe catalyst
+```
+**Le Chatelier analysis:**
+- High pressure favors NH₃ (fewer gas moles on product side)
+- Low temperature favors NH₃ (exothermic), but rate is slow → compromise at 400–500°C
+- Catalyst speeds equilibrium without affecting K
+
+## 7.6 Ionic Equilibrium ⭐⭐
+
+### Arrhenius Definition:
+- Acid: produces H⁺ in water
+- Base: produces OH⁻ in water
+
+### Brønsted-Lowry Definition:
+- Acid: proton (H⁺) donor
+- Base: proton acceptor
+- Conjugate acid-base pairs differ by H⁺
+
+### Lewis Definition:
+- Acid: electron pair acceptor
+- Base: electron pair donor
+
+### Ionization of Water (Kw):
+```
+H₂O ⇌ H⁺ + OH⁻
+
+Kw = [H⁺][OH⁻] = 1 × 10⁻¹⁴ at 25°C (increases with temperature)
+
+At 25°C: pKw = 14
+Neutral: [H⁺] = [OH⁻] = 10⁻⁷ M
+```
+
+### pH Scale:
+```
+pH = −log[H⁺]
+pOH = −log[OH⁻]
+pH + pOH = pKw = 14 (at 25°C)
+
+Acidic: pH < 7
+Neutral: pH = 7
+Basic: pH > 7
+```
+
+### Weak Acid Ionization:
+```
+HA ⇌ H⁺ + A⁻
+
+         [H⁺][A⁻]
+Ka = ─────────────
+           [HA]
+
+[H⁺] = √(Ka × C)     (when α << 1)
+
+Degree of ionization: α = √(Ka/C)
+
+pH = ½(pKa − log C)
+```
+
+### Weak Base Ionization:
+```
+B + H₂O ⇌ BH⁺ + OH⁻
+
+         [BH⁺][OH⁻]
+Kb = ─────────────────
+            [B]
+
+[OH⁻] = √(Kb × C)
+
+pH = 14 − ½(pKb − log C) = 14 − pOH
+```
+
+### Ka × Kb = Kw (for conjugate acid-base pair)
+```
+pKa + pKb = pKw = 14
+```
+
+### Buffer Solutions ⭐
+
+> *Resist changes in pH on addition of acid or base*
+
+**Henderson-Hasselbalch Equation:**
+```
+pH = pKa + log([A⁻]/[HA])     (acidic buffer)
+pOH = pKb + log([BH⁺]/[B])    (basic buffer)
+```
+
+**Buffer capacity:** Maximum when [A⁻] = [HA] → pH = pKa (buffer range: pKa ± 1)
+
+### Hydrolysis of Salts:
+
+| Salt | Reaction | pH |
+|---|---|---|
+| Strong acid + Strong base (NaCl) | No hydrolysis | = 7 |
+| Weak acid + Strong base (CH₃COONa) | A⁻ + H₂O ⇌ HA + OH⁻ | > 7 |
+| Strong acid + Weak base (NH₄Cl) | BH⁺ + H₂O ⇌ B + H₃O⁺ | < 7 |
+| Weak acid + Weak base (CH₃COONH₄) | Both hydrolyze | ≈7 (depends on Ka, Kb) |
+
+**pH of salt of weak acid + strong base:**
+```
+pH = 7 + ½(pKa + log C)
+```
+**pH of salt of strong acid + weak base:**
+```
+pH = 7 − ½(pKb + log C)
+```
+
+### Solubility Product (Ksp) ⭐
+
+```
+For MₓXy ⇌ xMⁿ⁺(aq) + yXᵐ⁻(aq)
+
+Ksp = [Mⁿ⁺]ˣ[Xᵐ⁻]ʸ
+```
+
+**Relationship between Ksp and molar solubility (s):**
+- AB type: Ksp = s² → s = √Ksp
+- AB₂ type: Ksp = 4s³ → s = ∛(Ksp/4)
+- A₂B₃ type: Ksp = 108s⁵ → s = (Ksp/108)^(1/5)
+
+**Common Ion Effect:**
+> *Solubility decreases when a common ion is added (Ksp shifts left)*
+
+**Precipitation:**
+```
+If ionic product (IP) > Ksp → precipitation occurs
+If IP < Ksp → no precipitation (solution unsaturated)
+If IP = Ksp → solution just saturated
+```
+
+---
+
+---
+
+# 8. REDOX REACTIONS
+
+## 8.1 Oxidation States ⭐
+
+### Rules (in order of priority):
+1. Free element: OS = 0 (Na, Cl₂, S₈)
+2. Monoatomic ion: OS = charge (Na⁺ = +1, Cl⁻ = −1)
+3. Sum of OS in compound = 0; in polyatomic ion = ionic charge
+4. Fluorine always −1
+5. H: +1 (usually), −1 in metal hydrides (NaH)
+6. O: −2 (usually), −1 in peroxides (H₂O₂, Na₂O₂), −½ in superoxides, +2 in OF₂
+7. Alkali metals: always +1; Alkaline earth: always +2
+
+### Balancing Redox Reactions:
+
+**Ion-Electron Method:**
+1. Split into half-reactions (oxidation and reduction)
+2. Balance atoms (except H and O)
+3. Balance O by adding H₂O
+4. Balance H by adding H⁺ (acidic) or OH⁻ (basic)
+5. Balance charge by adding electrons
+6. Multiply half-reactions so electrons cancel
+7. Add half-reactions
+
+**Oxidation Number Method:**
+1. Assign OS to all atoms
+2. Identify atoms changing OS
+3. Calculate change in OS
+4. Multiply by appropriate factor to equalize electron loss/gain
+5. Balance remaining atoms
+
+## 8.2 Disproportionation
+
+> *When an element in one oxidation state simultaneously gets oxidized and reduced*
+
+Examples:
+```
+Cl₂ + 2NaOH → NaCl + NaOCl + H₂O
+P₄ + 3NaOH + 3H₂O → 3NaH₂PO₂ + PH₃
+```
+
+---
+
+---
+
+# 9. HYDROGEN
+
+## 9.1 Properties of Hydrogen
+
+- Most abundant element in universe
+- Lightest element, Z = 1
+- Isotopes: Protium (¹H), Deuterium (²H or D), Tritium (³H or T, radioactive)
+
+## 9.2 Preparation of Hydrogen
+
+```
+Industrial (Steam Reforming):
+CH₄ + H₂O → CO + 3H₂    (900°C, Ni catalyst — Water gas shift reaction)
+CO + H₂O → CO₂ + H₂     (400°C, Fe₂O₃ catalyst)
+
+Electrolysis of water:
+2H₂O → 2H₂ + O₂
+
+Lab (Zn + dil. H₂SO₄):
+Zn + H₂SO₄ → ZnSO₄ + H₂↑
+```
+
+## 9.3 Hydrides
+
+| Type | Examples | Properties |
+|---|---|---|
+| Ionic/Saline | NaH, CaH₂, LiH | Metal hydrides, strong reducing agents |
+| Covalent | CH₄, NH₃, HCl, H₂O | Molecular |
+| Metallic/Interstitial | PdH₀.₈₉, TiH₁.₇₃ | Non-stoichiometric, metallic appearance |
+
+## 9.4 Water (H₂O) ⭐
+
+**Structure:** Bent, sp³ hybridized O, bond angle 104.5°, μ = 1.85 D
+
+**Anomalous Properties (due to H-bonding):**
+- High BP (100°C) vs H₂S (−60°C)
+- Maximum density at 4°C
+- High specific heat capacity (4.18 J/g·K)
+- Ice less dense than liquid water (floats)
+
+### Hard Water:
+- **Temporary hardness:** Ca(HCO₃)₂, Mg(HCO₃)₂ → removed by boiling
+- **Permanent hardness:** CaSO₄, MgSO₄, CaCl₂ → removed by Na₂CO₃ (Soda ash), or ion exchange
+
+## 9.5 Hydrogen Peroxide (H₂O₂) ⭐
+
+**Structure:** Non-planar, dihedral angle 111.5°, O-O bond, H-O-O angle 96.87°
+
+**Preparation:**
+```
+BaO₂ + H₂SO₄ → BaSO₄ + H₂O₂   (Merck's method)
+2F₂ + 2NaOH → 2NaF + H₂O₂     (at low temperature)
+Electrolysis of H₂SO₄: then hydrolysis of peroxodisulfate
+```
+
+**Properties:**
+- Oxidizing agent: H₂O₂ + 2H⁺ + 2e⁻ → 2H₂O (usually)
+- Reducing agent: H₂O₂ → O₂ + 2H⁺ + 2e⁻ (with strong oxidizers like KMnO₄)
+- Bleaching agent (oxidative bleaching)
+- 100 volume H₂O₂: 1 mL gives 100 mL O₂ at STP (≈ 30% w/v)
+
+---
+
+---
+
+# 10. s-BLOCK ELEMENTS
+
+## 10.1 Group 1 (Alkali Metals): Li, Na, K, Rb, Cs, Fr
+
+### Electronic Configuration: [Noble gas] ns¹
+
+### Physical Properties:
+- Silvery-white, soft metals
+- Low density (Li, Na, K float on water)
+- Low melting/boiling points (decrease down group)
+- Large atomic radii, largest in their period
+
+### Chemical Properties:
+
+**Reaction with O₂:**
+```
+4Li + O₂ → 2Li₂O    (oxide)
+2Na + O₂ → Na₂O₂    (peroxide, excess O₂) → 4Na + O₂ → 2Na₂O (limited O₂)
+K, Rb, Cs + O₂ → Superoxides (MO₂)
+```
+
+**Reaction with H₂O:**
+```
+2M + 2H₂O → 2MOH + H₂
+(Reactivity: Li < Na < K < Rb < Cs)
+```
+
+**Reaction with H₂:**
+```
+2M + H₂ → 2MH (ionic hydrides)
+```
+
+**Reaction with Halogens:**
+```
+2M + X₂ → 2MX (halides)
+```
+
+### Anomalous Behavior of Li:
+Li resembles Mg (diagonal relationship):
+- Both form nitrides (Li₃N, Mg₃N₂)
+- Both have high charge/size ratio
+- Li₂CO₃ decomposes on heating
+- LiOH is not very stable thermally
+
+### Important Compounds:
+
+**NaOH (Caustic Soda):**
+- Made by Chlor-alkali process (electrolysis of brine): 2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH
+
+**Na₂CO₃ (Washing Soda, Solvay Process):**
+```
+NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl
+2NaHCO₃ → Na₂CO₃ + H₂O + CO₂
+```
+
+**NaHCO₃ (Baking Soda):** Mild antacid, in baking powder (with tartaric acid)
+
+## 10.2 Group 2 (Alkaline Earth Metals): Be, Mg, Ca, Sr, Ba, Ra
+
+### Electronic Configuration: [Noble gas] ns²
+
+### General Properties:
+- Harder and denser than Group 1
+- Higher melting points than Group 1
+- IE₂ much higher than IE₁ (but both are removed in reactions → +2 oxidation state)
+
+### Anomalous Behavior of Be:
+Be resembles Al (diagonal relationship):
+- Both are amphoteric (react with NaOH and HCl)
+- Both form covalent halides
+- Both form layer lattice hydroxides
+- Be doesn't react with water; Al forms oxide layer
+
+### Important Reactions:
+
+**Mg with hot water/steam:**
+```
+Mg + H₂O → MgO + H₂ (Ca reacts with cold water)
+2Mg + O₂ → 2MgO  (burns brilliantly in O₂)
+3Mg + N₂ → Mg₃N₂ (burns in N₂)
+```
+
+**Ca with CO₂:**
+```
+Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O (milky)
+CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂  (excess CO₂ → clear again)
+```
+
+### Important Compounds:
+
+**CaO (Quicklime):**
+```
+CaCO₃ →(Δ)→ CaO + CO₂  (∼825°C)
+CaO + H₂O → Ca(OH)₂ + heat  (slaking)
+```
+
+**Ca(OH)₂ (Slaked Lime):**
+- Limewater: dilute Ca(OH)₂ solution
+- Used in whitewashing, mortar, Solvay process
+
+**CaSO₄ (Gypsum: CaSO₄·2H₂O):**
+```
+CaSO₄·2H₂O →(120°C)→ CaSO₄·½H₂O (Plaster of Paris)
+Plaster of Paris + H₂O → CaSO₄·2H₂O (sets/hardens)
+Dead burnt plaster: CaSO₄ (>200°C) — doesn't set
+```
+
+**CaCO₃:** Limestone, marble, chalk
+
+**Mg(OH)₂:** Milk of magnesia (antacid)
+
+---
+
+---
+
+# 11. p-BLOCK ELEMENTS (GROUP 13 & 14)
+
+## 11.1 Group 13 (Boron Family): B, Al, Ga, In, Tl
+
+### Electronic Configuration: [Noble gas] ns² np¹
+
+### Boron (B):
+- Non-metal, very high melting point (2573 K), hard
+- Covalent compounds only (small size, high charge density)
+- Electron-deficient: forms Lewis acid
+
+**Borax (Na₂B₄O₇·10H₂O):**
+```
+Na₂B₄O₇·10H₂O → Na₂B₄O₇ + 10H₂O
+Na₂B₄O₇ → 2NaBO₂ + B₂O₃  (borax bead test)
+```
+Structure: [B₄O₅(OH)₄]²⁻ with 2 sp³ and 2 sp² boron atoms
+
+**Boric Acid (H₃BO₃):**
+- Weak monobasic acid (not Brønsted acid; Lewis acid)
+- H₃BO₃ + H₂O ⇌ [B(OH)₄]⁻ + H⁺  (accepts OH⁻)
+- Layered structure with H-bonding
+- On heating: H₃BO₃ → HBO₂ → B₂O₃
+
+### Aluminium (Al):
+- Most abundant metal in earth's crust (after O and Si, Al is 3rd most abundant element)
+- Amphoteric metal:
+
+```
+Al + NaOH(dil) + H₂O → NaAl(OH)₄ (tetrahydroxoaluminate) + H₂↑
+Al + 3HCl → AlCl₃ + 3/2 H₂↑
+```
+
+**Alumina (Al₂O₃):** α-Al₂O₃ (corundum) very hard; γ-Al₂O₃ = active catalyst support
+
+**Alum (KAl(SO₄)₂·12H₂O):** Used in water purification (coagulation of colloidal particles)
+
+**AlCl₃:** Covalent, Lewis acid, used in Friedel-Crafts reactions, dimerizes to Al₂Cl₆
+
+## 11.2 Group 14 (Carbon Family): C, Si, Ge, Sn, Pb
+
+### Electronic Configuration: [Noble gas] ns² np²
+
+### Carbon (C):
+**Allotropes:**
+
+| Form | Structure | Properties |
+|---|---|---|
+| Diamond | sp³, tetrahedral, 3D network | Hardest, insulator, high density |
+| Graphite | sp², layers, delocalized π-e⁻ | Soft, conductor, lubricant, low density |
+| Fullerene (C₆₀) | sp², closed cage | Semiconductor, cage structure |
+
+**Oxides:**
+- CO: reducing agent, toxic (binds hemoglobin), neutral oxide
+- CO₂: acidic oxide, greenhouse gas; forms H₂CO₃ with water
+
+**Silicon:**
+- Giant covalent structure (like diamond)
+- SiO₂ (quartz): acidic oxide; used in glass, optical fibers
+- Silicates: basic unit = SiO₄⁴⁻ tetrahedra
+- Silicones: (–SiR₂–O–)ₙ synthetic polymers, water-repellent
+
+### Trends in Group 14:
+- **Stability of +2 state:** Increases down the group (Inert pair effect: ns² electrons become inert)
+  - C, Si: +4 dominant
+  - Ge: +4 > +2
+  - Sn: +4 and +2 both stable
+  - Pb: +2 dominant (Pb⁴⁺ is strong oxidizer)
+
+**Inert Pair Effect:** ns² electrons in heavier elements are more stable (increased nuclear attraction, poor shielding by d and f electrons) → less likely to participate in bonding
+
+---
+
+---
+
+# 12. ORGANIC CHEMISTRY — BASIC PRINCIPLES & TECHNIQUES
+
+## 12.1 Tetravalency of Carbon & Catenation
+
+- Carbon forms 4 covalent bonds (sp, sp², sp³)
+- Catenation: ability to bond with itself → chains, rings, branched structures
+- Organic compounds: contain C-H bonds (broadly)
+
+## 12.2 Classification of Organic Compounds
+
+```
+Organic Compounds
+├── Acyclic (open chain)
+│   ├── Straight chain
+│   └── Branched chain
+└── Cyclic
+    ├── Carbocyclic
+    │   ├── Alicyclic (cycloalkanes)
+    │   └── Aromatic (benzene and derivatives)
+    └── Heterocyclic (N, O, S in ring)
+```
+
+## 12.3 Functional Groups ⭐
+
+| Functional Group | Name | Example |
+|---|---|---|
+| -OH | Hydroxyl | CH₃OH (methanol) |
+| -CHO | Aldehyde | CH₃CHO (ethanal) |
+| -CO- | Ketone | CH₃COCH₃ (propanone) |
+| -COOH | Carboxyl | CH₃COOH (acetic acid) |
+| -COO- | Ester | CH₃COOC₂H₅ |
+| -NH₂ | Amino | CH₃NH₂ (methylamine) |
+| -X (F,Cl,Br,I) | Halo | CH₃Cl (chloromethane) |
+| -CN | Nitrile | CH₃CN |
+| -NO₂ | Nitro | C₆H₅NO₂ |
+| C=C | Alkene | CH₂=CH₂ |
+| C≡C | Alkyne | HC≡CH |
+
+## 12.4 IUPAC Nomenclature ⭐⭐
+
+### Prefix for Chain Length:
+
+| # C | Prefix | | # C | Prefix |
+|---|---|---|---|---|
+| 1 | Meth- | | 6 | Hex- |
+| 2 | Eth- | | 7 | Hept- |
+| 3 | Prop- | | 8 | Oct- |
+| 4 | But- | | 9 | Non- |
+| 5 | Pent- | | 10 | Dec- |
+
+### Suffix by Functional Group (Priority Order):
+```
+COOH > SO₃H > COOR > COX > CONH₂ > CHO > C=O > OH > NH₂ > C≡C > C=C
+```
+
+**Steps for IUPAC naming:**
+1. Identify longest C chain containing principal functional group
+2. Number from end closer to principal group
+3. Name substituents alphabetically with position numbers
+4. Combine: prefix-substituents + parent chain + suffix
+
+### Common Substituent Names:
+- -CH₃: methyl, -C₂H₅: ethyl, -C₃H₇: propyl
+- -CH₂-: methylene, -CH=: methylidene
+- -(CH₃)₂CH-: isopropyl (1-methylethyl)
+- (CH₃)₃C-: tert-butyl (1,1-dimethylethyl)
+
+## 12.5 Isomerism ⭐⭐
+
+### Structural Isomerism:
+1. **Chain isomerism:** Different carbon skeletons (n-butane vs isobutane)
+2. **Position isomerism:** Same group at different positions (1-propanol vs 2-propanol)
+3. **Functional group isomerism:** Same formula, different groups (CH₃CHO vs CH₂=CHOH)
+4. **Metamerism:** Different alkyl groups on same functional group (diethyl ether vs methyl propyl ether)
+5. **Tautomerism:** Interconversion, usually keto-enol
+
+### Stereoisomerism:
+1. **Geometrical (cis-trans / E-Z) isomerism:**
+   - Requires restricted rotation (C=C, ring) and two different groups on each carbon
+
+   ```
+   E (entgegen): Higher priority groups on opposite sides
+   Z (zusammen): Higher priority groups on same side
+   
+   Priority by Cahn-Ingold-Prelog (CIP) rules: Higher atomic number = higher priority
+   ```
+
+2. **Optical isomerism:**
+   - Chiral carbon = C bonded to 4 different groups (sp3, asymmetric center)
+   - Enantiomers: non-superimposable mirror images; identical physical properties but rotate plane-polarized light in opposite directions
+   - R-S configuration by CIP rules
+
+   ```
+   Maximum optical isomers = 2ⁿ (n = number of chiral centers, if no meso form)
+   ```
+   - **Meso compounds:** Has chiral centers but has internal plane of symmetry → optically inactive
+   - **Racemic mixture:** 50:50 mixture of enantiomers → no net optical rotation ([α] = 0)
+   - **Diastereomers:** Stereoisomers that are NOT mirror images; have different physical properties
+
+## 12.6 Electronic Effects ⭐⭐
+
+### Inductive Effect (I Effect):
+> *Permanent polarization of σ bond due to electronegativity difference; transmitted through chain (decreases with distance)*
+
+- **−I effect** (electron withdrawing): −NO₂, −CN, −COOH, −CHO, −F, −Cl, −Br, −I, −OH, −OR, −NH₂
+- **+I effect** (electron donating): alkyl groups (CH₃, C₂H₅... in order of increasing +I), negative charges
+
+### Resonance Effect (Mesomeric Effect, M Effect):
+> *Delocalization of π electrons or lone pairs through conjugated system*
+
+- **−M effect** (electron withdrawing): −NO₂, −CN, −COOH, −CHO, −CO− (withdraws e⁻ from ring/system)
+- **+M effect** (electron donating): −NH₂, −OH, −OR, −X (donates lone pair into system)
+
+### Hyperconjugation:
+> *Delocalization of σ (C-H) bonding electrons with adjacent π system or empty orbital*
+> Baker-Nathan Effect
+
+**Condition:** C-H bond adjacent to C=C or C⁺ or C radical
+
+```
+Number of hyperconjugative structures = number of α-H atoms
+More α-H → more hyperconjugation → more stability
+```
+
+**Stability of Carbocations:**
+```
+3° > 2° > 1° > CH₃⁺
+(due to +I effect and hyperconjugation of alkyl groups)
+```
+
+**Stability of Radicals:**
+```
+3° > 2° > 1° > CH₃•
+```
+
+**Stability of Carbanions:**
+```
+CH₃⁻ > 1° > 2° > 3°
+(alkyl groups destabilize by +I effect)
+```
+
+### Electromeric Effect (E Effect):
+> *Temporary effect; complete transfer of π electrons to one atom when attacking reagent approaches*
+
+- **+E effect:** π electrons toward attacking reagent
+- **−E effect:** π electrons away from attacking reagent
+
+## 12.7 Reaction Intermediates ⭐
+
+### Carbocations (Carbonium Ions):
+- sp² hybridized, trigonal planar, empty p-orbital
+- Stability: 3° > 2° > 1° > CH₃⁺
+- Benzylic and allylic carbocations stabilized by resonance
+
+### Carbanions:
+- sp³ hybridized, pyramidal, lone pair
+- Stability: CH₃⁻ > 1° > 2° > 3°
+- Stabilized by −I and −M groups adjacent
+
+### Free Radicals:
+- sp² hybridized (usually), one unpaired electron
+- Stability: 3° > 2° > 1° > CH₃•
+- Stabilized by resonance, hyperconjugation
+
+### Carbenes (:CR₂):
+- Neutral, divalent carbon (two bonds, two nonbonding electrons)
+- Singlet (paired) or triplet (unpaired) state
+- Example: :CH₂ (methylene)
+
+### Nitrene (:NR):
+- Neutral, monovalent nitrogen with lone pair
+
+## 12.8 Types of Organic Reactions
+
+### By Bond Cleavage:
+
+**Homolytic Fission:**
+```
+A:B → A• + •B  (equal sharing → free radicals; favored by nonpolar bonds, UV light, heat)
+```
+
+**Heterolytic Fission:**
+```
+A:B → A⁺ + B⁻  or  A⁻ + B⁺  (unequal sharing → ions; favored by polar bonds, polar solvents)
+```
+
+### By Reagent Type:
+
+| Reagent Type | Description | Example |
+|---|---|---|
+| Electrophile (E⁺) | Electron-pair acceptor | H⁺, NO₂⁺, Br⁺, BF₃ |
+| Nucleophile (Nu⁻) | Electron-pair donor | OH⁻, CN⁻, NH₃, H₂O, Cl⁻ |
+| Free radical | Unpaired electron | Cl•, Br• |
+
+### Reaction Types:
+
+| Type | Mechanism | Example |
+|---|---|---|
+| Substitution (S) | One group replaces another | CH₄ + Cl₂ → CH₃Cl + HCl |
+| Addition (A) | Two reactants → one product | CH₂=CH₂ + Br₂ → CH₂BrCH₂Br |
+| Elimination (E) | One reactant → two products | CH₃CH₂Br + KOH → CH₂=CH₂ + KBr + H₂O |
+| Rearrangement (R) | Restructuring of carbon skeleton | 1,2-hydride or 1,2-alkyl shift |
+
+---
+
+---
+
+# 13. HYDROCARBONS
+
+## 13.1 Alkanes (CₙH₂ₙ₊₂) ⭐
+
+### Nomenclature: Suffix = -ane
+Methane, Ethane, Propane, Butane, Pentane, Hexane, Heptane, Octane, Nonane, Decane
+
+### Properties of Methane:
+- Colorless, odorless, less dense than air
+- Nearly insoluble in water
+- Chief constituent of natural gas, biogas
+
+### Reactions:
+
+**1. Free Radical Halogenation (SR — Substitution Radical):**
+```
+CH₄ + Cl₂ → CH₃Cl + HCl   (sunlight/UV, hν)
+
+Mechanism:
+Initiation:   Cl₂ →(hν)→ 2Cl•
+Propagation:  Cl• + CH₄ → HCl + CH₃•
+              CH₃• + Cl₂ → CH₃Cl + Cl•
+Termination:  Cl• + Cl• → Cl₂
+              CH₃• + CH₃• → C₂H₆
+              CH₃• + Cl• → CH₃Cl
+```
+
+**Reactivity order:** F₂ > Cl₂ > Br₂ > I₂ (iodination doesn't occur practically)
+**Selectivity order:** I₂ > Br₂ > Cl₂ > F₂ (Br₂ most selective in practice)
+
+**2. Combustion:**
+```
+CₙH₂ₙ₊₂ + (3n+1)/2 O₂ → nCO₂ + (n+1)H₂O
+CH₄ + 2O₂ → CO₂ + 2H₂O  (complete combustion)
+Incomplete: CO + soot (C) formed
+```
+
+**3. Cracking:**
+- Thermal cracking: high temperature, breaks C-C bonds
+- Catalytic cracking: zeolite catalysts
+
+**4. Isomerization:**
+- n-butane → iso-butane (AlCl₃/HCl, heat)
+
+**5. Reforming:**
+- Straight chain → branched/aromatic (Pt catalyst)
+
+**Conformations of Ethane:**
+```
+Staggered (gauche or anti) vs Eclipsed
+Newman projection analysis:
+Staggered (anti): lowest energy, dihedral angle = 60° between H atoms
+Eclipsed: highest energy (torsional strain)
+```
+
+## 13.2 Alkenes (CₙH₂ₙ) ⭐⭐
+
+### Preparation:
+
+**1. Dehydrohalogenation (Elimination, E2):**
+```
+CH₃CH₂Cl + KOH(alc.) → CH₂=CH₂ + KCl + H₂O
+
+Zaitsev's Rule: Predominant product is more substituted alkene
+```
+
+**2. Dehydration of alcohols:**
+```
+CH₃CH₂OH →(H₃PO₄/heat or H₂SO₄/170°C)→ CH₂=CH₂ + H₂O
+
+At 140°C: Ether (ethoxyethane) formed — intermolecular dehydration
+At 170°C: Alkene — intramolecular dehydration
+```
+
+**3. Reduction of alkynes:**
+```
+HC≡CH + H₂ →(Lindlar's catalyst: Pd/BaSO₄/quinoline)→ cis-CH₂=CH₂
+HC≡CH + Na/liq. NH₃ → trans-alkene (Birch reduction)
+```
+
+### Reactions of Alkenes ⭐⭐
+
+**1. Electrophilic Addition:**
+
+**Hydrohalogenation (Markovnikov's Rule):**
+```
+CH₃-CH=CH₂ + HBr → CH₃-CHBr-CH₃  (Markovnikov: H adds to C with more H)
+
+Markovnikov's Rule: "In addition of HX to an unsymmetrical alkene, H adds to the carbon bearing more H atoms (or the more stable carbocation forms)"
+
+Anti-Markovnikov (Peroxide effect/Kharasch effect):
+CH₃-CH=CH₂ + HBr →(ROOR)→ CH₃-CH₂-CH₂Br  (free radical mechanism)
+```
+
+**Halogenation (Addition of X₂):**
+```
+CH₂=CH₂ + Br₂(CCl₄) → CH₂Br-CH₂Br  (anti addition)
+Br₂ solution decolorized → test for alkene
+```
+
+**Hydration:**
+```
+CH₂=CH₂ + H₂O →(H₃PO₄ or H₂SO₄)→ CH₃CH₂OH
+```
+
+**Oxymercuration-Demercuration:**
+```
+Alkene + Hg(OAc)₂/H₂O → (demercurate with NaBH₄) → Markovnikov alcohol
+(syn addition, no rearrangement)
+```
+
+**Hydroboration-Oxidation (Anti-Markovnikov):**
+```
+Alkene + BH₃ → trialkylborane →(H₂O₂/OH⁻)→ Anti-Markovnikov alcohol
+(syn addition)
+```
+
+**2. Ozonolysis:**
+```
+Reductive ozonolysis: R-CH=CH-R' + O₃, then Zn/H₂O → R-CHO + R'-CHO
+Oxidative ozonolysis: + H₂O₂ → R-COOH + R'-COOH
+```
+
+**3. Epoxidation:**
+```
+Alkene + mCPBA (meta-chloroperoxybenzoic acid) → epoxide (oxirane)
+```
+
+**4. Polymerization:**
+```
+nCH₂=CH₂ →(high P, T, catalyst)→ (-CH₂-CH₂-)ₙ  (polyethylene)
+```
+
+### Stability of Alkenes:
+```
+More substituted = more stable (hyperconjugation, +I effect of alkyl groups)
+Trans > Cis (less steric strain)
+```
+
+## 13.3 Alkynes (CₙH₂ₙ₋₂) ⭐
+
+### Preparation:
+**1. Dehydrohalogenation (double):**
+```
+CH₃CHBr₂ + 2KOH(alc.) → CH≡CH + 2KBr + 2H₂O
+```
+
+**2. From calcium carbide:**
+```
+CaC₂ + H₂O → Ca(OH)₂ + HC≡CH↑
+```
+
+### Properties:
+
+**Acidity of Terminal Alkynes:**
+```
+RC≡CH + NaNH₂ → RC≡C⁻Na⁺ + NH₃  (pKa ~ 25)
+HC≡CH + AgNO₃(aq) → HC≡CAg↓ (silver acetylide, cream ppt)
+HC≡CH + CuCl(amm.) → HC≡CCu↓ (red ppt)
+
+Acidity: HC≡CH > H₂C=CH₂ > CH₃CH₃
+(sp > sp² > sp³ C-H bonds; more s character = stronger acid)
+```
+
+### Reactions:
+
+**1. Hydrogenation:**
+```
+HC≡CH + H₂ →(Pd-C)→ CH₂=CH₂ →(Pd-C)→ CH₃CH₃
+Partial: Lindlar → cis-alkene; Na/NH₃(l) → trans-alkene
+```
+
+**2. Halogenation:**
+```
+HC≡CH + Br₂(CCl₄) → CHBr=CHBr (dibromoalkene)
+                  + Br₂ → CHBr₂-CHBr₂ (tetrabromoethane)
+```
+
+**3. Hydration (Markovnikov):**
+```
+HC≡CH + H₂O →(HgSO₄/H₂SO₄, 60°C)→ CH₃CHO (vinyl alcohol → tautomerizes to acetaldehyde)
+```
+
+**4. Hydrohalogenation:**
+```
+HC≡CH + HCl →(HgCl₂/C)→ CH₂=CHCl (vinyl chloride → PVC)
+```
+
+## 13.4 Aromatic Hydrocarbons (Benzene) ⭐⭐
+
+### Benzene (C₆H₆):
+- Cyclic, planar, all C-C bonds equivalent (1.40 Å, between single 1.54 and double 1.34)
+- Resonance stabilization energy ≈ 150 kJ/mol (delocalization of 6 π electrons)
+- Hückel's Rule: Aromatic if 4n + 2 π electrons (n = 0,1,2...) in cyclic, planar, conjugated system
+
+### Hückel's Rule:
+```
+Aromatic: 4n+2 π electrons → C₆H₆ (6e⁻), C₁₀H₈ naphthalene (10e⁻)
+Antiaromatic: 4n π electrons → cyclobutadiene (4e⁻), cyclooctatetraene (8e⁻)
+Non-aromatic: not all p-orbitals continuous
+```
+
+### Electrophilic Aromatic Substitution (EAS) ⭐⭐
+
+**General Mechanism:**
+```
+Step 1: Generation of electrophile (E⁺)
+Step 2: Attack of E⁺ on benzene ring → arenium ion (σ-complex/Wheland intermediate)
+Step 3: Loss of H⁺ → restore aromaticity
+```
+
+**Key Reactions:**
+
+**1. Nitration:**
+```
+C₆H₆ + HNO₃ →(conc.H₂SO₄, 50°C)→ C₆H₅NO₂ + H₂O
+Electrophile: NO₂⁺ (nitronium ion)
+HNO₃ + H₂SO₄ → NO₂⁺ + HSO₄⁻ + H₂O
+```
+
+**2. Halogenation:**
+```
+C₆H₆ + Cl₂ →(FeCl₃, Lewis acid)→ C₆H₅Cl + HCl
+Electrophile: Cl⁺ (from Cl₂-FeCl₃ complex)
+```
+
+**3. Sulfonation:**
+```
+C₆H₆ + H₂SO₄(fuming) → C₆H₅SO₃H + H₂O  (reversible at high T)
+Electrophile: SO₃
+```
+
+**4. Friedel-Crafts Alkylation:**
+```
+C₆H₆ + RCl →(AlCl₃)→ C₆H₅R + HCl
+Electrophile: R⁺ (carbocation)
+Problem: polyalkylation, carbocation rearrangement
+```
+
+**5. Friedel-Crafts Acylation:**
+```
+C₆H₆ + RCOCl →(AlCl₃)→ C₆H₅COR + HCl
+Electrophile: RCO⁺ (acylium ion)
+No rearrangement (acylium is stabilized by resonance)
+```
+
+### Directing Effects of Substituents ⭐⭐
+
+**ortho/para-directing groups (+M or +I effect):**
+```
+–OH, –OR, –NH₂, –NR₂, –NHCOR, –X (halogens activate o/p but are deactivators overall)
+–CH₃, –C₂H₅ (alkyl groups: +I, hyperconjugation)
+```
+
+**meta-directing groups (−M or −I effect):**
+```
+–NO₂, –CN, –COOH, –CHO, –COR, –SO₃H
+(electron withdrawing groups → deactivate ring, direct to meta)
+```
+
+**Rules:**
+- EDG (electron donating): activate ring → faster EAS → ortho/para
+- EWG (electron withdrawing): deactivate ring → slower EAS → meta
+- For mixed substituents: more powerful group dominates
+
+### Addition Reactions of Benzene (rare):
+
+**Hydrogenation:**
+```
+C₆H₆ + 3H₂ →(Ni/Pt, high P)→ C₆H₁₂ (cyclohexane)
+```
+
+**Addition of Cl₂ (photochemical):**
+```
+C₆H₆ + 3Cl₂ →(hν)→ C₆H₆Cl₆ (BHC, benzene hexachloride = lindane)
+```
+
+---
+
+---
+
+# 14. ENVIRONMENTAL CHEMISTRY
+
+## 14.1 Environmental Segments
+
+- **Troposphere:** 0–12 km; weather, photochemical reactions
+- **Stratosphere:** 12–50 km; ozone layer at 20-30 km
+- **Mesosphere:** 50–80 km
+- **Thermosphere/Ionosphere:** 80–400 km; ionized by solar radiation
+
+## 14.2 Atmospheric Pollution
+
+### Tropospheric Pollutants:
+
+**Oxides of Sulfur (SO₂):**
+```
+Fossil fuel combustion: S + O₂ → SO₂ →(O₂/cat.)→ SO₃
+SO₃ + H₂O → H₂SO₄ (acid rain, pH < 5.6)
+```
+
+**Oxides of Nitrogen:**
+```
+N₂ + O₂ →(high T)→ 2NO (in car engines, lightning)
+2NO + O₂ → 2NO₂ (brown, toxic)
+NO₂ + H₂O → HNO₃ (acid rain)
+```
+
+**Acid Rain:**
+- pH < 5.6 (normal rain pH = 5.6 due to CO₂)
+- Causes: corrosion of metals, damage to limestone/marble, harm to aquatic life, plant damage
+- H₂SO₄ and HNO₃ are main acid rain constituents
+
+**Carbon Monoxide (CO):**
+- Incomplete combustion of fossil fuels
+- Toxic: binds hemoglobin (250× affinity than O₂) → carboxyhemoglobin → asphyxiation
+
+**Particulate Pollutants:**
+- Aerosols, dust, soot, pollen, asbestos
+- Smog = smoke + fog
+
+**Photochemical Smog:**
+```
+O₃, PAN (peroxyacetyl nitrate = CH₃CO-OO-NO₂), NO₂, RCHO, RCHO
+Formed by: NO₂ →(hν)→ NO + O•
+O• + O₂ → O₃
+O₃ + hydrocarbons → PAN (eye irritant)
+```
+
+### Stratospheric Pollution — Ozone Depletion ⭐
+
+**Ozone Formation/Destruction (Natural):**
+```
+O₂ →(hν, UV)→ 2O•
+O• + O₂ → O₃  (formation)
+O₃ →(hν, UV)→ O₂ + O•  (destruction = O₃ shields UV)
+```
+
+**CFC (Chlorofluorocarbons, Freons) — Ozone Depleters:**
+```
+CCl₂F₂ →(UV)→ •CCl F₂ + Cl•
+Cl• + O₃ → ClO• + O₂
+ClO• + O• → Cl• + O₂  (Cl• regenerated — chain reaction!)
+```
+One Cl• atom can destroy 10⁵ O₃ molecules
+
+**Other Ozone Depleters:** Halons (CBrF₃), N₂O, CH₄ (indirectly)
+
+**Montreal Protocol (1987):** International agreement to phase out CFCs
+
+## 14.3 Water Pollution
+
+### Biochemical Oxygen Demand (BOD):
+> *Amount of O₂ (mg/L) required by microorganisms to oxidize organic matter in water at 20°C for 5 days*
+- Clean water: BOD < 5 mg/L
+- Polluted water: BOD > 17 mg/L
+
+### Dissolved Oxygen (DO):
+- Healthy water: DO = 6–8 mg/L
+- Depleted DO → death of fish
+
+### Eutrophication:
+> *Excessive growth of algae in water body due to excess nutrients (NO₃⁻, PO₄³⁻) from agricultural runoff*
+- Algal bloom → depletes O₂ (algae die, bacteria decompose them using O₂)
+
+### Heavy Metal Pollution:
+- Lead (Pb): from leaded gasoline, old paints
+- Mercury (Hg): from industrial effluents → methylmercury (Minamata disease, Japan)
+- Cadmium (Cd): Itai-itai disease (Japan)
+- Arsenic: groundwater contamination
+
+## 14.4 Soil Pollution
+
+**Causes:** Pesticides, industrial waste, heavy metals, acid rain
+
+**Persistent Organic Pollutants (POPs):** DDT, PCBs, dioxins — bioaccumulate in food chain
+
+**Biomagnification:** Concentration of pollutant increases at higher trophic levels
+
+**Green Chemistry Principles:** Minimize waste, use renewable feedstocks, avoid toxic reagents, improve atom economy
+
+---
+
+---
+
+# 📊 QUICK REFERENCE: IMPORTANT CONSTANTS
+
+| Constant | Symbol | Value |
+|---|---|---|
+| Avogadro's number | Nₐ | 6.022 × 10²³ mol⁻¹ |
+| Planck's constant | h | 6.626 × 10⁻³⁴ J·s |
+| Boltzmann constant | k | 1.38 × 10⁻²³ J/K |
+| Gas constant | R | 8.314 J/(mol·K) |
+| Speed of light | c | 3 × 10⁸ m/s |
+| Faraday constant | F | 96485 C/mol ≈ 96500 C/mol |
+| Bohr radius | a₀ | 0.529 Å |
+| Electron mass | mₑ | 9.11 × 10⁻³¹ kg |
+| Proton mass | mₚ | 1.67 × 10⁻²⁷ kg |
+| 1 eV | | 1.6 × 10⁻¹⁹ J |
+| 1 atm | | 101325 Pa = 1.01325 bar |
+| 1 cal | | 4.184 J |
+
+---
+
+---
+
+# 🎯 JEE IMPORTANT TIPS & HIGH-WEIGHTAGE TOPICS
+
+## Must-Master Topics (High JEE Weightage):
+
+1. **Mole Concept & Stoichiometry** — Always in JEE, highly conceptual
+2. **Quantum Numbers & Electronic Configuration** — Direct questions + indirect applications
+3. **Chemical Bonding** — VSEPR, hybridization, polarity — Very frequent
+4. **Thermodynamics** — ΔG, ΔH, ΔS, Hess's Law — Numerical problems
+5. **Equilibrium** — Kc, Kp, pH, buffers, Ksp — Massive chapter, always tested
+6. **Bohr's Model** — Direct formula application + energy calculations
+7. **Organic Mechanisms** — Reaction types, intermediates, directing effects
+8. **Kinetic Theory** — Speed calculations, PV=nRT applications
+
+## Common Mistakes to Avoid:
+
+- Using Celsius instead of Kelvin in gas law calculations
+- Forgetting Δn_g when converting Kp ↔ Kc
+- Mixing up +I/−I and +M/−M effects in organic
+- Confusing EA with ΔegH sign conventions
+- Using 22.4 L/mol at non-STP conditions
+- Forgetting that bond order and bond length are inversely related
+
+## Dimensional Analysis Reminders:
+
+```
+Pressure: 1 atm = 760 mmHg = 101.325 kPa = 101325 Pa
+Energy: 1 kJ/mol = 1000 J/mol; 1 eV = 96.5 kJ/mol
+Wavelength: 1 Å = 10⁻¹⁰ m = 100 pm; 1 nm = 10⁻⁹ m
+```
+
+---
+
