@@ -9172,3 +9172,3403 @@ Wavelength: 1 Å = 10⁻¹⁰ m = 100 pm; 1 nm = 10⁻⁹ m
 
 ---
 
+# 📚 IIT JEE Class 12 Chemistry — Complete Master Notes
+
+> **Covers:** All NCERT + Beyond NCERT concepts | Every formula | Deep explanations | IIT JEE Advanced level
+> **Chapters:** Solid State • Solutions • Electrochemistry • Chemical Kinetics • Surface Chemistry • General Principles of Isolation • p-Block • d & f-Block • Coordination Compounds • Haloalkanes & Haloarenes • Alcohols, Phenols & Ethers • Aldehydes, Ketones & Carboxylic Acids • Amines • Biomolecules • Polymers • Chemistry in Everyday Life
+
+---
+
+## TABLE OF CONTENTS
+
+1. [Solid State](#1-solid-state)
+2. [Solutions](#2-solutions)
+3. [Electrochemistry](#3-electrochemistry)
+4. [Chemical Kinetics](#4-chemical-kinetics)
+5. [Surface Chemistry](#5-surface-chemistry)
+6. [General Principles & Processes of Isolation of Elements](#6-general-principles--processes-of-isolation-of-elements)
+7. [p-Block Elements (Groups 15–18)](#7-p-block-elements-groups-1518)
+8. [d- and f-Block Elements](#8-d--and-f-block-elements)
+9. [Coordination Compounds](#9-coordination-compounds)
+10. [Haloalkanes and Haloarenes](#10-haloalkanes-and-haloarenes)
+11. [Alcohols, Phenols and Ethers](#11-alcohols-phenols-and-ethers)
+12. [Aldehydes, Ketones and Carboxylic Acids](#12-aldehydes-ketones-and-carboxylic-acids)
+13. [Amines](#13-amines)
+14. [Biomolecules](#14-biomolecules)
+15. [Polymers](#15-polymers)
+16. [Chemistry in Everyday Life](#16-chemistry-in-everyday-life)
+
+---
+
+# 1. SOLID STATE
+
+## 1.1 Classification of Solids
+
+| Property | Crystalline | Amorphous |
+|----------|-------------|-----------|
+| Arrangement | Long-range order | Short-range order |
+| Melting point | Sharp | Range |
+| Cleavage | Clean planes | Irregular |
+| Examples | NaCl, Diamond, Quartz | Glass, Rubber, Plastic |
+| Nature | True solid | Pseudo-solid / Supercooled liquid |
+| Isotropy | Anisotropic | Isotropic |
+
+### Types of Crystalline Solids
+
+| Type | Constituents | Forces | Properties | Examples |
+|------|-------------|--------|------------|---------|
+| Ionic | Cations + Anions | Electrostatic | Hard, brittle, high MP, conducts in molten/solution | NaCl, MgO |
+| Covalent/Network | Atoms | Covalent bonds | Very hard, very high MP, insulator | Diamond, SiO₂, SiC |
+| Metallic | Metal cations + electron sea | Metallic bond | Lustrous, ductile, malleable, conductor | Fe, Cu, Ag |
+| Molecular | Molecules | London/Dipole/H-bond | Soft, low MP, insulator | Ice, CO₂, I₂ |
+
+---
+
+## 1.2 Crystal Lattice and Unit Cells
+
+**Crystal Lattice:** Regular 3D arrangement of constituent particles in space.
+
+**Unit Cell:** Smallest repeating unit of a crystal lattice.
+
+### Parameters of a Unit Cell
+- **Edge lengths:** a, b, c
+- **Interfacial angles:** α, β, γ
+- **α** = angle between b and c axes
+- **β** = angle between a and c axes  
+- **γ** = angle between a and b axes
+
+### Seven Crystal Systems
+
+| System | Edge Lengths | Angles | Example |
+|--------|-------------|--------|---------|
+| Cubic | a = b = c | α = β = γ = 90° | NaCl, Cu |
+| Tetragonal | a = b ≠ c | α = β = γ = 90° | SnO₂, TiO₂ |
+| Orthorhombic | a ≠ b ≠ c | α = β = γ = 90° | KNO₃, BaSO₄ |
+| Hexagonal | a = b ≠ c | α = β = 90°, γ = 120° | Mg, ZnO |
+| Rhombohedral | a = b = c | α = β = γ ≠ 90° | CaCO₃, As |
+| Monoclinic | a ≠ b ≠ c | α = γ = 90°, β ≠ 90° | Monoclinic S |
+| Triclinic | a ≠ b ≠ c | α ≠ β ≠ γ ≠ 90° | K₂Cr₂O₇ |
+
+### Bravais Lattices: 14 total
+
+| Crystal System | Bravais Lattices |
+|----------------|-----------------|
+| Cubic | Primitive (P), Body-centred (I), Face-centred (F) |
+| Tetragonal | P, I |
+| Orthorhombic | P, I, F, C (end-centred) |
+| Hexagonal | P |
+| Rhombohedral | P |
+| Monoclinic | P, C |
+| Triclinic | P |
+
+---
+
+## 1.3 Number of Atoms Per Unit Cell
+
+### Contribution of Atom at Different Positions
+
+| Position | Contribution |
+|----------|-------------|
+| Corner | 1/8 |
+| Edge centre | 1/4 |
+| Face centre | 1/2 |
+| Body centre | 1 |
+
+### Cubic Unit Cells
+
+| Unit Cell | Corners | Face | Body | Z (atoms/cell) |
+|-----------|---------|------|------|----------------|
+| Simple Cubic (SC) | 8 × 1/8 | — | — | **1** |
+| Body-Centred Cubic (BCC) | 8 × 1/8 | — | 1 × 1 | **2** |
+| Face-Centred Cubic (FCC) | 8 × 1/8 | 6 × 1/2 | — | **4** |
+
+---
+
+## 1.4 Packing Efficiency
+
+**Formula:**
+```
+Packing Efficiency = (Volume occupied by atoms in unit cell / Total volume of unit cell) × 100%
+```
+
+### Simple Cubic (SC)
+- Relation: 2r = a  →  r = a/2
+- Volume of 1 atom = (4/3)πr³
+- Z = 1
+```
+PE = [1 × (4/3)π(a/2)³] / a³ × 100 = π/6 × 100 ≈ 52.4%
+```
+
+### Body-Centred Cubic (BCC)
+- Relation: 4r = √3 a  →  r = (√3/4)a
+- Z = 2
+```
+PE = [2 × (4/3)π((√3/4)a)³] / a³ × 100 = (√3π/8) × 100 ≈ 68%
+```
+
+### Face-Centred Cubic (FCC) / Cubic Close Packing (CCP)
+- Relation: 4r = √2 a  →  r = a/(2√2)
+- Z = 4
+```
+PE = [4 × (4/3)π(a/2√2)³] / a³ × 100 = π/(3√2) × 100 ≈ 74%
+```
+
+---
+
+## 1.5 Density of Unit Cell
+
+```
+ρ = (Z × M) / (Nₐ × a³)
+```
+
+Where:
+- Z = number of atoms per unit cell
+- M = molar mass (g/mol)
+- Nₐ = Avogadro's number (6.022 × 10²³ mol⁻¹)
+- a = edge length of unit cell (cm)
+- ρ = density (g/cm³)
+
+> **IIT Tip:** Edge length 'a' must be in cm when density is in g/cm³. Convert pm → cm: 1 pm = 10⁻¹⁰ cm
+
+---
+
+## 1.6 Close Packing in Solids
+
+### 1D Packing
+Spheres arranged in a row; each sphere touches 2 neighbours.
+
+### 2D Packing
+- **Square close packing (AAA):** CN = 4, PE = 52.4%
+- **Hexagonal close packing (ABAB):** CN = 6, PE = 60.4%
+
+### 3D Packing
+
+**Stacking of Square layers (AAA...):**
+- Simple cubic structure
+- CN = 6
+
+**Stacking of Hexagonal layers:**
+
+**ABAB... (Hexagonal Close Packing, HCP):**
+- Tetrahedral voids of layer A covered by layer B
+- Third layer placed directly over A
+- CN = 12, PE ≈ 74%
+- Examples: Mg, Zn, Ti, Be
+
+**ABCABC... (Cubic Close Packing, CCP / FCC):**
+- Each new layer placed in different position
+- CN = 12, PE ≈ 74%
+- Examples: Cu, Ag, Au, Ni
+
+---
+
+## 1.7 Interstitial Voids
+
+### Tetrahedral Void
+- Formed when a sphere is placed on the triangular void of 3 spheres
+- Size: r_void / r_sphere = 0.225
+- Number of tetrahedral voids = **2N** (where N = number of close-packed spheres)
+
+### Octahedral Void
+- Formed at the centre of 6 spheres (4 in a layer, 1 above, 1 below)
+- Size: r_void / r_sphere = 0.414
+- Number of octahedral voids = **N**
+
+### Summary Table
+
+| Void | r_hole/r_atom | Number | CN of void |
+|------|--------------|--------|-----------|
+| Tetrahedral | 0.225 | 2N | 4 |
+| Octahedral | 0.414 | N | 6 |
+| Cubic | 0.732 | — | 8 |
+
+---
+
+## 1.8 Radius Ratio Rule (Ionic Crystals)
+
+```
+Radius Ratio = r⁺/r⁻
+```
+
+| r⁺/r⁻ | Void Occupied | CN of Cation | Structure |
+|--------|---------------|-------------|-----------|
+| 0.155 – 0.225 | Triangular | 3 | — |
+| 0.225 – 0.414 | Tetrahedral | 4 | ZnS (zinc blende) |
+| 0.414 – 0.732 | Octahedral | 6 | NaCl |
+| 0.732 – 1.000 | Cubic | 8 | CsCl |
+
+---
+
+## 1.9 Structures of Common Ionic Compounds
+
+### Rock Salt Structure (NaCl type)
+- Na⁺ in all octahedral voids of FCC Cl⁻ lattice
+- CN of Na⁺ = CN of Cl⁻ = 6
+- Z = 4 (formula units)
+- Examples: NaCl, KBr, MgO, FeO
+
+### Zinc Blende Structure (ZnS type)
+- S²⁻ in FCC; Zn²⁺ in alternate tetrahedral voids
+- CN of Zn²⁺ = CN of S²⁻ = 4
+- Z = 4
+- Examples: ZnS, CuCl, AgI
+
+### Fluorite Structure (CaF₂ type)
+- Ca²⁺ in FCC; F⁻ in all tetrahedral voids
+- CN of Ca²⁺ = 8, CN of F⁻ = 4
+- Z = 4
+- Examples: CaF₂, SrF₂, BaF₂, ThO₂, UO₂, BaCl₂
+
+### Anti-Fluorite Structure
+- Anions in FCC; Cations in all tetrahedral voids
+- Examples: Na₂O, Li₂O, K₂S
+
+### Caesium Chloride Structure (CsCl type)
+- Cs⁺ at body centre; Cl⁻ at corners (or vice versa)
+- CN of Cs⁺ = CN of Cl⁻ = 8
+- Z = 1
+- Examples: CsCl, CsBr, CsI
+
+### Corundum Structure (Al₂O₃)
+- Oxide in HCP; Al³⁺ in 2/3 of octahedral voids
+
+### Perovskite Structure (CaTiO₃)
+- Ca²⁺ at corners, Ti⁴⁺ at body centre, O²⁻ at face centres
+
+### Spinel Structure (MgAl₂O₄)
+- O²⁻ in FCC; Mg²⁺ in tetrahedral holes; Al³⁺ in octahedral holes
+
+---
+
+## 1.10 Defects in Crystals
+
+### Stoichiometric Defects
+
+**Schottky Defect:**
+- Equal number of cations and anions missing from lattice
+- Density decreases
+- Examples: NaCl, KBr, KCl, AgBr
+- Large ionic compounds with similar ionic radii
+
+**Frenkel Defect:**
+- Smaller ion displaced from lattice site to interstitial site
+- Density unchanged
+- Examples: AgCl, AgBr, AgI, ZnS
+- Ionic compounds with large difference in ionic radii
+
+**Interstitial Defect:** Extra atoms occupy interstitial sites (non-ionic solids)
+
+**Substitution Defect:** Foreign atoms replace lattice atoms
+
+### Non-Stoichiometric Defects
+
+**Metal Excess Defect (Anion Vacancy):**
+- Anion missing; electron trapped in void (F-centre)
+- Examples: NaCl (yellow), KCl (violet), LiF
+- Causes colour (F-centres = Farbenzentren = colour centres)
+
+**Metal Excess Defect (Extra Cation):**
+- Extra cation in interstitial; electron in another interstitial
+- Example: ZnO heated → yellow colour (extra Zn²⁺)
+
+**Metal Deficiency Defect:**
+- Fewer cations; adjacent cation gets higher charge
+- Example: FeO → Fe₁₋ₓO; NiO
+
+### Impurity Defects
+- Foreign ions deliberately added (doping)
+- Example: SrCl₂ in NaCl → vacancies created for charge balance
+
+---
+
+## 1.11 Electrical Properties
+
+| Type | Conductivity (S/m) | Examples |
+|------|-------------------|---------|
+| Conductors | 10⁴ – 10⁷ | Cu, Ag, Fe |
+| Semiconductors | 10⁻⁶ – 10⁴ | Si, Ge |
+| Insulators | < 10⁻¹¹ | Diamond, Quartz |
+
+### Doping of Semiconductors
+
+**n-type:** Group 14 (Si) doped with Group 15 (P, As, Sb) → extra electrons → n-type
+
+**p-type:** Group 14 (Si) doped with Group 13 (B, Al, Ga) → electron holes → p-type
+
+### Magnetic Properties
+
+| Type | Cause | Examples | Behaviour |
+|------|-------|---------|----------|
+| Diamagnetic | All electrons paired | NaCl, TiO₂ | Weakly repelled |
+| Paramagnetic | Unpaired electrons | O₂, Cu²⁺, Fe³⁺ | Weakly attracted |
+| Ferromagnetic | Aligned domains | Fe, Co, Ni | Strongly attracted |
+| Antiferromagnetic | Opposite alignment | MnO, MnO₂ | Zero net moment |
+| Ferrimagnetic | Unequal opposite domains | Fe₃O₄ | Weakly attracted |
+
+---
+
+# 2. SOLUTIONS
+
+## 2.1 Types of Solutions
+
+| Solute | Solvent | Example |
+|--------|---------|---------|
+| Gas | Gas | Air, LPG |
+| Gas | Liquid | O₂ in water |
+| Gas | Solid | H₂ in Pd |
+| Liquid | Gas | Humidity (water in air) |
+| Liquid | Liquid | Ethanol in water |
+| Liquid | Solid | Hg in Cu (amalgam) |
+| Solid | Gas | I₂ vapour in air |
+| Solid | Liquid | Sugar in water |
+| Solid | Solid | Alloys (Cu-Ni) |
+
+---
+
+## 2.2 Expressing Concentration
+
+### Mass Percentage (w/w)
+```
+% (w/w) = (mass of solute / mass of solution) × 100
+```
+
+### Volume Percentage (v/v)
+```
+% (v/v) = (volume of solute / volume of solution) × 100
+```
+
+### Mass by Volume Percentage (w/v)
+```
+% (w/v) = (mass of solute in g / volume of solution in mL) × 100
+```
+
+### Parts Per Million (ppm)
+```
+ppm = (mass of solute / mass of solution) × 10⁶
+ppb = (mass of solute / mass of solution) × 10⁹
+```
+
+### Mole Fraction (χ)
+```
+χ_A = n_A / (n_A + n_B)       χ_B = n_B / (n_A + n_B)
+χ_A + χ_B = 1
+```
+
+### Molarity (M)
+```
+M = moles of solute / volume of solution (in litres)
+M = (w × 1000) / (M.W. × V in mL)
+```
+> **Note:** Molarity changes with temperature (volume changes)
+
+### Molality (m)
+```
+m = moles of solute / mass of solvent (in kg)
+m = (w × 1000) / (M.W. × W_solvent in g)
+```
+> **Note:** Molality does NOT change with temperature
+
+### Normality (N)
+```
+N = equivalents of solute / volume of solution (in litres)
+N = M × n-factor
+```
+
+### Relationship between Molality and Molarity
+```
+m = (1000 × M) / (1000ρ - M × M₂)
+```
+Where ρ = density of solution, M₂ = molar mass of solute
+
+### Conversion Formulas
+```
+χ_solute = m × M_solvent / (1000 + m × M_solvent)
+m = (χ_solute × 1000) / (χ_solvent × M_solvent)
+```
+
+---
+
+## 2.3 Solubility
+
+### Henry's Law
+"The partial pressure of a gas above a solution is proportional to the mole fraction of the gas dissolved in the solution."
+
+```
+p = K_H × χ
+```
+
+Where:
+- p = partial pressure of gas
+- K_H = Henry's law constant (depends on gas and temperature)
+- χ = mole fraction of gas in solution
+
+**Applications of Henry's Law:**
+- Deep sea diving (N₂ narcosis, O₂ toxicity)
+- Soft drinks (CO₂ dissolved under pressure)
+- Blood gas (decompression sickness)
+
+**Effect of Temperature:** K_H increases with temperature → solubility of gas decreases with temperature
+
+**Exceptions to Henry's Law:**
+- Gases that react with solvent (HCl, NH₃ in water)
+- Gases that associate/dissociate
+
+### Solubility of Solids
+- Generally increases with temperature
+- Le Chatelier's principle applies
+- Exceptions: Ce₂(SO₄)₃ (solubility decreases with temperature)
+
+---
+
+## 2.4 Vapour Pressure and Raoult's Law
+
+### Raoult's Law
+"At a given temperature, the partial vapour pressure of each component of a solution is directly proportional to its mole fraction."
+
+```
+p_A = p°_A × χ_A        (for component A)
+p_B = p°_B × χ_B        (for component B)
+p_total = p_A + p_B = p°_A χ_A + p°_B χ_B
+```
+
+### Modified Raoult's Law
+```
+p_total = p°_A χ_A + p°_B χ_B
+         = p°_A (1 - χ_B) + p°_B χ_B
+         = p°_A + (p°_B - p°_A) χ_B
+```
+
+### For Binary Solutions (Volatile + Involatile solute):
+```
+p_s = p°_A × χ_A = p°_A × (1 - χ_B)
+```
+
+### Relative Lowering of Vapour Pressure (RLVP):
+```
+(p° - p_s) / p° = χ_B = n_B / (n_A + n_B) ≈ n_B / n_A (for dilute solutions)
+```
+- RLVP = mole fraction of solute
+- Colligative property (depends only on number of particles)
+
+---
+
+## 2.5 Ideal and Non-Ideal Solutions
+
+### Ideal Solutions
+- Obey Raoult's law at all concentrations and temperatures
+- ΔH_mix = 0, ΔV_mix = 0
+- A–B interactions ≈ A–A and B–B interactions
+- Examples: Benzene + Toluene; n-hexane + n-heptane; Chlorobenzene + Bromobenzene
+
+### Non-Ideal Solutions
+
+**Positive Deviation from Raoult's Law:**
+- p > p°_A χ_A + p°_B χ_B
+- A–B interactions < A–A or B–B interactions
+- ΔH_mix > 0 (endothermic), ΔV_mix > 0
+- Azeotrope: Minimum boiling azeotrope
+- Examples: Ethanol + Water; Acetone + CS₂; Ethanol + Benzene; Acetone + Ethanol
+
+**Negative Deviation from Raoult's Law:**
+- p < p°_A χ_A + p°_B χ_B
+- A–B interactions > A–A or B–B interactions
+- ΔH_mix < 0 (exothermic), ΔV_mix < 0
+- Azeotrope: Maximum boiling azeotrope
+- Examples: HNO₃ + Water; H₂SO₄ + Water; Acetone + Chloroform; Chloroform + Benzene
+
+### Azeotropes
+- Constant boiling mixtures
+- Cannot be separated by simple fractional distillation
+
+---
+
+## 2.6 Colligative Properties
+
+> **Key Concept:** Colligative properties depend only on the **number** of solute particles, not their nature.
+
+### (i) Relative Lowering of Vapour Pressure
+```
+(p° - p_s) / p° = χ_B = n_B / (n_A + n_B)
+```
+For dilute solutions:
+```
+(p° - p_s) / p° ≈ n_B / n_A = (w_B × M_A) / (M_B × w_A)
+```
+
+### (ii) Elevation of Boiling Point (ΔT_b)
+```
+ΔT_b = K_b × m
+```
+Where:
+- K_b = Ebullioscopic constant / Boiling point elevation constant (K·kg·mol⁻¹)
+- m = molality of solution
+
+**Formula for K_b:**
+```
+K_b = (R × T_b² × M₁) / (1000 × ΔH_vap)
+```
+Where:
+- R = 8.314 J/mol·K
+- T_b = boiling point of pure solvent (K)
+- M₁ = molar mass of solvent (g/mol)
+- ΔH_vap = enthalpy of vaporisation (J/mol)
+
+**Molar mass from ΔT_b:**
+```
+M₂ = (K_b × w₂ × 1000) / (ΔT_b × w₁)
+```
+
+| Solvent | K_b (K·kg·mol⁻¹) | Normal B.P. (°C) |
+|---------|-------------------|-----------------|
+| Water | 0.512 | 100 |
+| Benzene | 2.53 | 80.1 |
+| Chloroform | 3.63 | 61.2 |
+| Ethanol | 1.20 | 78.1 |
+| Acetic acid | 3.07 | 118.1 |
+
+### (iii) Depression of Freezing Point (ΔT_f)
+```
+ΔT_f = K_f × m
+```
+Where K_f = Cryoscopic constant / Freezing point depression constant (K·kg·mol⁻¹)
+
+**Formula for K_f:**
+```
+K_f = (R × T_f² × M₁) / (1000 × ΔH_fus)
+```
+
+**Molar mass from ΔT_f:**
+```
+M₂ = (K_f × w₂ × 1000) / (ΔT_f × w₁)
+```
+
+| Solvent | K_f (K·kg·mol⁻¹) | Normal F.P. (°C) |
+|---------|-------------------|-----------------|
+| Water | 1.86 | 0 |
+| Benzene | 5.12 | 5.5 |
+| Camphor | 40 | 178.8 |
+| Acetic acid | 3.9 | 16.6 |
+| Nitrobenzene | 7.0 | 5.7 |
+
+### (iv) Osmotic Pressure (π)
+```
+π = CRT = (n/V)RT
+π = MRT
+```
+Where:
+- π = osmotic pressure (atm or Pa)
+- C/M = molarity (mol/L)
+- R = 0.0821 L·atm/mol·K or 8.314 J/mol·K
+- T = temperature (K)
+
+**Molar mass from osmotic pressure:**
+```
+M₂ = (w₂ × R × T) / (π × V)
+```
+
+**Van't Hoff's Equation:**
+```
+πV = nRT   (analogous to ideal gas law)
+```
+
+**Types of Solutions:**
+- Isotonic: Same osmotic pressure
+- Hypertonic: Higher osmotic pressure than reference
+- Hypotonic: Lower osmotic pressure than reference
+
+**Reverse Osmosis:** Applied pressure > osmotic pressure → solvent flows from solution to pure solvent
+
+---
+
+## 2.7 Van't Hoff Factor (i)
+
+**Definition:**
+```
+i = (Observed colligative property) / (Calculated colligative property assuming no association/dissociation)
+  = (Total moles of particles after dissociation) / (Moles before dissociation)
+```
+
+**For Dissociation:**
+```
+Electrolyte: A_n → nA
+i = 1 + (n-1)α    (α = degree of dissociation)
+```
+
+**For Association:**
+```
+nA → A_n
+i = 1 - α(1 - 1/n)    (α = degree of association)
+```
+
+**Modified Colligative Property Equations:**
+```
+RLVP:  (p° - p_s)/p° = i × χ_B
+ΔT_b = i × K_b × m
+ΔT_f = i × K_f × m
+π = i × CRT
+```
+
+| Electrolyte | i value |
+|-------------|---------|
+| Glucose (non-electrolyte) | 1 |
+| NaCl | 2 |
+| CaCl₂ | 3 |
+| AlCl₃ | 4 |
+| K₄[Fe(CN)₆] | 5 |
+| Acetic acid (associated) | < 1 |
+
+---
+
+# 3. ELECTROCHEMISTRY
+
+## 3.1 Galvanic (Voltaic) Cells
+
+**Definition:** Converts chemical energy → electrical energy (spontaneous redox)
+
+### Daniell Cell
+```
+Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)
+
+Anode (oxidation):  Zn(s) → Zn²⁺(aq) + 2e⁻  (negative electrode)
+Cathode (reduction): Cu²⁺(aq) + 2e⁻ → Cu(s)  (positive electrode)
+Net reaction: Zn + Cu²⁺ → Zn²⁺ + Cu
+```
+
+**EMF = E_cell = E_cathode - E_anode = E_right - E_left**
+
+### Cell Notation (IUPAC)
+```
+Anode | Anode solution || Cathode solution | Cathode
+Zn | Zn²⁺(1M) || Cu²⁺(1M) | Cu
+```
+
+- **Salt bridge:** KCl or NH₄NO₃ in agar-agar → completes circuit, maintains electrical neutrality
+
+---
+
+## 3.2 Standard Electrode Potential
+
+**Standard Hydrogen Electrode (SHE):**
+```
+H⁺(aq, 1M) | H₂(g, 1 atm) | Pt
+E° = 0.00 V (by convention)
+```
+
+**Standard Electrode Potential (E°):** EMF of half-cell vs SHE under standard conditions (1M, 1 atm, 25°C)
+
+### Electrochemical Series (Selected Values)
+
+| Half-reaction | E° (V) |
+|---------------|--------|
+| F₂ + 2e⁻ → 2F⁻ | +2.87 |
+| MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O | +1.51 |
+| Cl₂ + 2e⁻ → 2Cl⁻ | +1.36 |
+| Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O | +1.33 |
+| O₂ + 4H⁺ + 4e⁻ → 2H₂O | +1.23 |
+| Br₂ + 2e⁻ → 2Br⁻ | +1.07 |
+| Ag⁺ + e⁻ → Ag | +0.80 |
+| Fe³⁺ + e⁻ → Fe²⁺ | +0.77 |
+| Cu²⁺ + 2e⁻ → Cu | +0.34 |
+| 2H⁺ + 2e⁻ → H₂ | 0.00 |
+| Pb²⁺ + 2e⁻ → Pb | −0.13 |
+| Sn²⁺ + 2e⁻ → Sn | −0.14 |
+| Ni²⁺ + 2e⁻ → Ni | −0.25 |
+| Fe²⁺ + 2e⁻ → Fe | −0.44 |
+| Zn²⁺ + 2e⁻ → Zn | −0.76 |
+| Al³⁺ + 3e⁻ → Al | −1.66 |
+| Mg²⁺ + 2e⁻ → Mg | −2.37 |
+| Na⁺ + e⁻ → Na | −2.71 |
+| Li⁺ + e⁻ → Li | −3.04 |
+
+**Rules:**
+- Higher E° → stronger oxidising agent
+- Lower E° → stronger reducing agent
+- Spontaneous if E_cell > 0
+
+---
+
+## 3.3 Nernst Equation
+
+**For a cell reaction: aA + bB → cC + dD**
+```
+E_cell = E°_cell - (RT/nF) × ln Q
+E_cell = E°_cell - (0.0592/n) × log Q    (at 25°C)
+```
+
+Where:
+- n = number of electrons transferred
+- F = Faraday's constant = 96,485 C/mol ≈ 96,500 C/mol
+- Q = reaction quotient = [C]^c[D]^d / [A]^a[B]^b
+- T = 298 K
+- R = 8.314 J/mol·K
+
+**At Equilibrium (E_cell = 0):**
+```
+E°_cell = (0.0592/n) × log K    (at 25°C)
+log K = nE°_cell / 0.0592
+```
+
+**For Single Electrode (Nernst equation for half-cell):**
+```
+E = E° - (0.0592/n) × log [products] / [reactants]
+```
+
+---
+
+## 3.4 Gibbs Energy and EMF
+
+```
+ΔG = -nFE_cell
+ΔG° = -nFE°_cell
+ΔG° = -RT ln K
+```
+
+Therefore:
+```
+nFE°_cell = RT ln K
+E°_cell = (RT/nF) ln K = (0.0592/n) log K    (at 298K)
+```
+
+**Spontaneity:**
+- E_cell > 0 ↔ ΔG < 0 ↔ K > 1 → spontaneous
+- E_cell < 0 ↔ ΔG > 0 ↔ K < 1 → non-spontaneous
+- E_cell = 0 ↔ ΔG = 0 ↔ Equilibrium
+
+---
+
+## 3.5 Conductance
+
+### Resistance and Conductance
+```
+R = ρ × (l/A)    →    G = 1/R = κ × (A/l)
+```
+
+Where:
+- ρ = resistivity (Ω·m)
+- κ = conductivity (S·m⁻¹ or S·cm⁻¹)
+- l = length, A = cross-sectional area
+
+### Cell Constant
+```
+G* = l/A (cm⁻¹)
+κ = G × G* = G × (l/A)
+```
+
+### Molar Conductivity (Λ_m)
+```
+Λ_m = κ / C     (S·cm²·mol⁻¹)
+Λ_m = κ × 1000 / c    (if C in mol/L, κ in S/cm)
+Λ_m = κ × 1000 / M
+```
+
+---
+
+## 3.6 Kohlrausch's Law
+
+"At infinite dilution, the molar conductivity of an electrolyte equals the sum of molar conductivities of its constituent ions."
+
+```
+Λ°_m = ν₊ λ°₊ + ν₋ λ°₋
+```
+
+Where:
+- ν₊, ν₋ = number of cations and anions per formula unit
+- λ°₊, λ°₋ = limiting molar ionic conductivities
+
+**Example:**
+```
+Λ°_m(NaCl) = λ°(Na⁺) + λ°(Cl⁻)
+Λ°_m(BaCl₂) = λ°(Ba²⁺) + 2λ°(Cl⁻)
+Λ°_m(Al₂(SO₄)₃) = 2λ°(Al³⁺) + 3λ°(SO₄²⁻)
+```
+
+### Degree of Dissociation (α)
+```
+α = Λ_m / Λ°_m
+Ka = Cα² / (1-α) ≈ Cα² (for weak electrolytes, α << 1)
+```
+
+### Variation with Concentration
+
+**Strong Electrolytes (Debye-Hückel-Onsager equation):**
+```
+Λ_m = Λ°_m - K√C
+```
+(linear plot of Λ_m vs √C)
+
+**Weak Electrolytes:**
+Non-linear; cannot extrapolate to get Λ°_m directly → use Kohlrausch's law
+
+---
+
+## 3.7 Limiting Molar Ionic Conductivities at 25°C
+
+| Ion | λ° (S·cm²·mol⁻¹) |
+|-----|-----------------|
+| H⁺ | 349.6 |
+| OH⁻ | 198.6 |
+| Na⁺ | 50.1 |
+| K⁺ | 73.5 |
+| Cl⁻ | 76.4 |
+| SO₄²⁻ | 160.0 |
+| Ca²⁺ | 119.0 |
+
+---
+
+## 3.8 Faraday's Laws of Electrolysis
+
+### First Law
+"The mass of substance deposited or dissolved at an electrode is directly proportional to the quantity of charge passed."
+```
+m = Z × Q = Z × I × t
+```
+Where:
+- m = mass deposited (g)
+- Z = electrochemical equivalent (g/C)
+- Q = charge in coulombs
+- I = current (A), t = time (s)
+
+### Second Law
+"When the same quantity of charge is passed through different electrolytes, the masses of different substances deposited are proportional to their equivalent masses."
+```
+m₁/m₂ = E₁/E₂    (E = equivalent mass = M/n)
+```
+
+### Relationship
+```
+Z = E/F = M/(nF)
+m = (M × I × t) / (n × F)
+n = number of electrons transferred per ion
+F = 96,500 C/mol
+```
+
+---
+
+## 3.9 Batteries
+
+### Primary Batteries (non-rechargeable)
+
+**Dry Cell (Leclanché Cell):**
+```
+Anode: Zn(s) → Zn²⁺ + 2e⁻
+Cathode: MnO₂ + NH₄⁺ + e⁻ → MnO(OH) + NH₃
+EMF ≈ 1.5 V
+```
+
+**Mercury Cell:**
+```
+Anode: Zn(Hg) + 2OH⁻ → ZnO(s) + H₂O + 2e⁻
+Cathode: HgO(s) + H₂O + 2e⁻ → Hg(l) + 2OH⁻
+EMF ≈ 1.35 V (constant; used in hearing aids, watches)
+```
+
+### Secondary Batteries (rechargeable)
+
+**Lead Storage Battery:**
+```
+Anode: Pb(s) + SO₄²⁻ → PbSO₄(s) + 2e⁻     (discharge)
+Cathode: PbO₂(s) + 4H⁺ + SO₄²⁻ + 2e⁻ → PbSO₄(s) + 2H₂O
+EMF ≈ 2V per cell; 6 cells → 12V
+Electrolyte: H₂SO₄ (38% by mass)
+```
+Recharging reverses the reaction.
+
+**Nickel-Cadmium (Ni-Cd):**
+```
+Anode: Cd + 2OH⁻ → Cd(OH)₂ + 2e⁻
+Cathode: NiO₂ + 2H₂O + 2e⁻ → Ni(OH)₂ + 2OH⁻
+EMF ≈ 1.25 V; longer life than lead; used in cameras, computers
+```
+
+### Fuel Cells
+**H₂–O₂ Fuel Cell:**
+```
+Anode: H₂(g) + 2OH⁻ → 2H₂O + 2e⁻
+Cathode: O₂(g) + 2H₂O + 4e⁻ → 4OH⁻
+Net: H₂ + ½O₂ → H₂O    E ≈ 1.23V
+```
+Efficiency ~70%; used in spacecraft
+
+---
+
+## 3.10 Corrosion
+
+**Electrochemical Theory of Corrosion:**
+```
+Anode (Fe): Fe → Fe²⁺ + 2e⁻     (oxidation = rusting)
+Cathode: O₂ + 4H⁺ + 4e⁻ → 2H₂O  (or O₂ + 2H₂O + 4e⁻ → 4OH⁻)
+Fe²⁺ + 2OH⁻ → Fe(OH)₂ → Fe(OH)₃ → Fe₂O₃·xH₂O (rust)
+```
+
+**Prevention:** Cathodic protection, galvanisation, painting, alloying (stainless steel), sacrificial anodes (Mg, Zn)
+
+---
+
+# 4. CHEMICAL KINETICS
+
+## 4.1 Rate of Reaction
+
+**Average Rate:**
+```
+r_avg = -Δ[A]/Δt = +Δ[B]/Δt   (for A → B)
+```
+
+**Instantaneous Rate:**
+```
+r_inst = -d[A]/dt = +d[B]/dt
+```
+
+**For general reaction: aA + bB → cC + dD:**
+```
+r = -(1/a) d[A]/dt = -(1/b) d[B]/dt = +(1/c) d[C]/dt = +(1/d) d[D]/dt
+```
+
+---
+
+## 4.2 Rate Law and Order
+
+**Rate Law (Rate Expression):**
+```
+r = k[A]^m[B]^n
+```
+- m = order with respect to A
+- n = order with respect to B
+- (m + n) = overall order
+- k = rate constant
+
+> **IIT Note:** Orders are determined experimentally, NOT from stoichiometry (exception: elementary reactions)
+
+### Units of Rate Constant
+
+| Order | Unit of k |
+|-------|-----------|
+| Zero | mol L⁻¹ s⁻¹ |
+| First | s⁻¹ |
+| Second | L mol⁻¹ s⁻¹ |
+| nth | (mol L⁻¹)^(1-n) s⁻¹ |
+
+---
+
+## 4.3 Integrated Rate Laws
+
+### Zero Order Reaction
+```
+A → products
+Rate = k
+
+[A] = [A]₀ - kt
+t½ = [A]₀ / 2k
+```
+Plot: [A] vs t → straight line with slope = -k
+
+### First Order Reaction
+```
+A → products
+Rate = k[A]
+
+[A] = [A]₀ e^(-kt)
+ln[A] = ln[A]₀ - kt
+log[A] = log[A]₀ - kt/2.303
+
+k = (2.303/t) × log([A]₀/[A])
+t½ = 0.693/k   (independent of initial concentration)
+```
+Plot: log[A] vs t → straight line with slope = -k/2.303
+
+### Second Order Reaction
+```
+A → products
+Rate = k[A]²
+
+1/[A] = 1/[A]₀ + kt
+t½ = 1/(k[A]₀)
+```
+Plot: 1/[A] vs t → straight line with slope = k
+
+### Pseudo-First Order Reactions
+- One reactant in excess (effectively constant concentration)
+- Example: Hydrolysis of CH₃COOC₂H₅ in excess water
+- Apparent first-order kinetics; k_observed = k[H₂O] or k[H⁺]
+
+---
+
+## 4.4 Temperature Dependence — Arrhenius Equation
+
+```
+k = A × e^(-Ea/RT)
+ln k = ln A - Ea/RT
+log k = log A - Ea/(2.303RT)
+```
+
+**Comparing at two temperatures:**
+```
+log(k₂/k₁) = Ea/(2.303R) × (T₂ - T₁)/(T₁T₂)
+```
+
+Where:
+- A = frequency factor (pre-exponential factor)
+- Ea = activation energy (J/mol)
+- R = 8.314 J/mol·K
+- T = temperature (K)
+
+**Thumb Rule:** For every 10°C rise, rate doubles → Temperature coefficient ≈ 2
+
+**Effect of Catalyst:** Lowers Ea; does not change ΔH or ΔG
+
+---
+
+## 4.5 Collision Theory
+
+```
+r = Z_AB × e^(-Ea/RT)
+k = PZ_AB × e^(-Ea/RT)
+```
+
+Where:
+- Z_AB = collision frequency
+- P = steric factor (probability factor, P < 1)
+- Ea = activation energy
+
+**Fraction of molecules having energy ≥ Ea:**
+```
+f = e^(-Ea/RT)
+```
+
+---
+
+## 4.6 Mechanisms and Rate Law
+
+**Elementary Reaction:** Rate law = stoichiometry
+
+**Multi-step Mechanism:** Rate determined by slowest (rate-determining) step
+
+**Molecularity:** Number of species reacting in an elementary step (1 = unimolecular, 2 = bimolecular, 3 = termolecular)
+
+> **Note:** Order is experimental; molecularity is theoretical. Molecularity is always a whole number; order can be fractional or zero.
+
+---
+
+# 5. SURFACE CHEMISTRY
+
+## 5.1 Adsorption
+
+**Definition:** Accumulation of molecules on the surface of a solid or liquid.
+
+**Adsorbent:** Substance on which adsorption occurs (solid surface)
+**Adsorbate:** Substance that gets adsorbed
+
+**Desorption:** Reverse of adsorption (adsorbate leaves surface)
+
+### Types of Adsorption
+
+| Property | Physisorption | Chemisorption |
+|----------|--------------|---------------|
+| Forces | van der Waals | Chemical bonds |
+| Enthalpy | 20–40 kJ/mol | 40–400 kJ/mol |
+| Reversibility | Reversible | Irreversible |
+| Temperature | Decreases with T | May increase then decrease |
+| Specificity | Non-specific | Highly specific |
+| Layers | Multilayer | Monolayer |
+| Activation energy | None | Required |
+
+### Factors Affecting Adsorption
+- Surface area (↑ area → ↑ adsorption; finely divided > bulk)
+- Temperature (physisorption ↓ with T; chemisorption ↑ then ↓)
+- Pressure (↑ pressure → ↑ adsorption)
+- Nature of adsorbate and adsorbent
+
+---
+
+## 5.2 Adsorption Isotherms
+
+### Freundlich Adsorption Isotherm
+```
+x/m = k × p^(1/n)     (1/n < 1)
+log(x/m) = log k + (1/n) log p
+```
+Where:
+- x/m = mass of adsorbate per gram of adsorbent
+- p = pressure (gas) or concentration (solution)
+- k, n = constants
+- Plot: log(x/m) vs log p → straight line; slope = 1/n; intercept = log k
+
+**Limitations:** Does not predict saturation at high pressure
+
+### Langmuir Adsorption Isotherm
+```
+θ = (K × P) / (1 + K × P)
+```
+Where θ = fraction of surface covered
+
+**Linear Form:**
+```
+p/(x/m) = 1/(X_m × K) + p/X_m
+```
+- X_m = monolayer capacity
+- Assumes uniform surface energy, no interaction between adsorbate molecules
+
+---
+
+## 5.3 Colloids
+
+### Definition
+System in which particles of size 1–1000 nm are dispersed in a medium.
+
+### Classification
+
+| Dispersed Phase | Dispersion Medium | Colloid Type | Example |
+|----------------|------------------|-------------|---------|
+| Solid | Liquid | Sol | Au sol, starch |
+| Solid | Gas | Aerosol | Smoke, dust |
+| Solid | Solid | Solid sol | Ruby glass |
+| Liquid | Gas | Aerosol | Fog, clouds, mist |
+| Liquid | Liquid | Emulsion | Milk, mayonnaise |
+| Liquid | Solid | Gel | Cheese, butter |
+| Gas | Liquid | Foam | Whipped cream |
+| Gas | Solid | Solid foam | Pumice, foam rubber |
+
+### Types Based on Interaction
+
+**Lyophilic (solvent-loving):**
+- Strong affinity between dispersed phase and medium
+- Reversible; stable
+- Examples: Starch, gum, gelatin in water
+
+**Lyophobic (solvent-hating):**
+- Weak interaction with medium
+- Irreversible; less stable; require stabilisers
+- Examples: Gold sol, As₂S₃ sol
+
+---
+
+## 5.4 Preparation of Colloids
+
+**Dispersed Phase → Colloidal Size (Dispersion Methods):**
+- Mechanical dispersion (colloid mill)
+- Electrical disintegration (Bredig's arc method for metals)
+- Ultrasonic dispersion
+- Peptisation (adding electrolyte to precipitate → repeptisation)
+
+**Building Up from Ionic Size (Condensation Methods):**
+- Chemical methods (double decomposition, reduction, hydrolysis, oxidation)
+- Physical methods (solvent exchange, change of physical state)
+
+---
+
+## 5.5 Properties of Colloids
+
+### Tyndall Effect
+- Scattering of light by colloidal particles
+- Path of light visible in colloid but not in true solution
+- Used to distinguish colloid from true solution
+
+### Brownian Motion
+- Zigzag random motion of colloidal particles
+- Due to bombardment by medium molecules
+- Prevents settling; provides kinetic stability
+
+### Charge on Colloidal Particles
+
+| Colloid | Charge |
+|---------|--------|
+| Metal sols (Au, Ag) | Negative |
+| Metal oxide sols (TiO₂, Al₂O₃) | Positive |
+| As₂S₃ sol | Negative |
+| Fe(OH)₃ sol | Positive |
+| Starch | Negative |
+| Haemoglobin | Positive (at low pH) |
+
+### Electrophoresis
+Migration of colloidal particles under electric field → confirms charge on particles
+
+### Coagulation (Flocculation)
+Precipitation of colloidal particles by adding electrolyte
+
+**Hardy-Schulze Rule:** Higher the charge of coagulating ion, greater the coagulating power
+
+Coagulating power order:
+- For negative sol: Al³⁺ > Ca²⁺ > Na⁺
+- For positive sol: [Fe(CN)₆]⁴⁻ > PO₄³⁻ > SO₄²⁻ > Cl⁻
+
+**Flocculation Value (FV):** Minimum millimoles of electrolyte needed to coagulate 1 litre of sol
+
+### Gold Number
+Minimum amount of protective colloid (in mg) to prevent coagulation of 10 mL standard gold sol by 1 mL of 10% NaCl.
+- Smaller gold number → better protection
+
+| Protective colloid | Gold number |
+|-------------------|------------|
+| Gelatin | 0.005–0.01 |
+| Haemoglobin | 0.03–0.07 |
+| Starch | 25 |
+
+---
+
+## 5.6 Emulsions
+
+- Colloidal dispersion of liquid in liquid
+- Types: O/W (oil in water, milk) and W/O (water in oil, butter, cream)
+- Emulsifying agents: Soap, proteins, gums, lycolecithin
+- Demulsification: Heating, centrifuging, adding electrolyte
+
+---
+
+## 5.7 Catalysis
+
+### Types of Catalysis
+
+**Homogeneous:** Catalyst and reactants in same phase
+- Example: N₂O₄ as catalyst for NO oxidation in gas phase
+- H₂SO₄ in esterification (both liquid)
+
+**Heterogeneous:** Catalyst and reactants in different phases
+- Example: Fe/Mo (N₂ + H₂, Haber process — gas + solid)
+- V₂O₅ (SO₂ + O₂ → SO₃, Contact process)
+- Ni (hydrogenation of oils)
+
+**Enzyme Catalysis:** Biological catalysts
+- Highly specific ("lock and key" mechanism)
+- Very active at 37°C, pH 6–8
+- Examples: Amylase (starch → sugar), Invertase (sucrose → glucose + fructose), Zymase (glucose → ethanol)
+
+### Promoters and Poisons
+- **Promoter:** Increases catalyst activity (Mo in Haber process)
+- **Poison:** Decreases catalyst activity (CO poisons Fe in Haber process; H₂S poisons Pt)
+
+---
+
+# 6. GENERAL PRINCIPLES & PROCESSES OF ISOLATION OF ELEMENTS
+
+## 6.1 Occurrence of Metals
+
+**Minerals:** Naturally occurring chemical substances with definite composition
+**Ores:** Minerals from which metals can be extracted economically
+
+### Common Ores
+
+| Metal | Ore | Formula |
+|-------|-----|---------|
+| Aluminium | Bauxite | Al₂O₃·2H₂O |
+| Aluminium | Cryolite | Na₃AlF₆ |
+| Aluminium | Corundum | Al₂O₃ |
+| Copper | Copper pyrite | CuFeS₂ |
+| Copper | Malachite | CuCO₃·Cu(OH)₂ |
+| Iron | Haematite | Fe₂O₃ |
+| Iron | Magnetite | Fe₃O₄ |
+| Iron | Siderite | FeCO₃ |
+| Iron | Iron pyrite | FeS₂ |
+| Zinc | Zinc blende | ZnS |
+| Zinc | Zincite | ZnO |
+| Zinc | Calamine | ZnCO₃ |
+| Lead | Galena | PbS |
+| Mercury | Cinnabar | HgS |
+| Tin | Cassiterite | SnO₂ |
+| Silver | Argentine | Ag₂S |
+| Gold | Native state | Au |
+| Manganese | Pyrolusite | MnO₂ |
+
+---
+
+## 6.2 Steps in Extraction (Metallurgy)
+
+### Step 1: Concentration of Ore (Dressing)
+
+**Hydraulic washing:** Differences in density; gangue washed away by stream of water
+
+**Froth flotation:** Sulphide ores; pine oil and detergent used; sulphide particles attach to froth
+
+**Magnetic separation:** One component (ore or gangue) is magnetic; wolframite from cassiterite
+
+**Leaching (Chemical method):**
+- Bauxite with NaOH (Bayer's process): Al₂O₃·2H₂O + 2NaOH → 2NaAlO₂ + 3H₂O
+- Silver/Gold with NaCN: 4Ag + 8CN⁻ + 2H₂O + O₂ → 4[Ag(CN)₂]⁻ + 4OH⁻
+
+### Step 2: Conversion of Ore to Metal Oxide
+
+**Calcination:** Heating below melting point in limited air; drives off water/CO₂/SO₂
+- Carbonate ore → oxide: ZnCO₃ → ZnO + CO₂
+- Hydrated ore → anhydrous: Al₂O₃·2H₂O → Al₂O₃ + 2H₂O
+
+**Roasting:** Heating below melting point in excess air
+- Sulphide ore → oxide: 2ZnS + 3O₂ → 2ZnO + 2SO₂
+
+### Step 3: Reduction
+
+**Smelting:** Reduction with coke (carbon) at high temperature
+```
+ZnO + C → Zn + CO
+Fe₂O₃ + 3CO → 2Fe + 3CO₂
+```
+
+**Thermite Reduction (Goldschmidt):** Reduction with Al
+```
+Cr₂O₃ + 2Al → Al₂O₃ + 2Cr    (ΔG very negative)
+Fe₂O₃ + 2Al → Al₂O₃ + 2Fe
+```
+
+**Auto-reduction (Self-reduction):**
+```
+Cu₂S + 2Cu₂O → 6Cu + SO₂  (in copper extraction)
+```
+
+**Electrolytic Reduction:** For very reactive metals (Na, K, Al, Mg, Ca)
+
+### Ellingham Diagram
+- Plot of ΔG° of formation of oxides vs temperature
+- Lower curve → metal is better reducing agent
+- C has two lines: C → CO₂ (slope 0) and C → CO (slope negative; goes down)
+- Below ~700°C: C reduces to CO₂; above ~700°C: C reduces to CO
+- Coke reduces metal oxides above the crossover point
+
+---
+
+## 6.3 Refining (Purification)
+
+| Method | Principle | Used For |
+|--------|-----------|---------|
+| Distillation | Different boiling points | Zn, Hg |
+| Liquation | Low melting point of metal | Sn, Pb |
+| Electrolytic refining | Impure metal = anode; pure metal = cathode | Cu, Ag, Au, Zn |
+| Zone refining | Impurities more soluble in melt | Si, Ge, Ga (semiconductors) |
+| Vapour phase refining | Formation of volatile compound | Ni (Mond process), Zr, Ti |
+| Chromatography | Differential adsorption | Rare earth metals |
+
+**Mond Process (Nickel):**
+```
+Ni + 4CO → Ni(CO)₄ (volatile, at 50°C)
+Ni(CO)₄ → Ni + 4CO (decompose at 230°C)
+```
+
+**Van Arkel Method (Ti, Zr):**
+```
+Ti + 2I₂ → TiI₄ (volatile, at low T)
+TiI₄ → Ti + 2I₂ (on hot tungsten filament)
+```
+
+---
+
+## 6.4 Extraction of Specific Metals
+
+### Aluminium (Hall-Héroult Process)
+```
+Electrolyte: Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at 970°C
+Cathode: 4Al³⁺ + 12e⁻ → 4Al(l)
+Anode (carbon): 6O²⁻ - 12e⁻ → 3O₂ (O₂ burns carbon anode)
+Net: 2Al₂O₃ → 4Al + 3O₂
+```
+- Cryolite lowers melting point from 2050°C to 970°C
+
+### Copper
+- Ore: Copper pyrite (CuFeS₂)
+- Steps: Roasting → Smelting → Converting → Blister copper → Electrolytic refining
+```
+2CuFeS₂ + O₂ → Cu₂S + 2FeS + SO₂    (roasting)
+2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂
+2Cu₂O + Cu₂S → 6Cu + SO₂   (auto-reduction; blister copper)
+```
+
+### Iron (Blast Furnace)
+```
+Zones:
+Top (200°C): Fe₂O₃ + 3CO → 2Fe + 3CO₂
+Middle: CO₂ + C → 2CO (Boudouard reaction)
+Bottom: C + O₂ → CO₂; CaCO₃ → CaO + CO₂
+Slag: CaO + SiO₂ → CaSiO₃
+Product: Pig iron (4% C, impure)
+```
+
+---
+
+# 7. p-BLOCK ELEMENTS (GROUPS 15–18)
+
+## 7.1 Group 15 — Nitrogen Family (N, P, As, Sb, Bi)
+
+### General Properties
+
+| Property | N | P | As | Sb | Bi |
+|----------|---|---|----|----|---|
+| Electronic config. | [He]2s²2p³ | [Ne]3s²3p³ | [Ar]3d¹⁰4s²4p³ | [Kr]4d¹⁰5s²5p³ | [Xe]4f¹⁴5d¹⁰6s²6p³ |
+| Atomic radius (pm) | 75 | 110 | 121 | 141 | 154 |
+| First ionisation (kJ/mol) | 1402 | 1012 | 944 | 831 | 703 |
+| Electronegativity | 3.0 | 2.1 | 2.0 | 1.9 | 1.9 |
+| Common oxidation states | −3 to +5 | −3 to +5 | −3 to +5 | −3, +3, +5 | +3, +5 |
+
+**Key Trend:** N has anomalously high first IE (half-filled stable p³)
+
+**Why N₂ is less reactive:** N≡N triple bond energy = 945 kJ/mol (very high)
+
+**Metallic character:** N < P < As < Sb < Bi
+
+---
+
+### Nitrogen
+
+**Allotropes:** N₂ (stable diatomic)
+
+**Oxides of Nitrogen:**
+
+| Oxide | Oxidation State | Properties |
+|-------|----------------|------------|
+| N₂O | +1 | Colourless, neutral, laughing gas |
+| NO | +2 | Colourless, neutral, paramagnetic |
+| N₂O₃ | +3 | Blue solid, anhydride of HNO₂ |
+| NO₂ | +4 | Brown, acidic, paramagnetic |
+| N₂O₄ | +4 | Colourless dimer of NO₂ |
+| N₂O₅ | +5 | Colourless, anhydride of HNO₃ |
+
+**Preparation of N₂:**
+```
+NH₄Cl + NaNO₂ → N₂ + 2H₂O + NaCl (gentle heating)
+NH₄NO₂ → N₂ + 2H₂O (on heating)
+```
+
+---
+
+### Ammonia (NH₃)
+
+**Haber's Process:**
+```
+N₂(g) + 3H₂(g) ⇌ 2NH₃(g)    ΔH = −92 kJ/mol
+Conditions: 400–500°C, 200 atm, Fe catalyst (promoter: Mo/Al₂O₃/K₂O)
+```
+
+**Structure:** Trigonal pyramidal, N–H bond angle = 107.8° (lone pair repulsion)
+
+**Properties:**
+- Basic due to lone pair on N
+- NH₃ + HCl → NH₄Cl; NH₃ + H₂SO₄ → (NH₄)₂SO₄
+- Reduces metal oxides: 3CuO + 2NH₃ → 3Cu + N₂ + 3H₂O
+
+---
+
+### Nitric Acid (HNO₃)
+
+**Ostwald's Process:**
+```
+Step 1: 4NH₃ + 5O₂ → 4NO + 6H₂O    (Pt/Rh catalyst, 800°C)
+Step 2: 2NO + O₂ → 2NO₂
+Step 3: 4NO₂ + O₂ + 2H₂O → 4HNO₃
+```
+
+**Reactions of HNO₃ (dilute vs concentrated):**
+
+Dilute with less active metals (Fe, Cu, Ag):
+```
+3Cu + 8HNO₃(dilute) → 3Cu(NO₃)₂ + 2NO + 4H₂O
+```
+
+Concentrated with less active metals:
+```
+Cu + 4HNO₃(conc.) → Cu(NO₃)₂ + 2NO₂ + 2H₂O
+```
+
+Concentrated with S, C, P:
+```
+S + 2H₂SO₄(conc.) + 2HNO₃(conc.) → H₂SO₄ + 2H₂O + 2NO₂ ... [complex]
+C + 4HNO₃(conc.) → CO₂ + 4NO₂ + 2H₂O
+P + 5HNO₃ → H₃PO₄ + 5NO₂ + H₂O
+```
+
+**Passivation:** Conc. HNO₃ passivates Fe, Al, Cr (forms oxide layer)
+
+**Aqua Regia:** 3 vol conc. HCl + 1 vol conc. HNO₃ → dissolves Au, Pt
+
+---
+
+### Phosphorus
+
+**Allotropes:**
+
+| Form | Structure | Property |
+|------|-----------|---------|
+| White P | P₄ (tetrahedral, 60° bond angle) | Waxy, poisonous, burns in air, stored under water |
+| Red P | Polymer of P₄ | Non-poisonous, less reactive |
+| Black P | Layer structure | Least reactive, semiconductor |
+
+**Oxoacids of Phosphorus:**
+
+| Acid | Formula | Oxidation State | Basicity | Reducing? |
+|------|---------|----------------|---------|-----------|
+| Phosphinic acid | H₃PO₂ | +1 | 1 | Yes |
+| Phosphonic acid | H₃PO₃ | +3 | 2 | Yes |
+| Phosphoric acid | H₃PO₄ | +5 | 3 | No |
+| Pyrophosphoric | H₄P₂O₇ | +5 | 4 | No |
+| Metaphosphoric | HPO₃ | +5 | 1 | No |
+
+> **IIT Trick:** Basicity = number of P–OH groups (P–H bonds are non-ionisable)
+> H₃PO₂ has 2 P–H, 1 P–OH → basicity 1
+> H₃PO₃ has 1 P–H, 2 P–OH → basicity 2
+> H₃PO₄ has 0 P–H, 3 P–OH → basicity 3
+
+---
+
+## 7.2 Group 16 — Oxygen Family (O, S, Se, Te, Po)
+
+### General Properties
+
+| Property | O | S | Se | Te |
+|----------|---|---|----|----|
+| Atomic radius (pm) | 73 | 104 | 117 | 137 |
+| 1st IE (kJ/mol) | 1314 | 1000 | 941 | 869 |
+| Electronegativity | 3.5 | 2.5 | 2.4 | 2.1 |
+| Common OS | −2, −1 | −2, +2, +4, +6 | −2, +4, +6 | −2, +4, +6 |
+
+---
+
+### Oxygen
+
+**Allotropes:**
+- O₂ (stable, paramagnetic — 2 unpaired electrons, bond order = 2)
+- O₃ (ozone, diamagnetic, bent, bond angle 117°)
+
+**Ozone (O₃):**
+```
+Preparation: 3O₂ → 2O₃    (by passing dry O₂ through silent electric discharge)
+Structure: Angular (bent), bond angle = 117°, bond order = 1.5 (resonance)
+```
+
+**Properties of Ozone:**
+- Strong oxidising agent
+- Liberates I₂ from KI: O₃ + 2KI + H₂O → 2KOH + I₂ + O₂ (test for ozone)
+- Decolourises indigo solution
+- Destroys rubber, cracks rubber
+
+---
+
+### Sulphur
+
+**Allotropes:**
+- **Rhombic sulphur (α):** Stable below 96°C, octahedral crystals
+- **Monoclinic sulphur (β):** Stable above 96°C (transition temperature), needles
+- Both have S₈ ring structure (crown-shaped)
+- Plastic sulphur: Long S chains (fibrous)
+
+**Oxides of Sulphur:**
+
+| Oxide | Structure | Property |
+|-------|-----------|---------|
+| SO₂ | Angular (bent), 119° | Reducing (bleaching by reduction), acidic |
+| SO₃ | Trigonal planar | Strong oxidising, acidic |
+
+**SO₂ as Reducing Agent:**
+```
+SO₂ + Cl₂ + 2H₂O → H₂SO₄ + 2HCl
+SO₂ + 2H₂S → 3S + 2H₂O    (wet acidic paper turns black with PbS → SO₂ turns black)
+```
+**SO₂ bleaching:** SO₂ + H₂O → H₂SO₃ (bleaching action by reduction; not permanent)
+
+---
+
+### Sulphuric Acid (H₂SO₄) — Contact Process
+
+```
+Step 1: S + O₂ → SO₂  (or 4FeS₂ + 11O₂ → 2Fe₂O₃ + 8SO₂)
+Step 2: 2SO₂ + O₂ → 2SO₃   (V₂O₅ catalyst, 450°C, 2 atm)
+Step 3: SO₃ + H₂SO₄ → H₂S₂O₇ (oleum; SO₃ NOT directly dissolved in water)
+Step 4: H₂S₂O₇ + H₂O → 2H₂SO₄
+```
+
+**Properties of Conc. H₂SO₄:**
+- Strong oxidising agent: Cu + 2H₂SO₄(hot, conc.) → CuSO₄ + SO₂ + 2H₂O
+- Dehydrating agent: C₁₂H₂₂O₁₁ + H₂SO₄ → 12C + 11H₂O; HCOOH → CO + H₂O
+- Sulphonating agent
+- Charring: reacts with organic matter → releases C
+
+**Oxoacids of Sulphur:**
+
+| Acid | Formula | Oxidation State of S |
+|------|---------|---------------------|
+| Sulphurous acid | H₂SO₃ | +4 |
+| Sulphuric acid | H₂SO₄ | +6 |
+| Pyrosulphuric acid | H₂S₂O₇ | +6 |
+| Thiosulphuric acid | H₂S₂O₃ | +2 (S²⁻ + S°) |
+| Peroxomonosulphuric acid | H₂SO₅ (Caro's acid) | +6 |
+| Peroxodisulphuric acid | H₂S₂O₈ | +6 |
+| Dithionic acid | H₂S₂O₆ | +5 |
+| Polythionic acid | H₂SₙO₆ | varies |
+
+---
+
+## 7.3 Group 17 — Halogens (F, Cl, Br, I, At)
+
+### General Properties
+
+| Property | F | Cl | Br | I |
+|----------|---|----|----|---|
+| Atomic radius (pm) | 72 | 99 | 114 | 133 |
+| 1st IE (kJ/mol) | 1681 | 1251 | 1140 | 1008 |
+| Electronegativity | 4.0 | 3.2 | 2.8 | 2.5 |
+| Electron affinity (kJ/mol) | −328 | −349 | −325 | −295 |
+| Bond energy (kJ/mol) | 159 | 243 | 193 | 151 |
+| Colour | Pale yellow | Greenish yellow | Reddish brown | Violet |
+| State | Gas | Gas | Liquid | Solid |
+| Common OS | −1 | −1, +1, +3, +5, +7 | −1, +1, +3, +5 | −1, +1, +3, +5, +7 |
+
+**Note:** F has no positive oxidation states (most electronegative; no d-orbitals)
+
+**Oxidising power:** F₂ > Cl₂ > Br₂ > I₂
+
+**Reactivity of HX:**
+- Bond energy: HF > HCl > HBr > HI
+- Stability: HF > HCl > HBr > HI
+- Acid strength: HI > HBr > HCl > HF
+- Reducing power: HI > HBr > HCl > HF
+
+---
+
+### Chlorine (Cl₂)
+
+**Laboratory Preparation:**
+```
+MnO₂ + 4HCl(conc.) → MnCl₂ + Cl₂ + 2H₂O
+```
+Or: KMnO₄ + HCl, K₂Cr₂O₇ + HCl
+
+**Industrial Preparation:**
+- Deacon's process: 4HCl + O₂ → 2Cl₂ + 2H₂O (CuCl₂ catalyst, 400°C)
+- Electrolytic (brine): 2NaCl + 2H₂O → Cl₂ + H₂ + 2NaOH
+
+**Reactions:**
+```
+Cl₂ + 2NaOH → NaCl + NaOCl + H₂O   (cold and dilute)
+3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O   (hot and conc.)
+Cl₂ + 2Na₂S₂O₃ → Na₂S₄O₆ + 2NaCl    (dechlorination)
+Cl₂ + 2KI → 2KCl + I₂    (turns starch paper blue)
+```
+
+---
+
+### Hydrochloric Acid (HCl)
+
+**Laboratory:**
+```
+NaCl + H₂SO₄(conc.) → NaHSO₄ + HCl    (at room temp)
+2NaCl + H₂SO₄(conc.) → Na₂SO₄ + 2HCl  (on heating)
+```
+
+**Reactions:**
+```
+HCl + NaOH → NaCl + H₂O
+4HCl + MnO₂ → MnCl₂ + Cl₂ + 2H₂O
+HCl + AgNO₃ → AgCl↓ (white, curdy) + HNO₃    (test for Cl⁻)
+```
+
+---
+
+### Oxoacids of Halogens
+
+| Acid | Formula | Oxidation State | Strength |
+|------|---------|----------------|---------|
+| Hypochlorous acid | HClO | +1 | Weakest |
+| Chlorous acid | HClO₂ | +3 | Weak |
+| Chloric acid | HClO₃ | +5 | Strong |
+| Perchloric acid | HClO₄ | +7 | Strongest acid |
+
+**Trend:** Acid strength increases with oxidation state (more electronegative O pulls electron density from O–H bond)
+
+### Interhalogen Compounds
+
+**Types:** XX', XX'₃, XX'₅, XX'₇
+
+| Compound | Shape | Examples |
+|----------|-------|---------|
+| AX | Linear | ClF, BrF, BrCl, ICl, IBr |
+| AX₃ | T-shaped | ClF₃, BrF₃, IF₃ |
+| AX₅ | Square pyramidal | ClF₅, BrF₅, IF₅ |
+| AX₇ | Pentagonal bipyramidal | IF₇ |
+
+**Pseudohalogens:** (CN)₂ = cyanogen, (SCN)₂ = thiocyanogen
+
+---
+
+## 7.4 Group 18 — Noble Gases (He, Ne, Ar, Kr, Xe, Rn)
+
+### Properties
+- Completely filled shells → extremely stable
+- Very high ionisation enthalpies
+- Very low boiling points
+- Monatomic gases
+
+| Gas | IE (kJ/mol) | BP (K) | Uses |
+|-----|-------------|--------|------|
+| He | 2372 | 4.2 | Balloons, cryogenics |
+| Ne | 2081 | 27.1 | Neon signs |
+| Ar | 1521 | 87.2 | Welding, light bulbs |
+| Kr | 1351 | 120.9 | Fluorescent lamps |
+| Xe | 1170 | 165.0 | Flash lamps |
+| Rn | 1037 | 211.3 | Radioactive |
+
+### Xenon Compounds
+
+**Xenon Fluorides:**
+
+| Compound | Method | Geometry | Lone pairs on Xe |
+|----------|--------|---------|-----------------|
+| XeF₂ | Xe + F₂ (2:1) at 400°C, 1 atm | Linear | 3 |
+| XeF₄ | Xe + 2F₂ at 400°C, 6 atm | Square planar | 2 |
+| XeF₆ | Xe + 3F₂ at 300°C, 60 atm | Distorted octahedral | 1 |
+
+**Hydrolysis:**
+```
+2XeF₂ + 2H₂O → 2Xe + 4HF + O₂
+6XeF₄ + 12H₂O → 4Xe + 2XeO₃ + 24HF + 3O₂
+XeF₆ + 3H₂O → XeO₃ + 6HF
+XeF₄ + O(SbF₅) → [XeF₃]⁺[SbF₆]⁻
+```
+
+**Xenon Oxides:**
+- XeO₃: Explosive solid, pyramidal
+- XeO₄: Tetrahedral
+
+---
+
+# 8. d- AND f-BLOCK ELEMENTS
+
+## 8.1 d-Block (Transition Elements)
+
+**Definition:** Elements with partially filled d-orbitals in ground state or stable ionic state
+
+**General electronic configuration:** (n-1)d^(1-10) ns^(0-2)
+
+### Anomalous Configurations
+
+| Element | Expected | Actual | Reason |
+|---------|----------|--------|--------|
+| Cr (24) | [Ar]3d⁴4s² | [Ar]3d⁵4s¹ | Half-filled d stability |
+| Cu (29) | [Ar]3d⁹4s² | [Ar]3d¹⁰4s¹ | Completely-filled d stability |
+| Mo (42) | similar | [Kr]4d⁵5s¹ | — |
+| Ag (47) | — | [Kr]4d¹⁰5s¹ | — |
+| Au (79) | — | [Xe]4f¹⁴5d¹⁰6s¹ | — |
+
+---
+
+### General Characteristics
+
+**1. Variable Oxidation States:**
+- Due to small energy difference between (n-1)d and ns orbitals
+- Both d and s electrons can be used in bonding
+- Mn: +2 to +7 (widest range)
+- Most stable states: +2, +3
+- Higher states with O, F (due to high electronegativities)
+
+**Common Oxidation States of First Transition Series:**
+
+| Element | Electronic Config | Common OS |
+|---------|-----------------|-----------|
+| Sc | [Ar]3d¹4s² | +3 |
+| Ti | [Ar]3d²4s² | +2, +3, +4 |
+| V | [Ar]3d³4s² | +2, +3, +4, +5 |
+| Cr | [Ar]3d⁵4s¹ | +2, +3, +6 |
+| Mn | [Ar]3d⁵4s² | +2, +3, +4, +6, +7 |
+| Fe | [Ar]3d⁶4s² | +2, +3 |
+| Co | [Ar]3d⁷4s² | +2, +3 |
+| Ni | [Ar]3d⁸4s² | +2 |
+| Cu | [Ar]3d¹⁰4s¹ | +1, +2 |
+| Zn | [Ar]3d¹⁰4s² | +2 |
+
+**2. Magnetic Properties:**
+
+```
+Magnetic moment (μ) = √[n(n+2)] BM
+```
+(n = number of unpaired electrons, BM = Bohr magneton)
+
+| Ion | Unpaired e⁻ | μ (BM) |
+|-----|------------|--------|
+| Sc³⁺ | 0 | 0 |
+| Ti³⁺ | 1 | 1.73 |
+| V³⁺ | 2 | 2.83 |
+| Cr³⁺ | 3 | 3.87 |
+| Mn²⁺, Fe³⁺ | 5 | 5.92 (max) |
+| Fe²⁺ | 4 | 4.90 |
+| Co²⁺ | 3 | 3.87 |
+| Ni²⁺ | 2 | 2.83 |
+| Cu²⁺ | 1 | 1.73 |
+| Zn²⁺ | 0 | 0 |
+
+**3. Colour:**
+- Due to d–d transitions (incomplete d-shell)
+- Zn²⁺, Sc³⁺, Ti⁴⁺ (d⁰ or d¹⁰) → colourless
+
+| Ion | Colour |
+|-----|--------|
+| Ti³⁺ | Purple |
+| V³⁺ | Green |
+| Cr³⁺ | Violet |
+| Cr²⁺ | Blue |
+| Mn²⁺ | Pale pink |
+| Fe²⁺ | Pale green |
+| Fe³⁺ | Yellow-brown |
+| Co²⁺ | Pink |
+| Ni²⁺ | Green |
+| Cu²⁺ | Blue |
+
+**4. Catalytic Properties:**
+- Variable OS allows alternate oxidation-reduction cycles
+- Example: Fe in Haber, V₂O₅ in Contact process, MnO₂ in KClO₃ decomposition
+
+**5. Alloy Formation:**
+- Similar atomic radii and crystal structures → solid solutions
+- Examples: Brass (Cu+Zn), Bronze (Cu+Sn), Steel (Fe+C), Stainless steel (Fe+Cr+Ni)
+
+**6. Complex Formation:**
+- High nuclear charge, small size, available d-orbitals
+- Wide variety of ligands
+
+---
+
+### Important Compounds of Transition Metals
+
+**Potassium Permanganate (KMnO₄):**
+```
+Preparation: 2MnO₂ + 4KOH + O₂ → 2K₂MnO₄ + 2H₂O (fusion)
+            3K₂MnO₄ + 2CO₂ → 2KMnO₄ + MnO₂ + 2K₂CO₃ (disproportionation or electrolysis)
+```
+Structure: Tetrahedral; Mn in +7 state; intense violet due to charge transfer
+
+**Reactions of KMnO₄:**
+
+Acidic medium (H₂SO₄):
+```
+MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O   (E° = +1.51V)
+```
+- With Fe²⁺: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O
+- With oxalate: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O
+
+Neutral/alkaline medium:
+```
+MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻
+```
+
+**Potassium Dichromate (K₂Cr₂O₇):**
+```
+Preparation: 4FeCr₂O₄ + 8Na₂CO₃ + 7O₂ → 8Na₂CrO₄ + 2Fe₂O₃ + 8CO₂
+            2Na₂CrO₄ + H₂SO₄ → Na₂Cr₂O₇ + Na₂SO₄ + H₂O
+            Na₂Cr₂O₇ + 2KCl → K₂Cr₂O₇ + 2NaCl
+```
+Structure: Two tetrahedra joined by corner-sharing O; Cr in +6 state; orange colour
+
+**Reactions (acidic medium):**
+```
+Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O    (E° = +1.33V)
+```
+- With Fe²⁺: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O
+- With I⁻: Cr₂O₇²⁻ + 6I⁻ + 14H⁺ → 2Cr³⁺ + 3I₂ + 7H₂O
+
+---
+
+## 8.2 f-Block Elements
+
+### Lanthanoids (58Ce – 71Lu)
+
+**General electronic config:** [Xe]4f^(1-14) 5d^(0-1) 6s²
+
+**Lanthanoid Contraction:**
+- Progressive decrease in atomic and ionic radii across lanthanoids
+- Cause: Poor shielding of 4f electrons → effective nuclear charge increases → radius decreases
+- Consequence: Very similar properties → hard to separate; nearly identical properties of 3rd row transition elements (Y/Zr/Hf, Nb/Ta, Mo/W)
+
+**Properties:**
+- Silvery white metals; soft, paramagnetic
+- Common oxidation state: +3 (stable)
+- Some show +2 (Eu, Sm) and +4 (Ce, Tb, Pr)
+- Ce: [Xe]4f¹5d¹6s² → Ce⁴⁺ (empty f-orbital, stable)
+- Eu: [Xe]4f⁷5d⁰6s² → Eu²⁺ (half-filled f-orbital, stable)
+
+**Magnetic moment:** Can be very high due to f-electrons (spin + orbital contribution)
+
+### Actinoids (90Th – 103Lr)
+
+**General electronic config:** [Rn]5f^(1-14) 6d^(0-2) 7s²
+
+**Differences from Lanthanoids:**
+- Wider range of oxidation states (+3 to +7 for early actinoids)
+- All radioactive
+- Actinoid contraction > Lanthanoid contraction (5f shielded even less)
+- 5f electrons more accessible → greater involvement in bonding
+
+---
+
+# 9. COORDINATION COMPOUNDS
+
+## 9.1 Basic Terminology
+
+**Central Metal Ion:** Metal atom/ion that accepts lone pairs from ligands
+
+**Ligand:** Atom, ion, or molecule that donates lone pair(s) to central metal
+
+**Coordination Number (CN):** Number of donor atoms bonded to central metal
+
+**Coordination Sphere:** Metal ion + ligands in square brackets
+
+**Linkage Isomerism:** Different donor atoms in ambidentate ligand
+
+### Types of Ligands
+
+| Type | Donor atoms | Examples |
+|------|-------------|---------|
+| Monodentate | 1 | Cl⁻, Br⁻, CN⁻, OH⁻, NH₃, H₂O |
+| Bidentate | 2 | en (ethylenediamine), C₂O₄²⁻ (oxalate), acac |
+| Tridentate | 3 | dien (diethylenetriamine) |
+| Tetradentate | 4 | trien |
+| Pentadentate | 5 | EDTA partially |
+| Hexadentate | 6 | EDTA (ethylenediaminetetraacetate) |
+
+**Ambidentate Ligands:** Can bind through different atoms
+- NO₂⁻: through N (nitro, -NO₂) or O (nitrito, -ONO)
+- CN⁻: through C (cyano) or N (isocyano)
+- SCN⁻: through S (thiocyanato) or N (isothiocyanato)
+
+**Chelate:** Complex with ring formed by polydentate ligand attached through multiple donor atoms
+- Chelate effect: Extra stability due to entropy gain
+
+**Denticity:** Number of donor atoms in a ligand
+
+---
+
+## 9.2 Nomenclature (IUPAC)
+
+### Rules:
+1. Cation named before anion
+2. Within coordination sphere: ligands before metal
+3. Ligand names alphabetically (ignoring di, tri prefixes)
+4. Anionic ligands end in -o (chloro, cyano, hydroxo)
+5. Neutral ligands: usual names (exceptions: aqua, ammine, carbonyl, nitrosyl)
+6. Number of ligands: di, tri, tetra, penta, hexa (or bis, tris, tetrakis for complex)
+7. Metal oxidation state in Roman numerals in parentheses
+8. Anionic complex: metal name + -ate suffix
+
+### Common Ligand Names in Coordination Chemistry
+
+| Ligand | Name | Ligand | Name |
+|--------|------|--------|------|
+| Cl⁻ | Chloro | NH₃ | Ammine |
+| Br⁻ | Bromo | H₂O | Aqua |
+| CN⁻ | Cyano | CO | Carbonyl |
+| NO₂⁻ | Nitro | NO | Nitrosyl |
+| OH⁻ | Hydroxo | en | Ethylenediamine |
+| O²⁻ | Oxo | C₂O₄²⁻ | Oxalato |
+| SCN⁻ | Thiocyanato | EDTA⁴⁻ | Ethylenediaminetetraacetato |
+
+### Examples of Nomenclature:
+- [Co(NH₃)₆]³⁺ → Hexaamminecobalt(III)
+- [CoCl₄]²⁻ → Tetrachlorocobaltate(II)
+- [PtCl₂(NH₃)₂] → Dichlorodiammineplatinum(II)
+- K₃[Fe(CN)₆] → Potassium hexacyanoferrate(III)
+- K₄[Fe(CN)₆] → Potassium hexacyanoferrate(II)
+- [Co(en)₂Cl₂]Cl → Dichloridobis(ethylenediamine)cobalt(III) chloride
+
+---
+
+## 9.3 Isomerism in Coordination Compounds
+
+### Structural Isomerism
+
+**Ionisation Isomerism:**
+- [Co(NH₃)₅Br]SO₄ and [Co(NH₃)₅SO₄]Br (different ions in coordination sphere vs outside)
+
+**Linkage Isomerism:**
+- [Co(NH₃)₅NO₂]²⁺ (nitro) and [Co(NH₃)₅ONO]²⁺ (nitrito)
+
+**Solvate/Hydrate Isomerism:**
+- [Cr(H₂O)₆]Cl₃ (violet) and [CrCl₂(H₂O)₄]Cl·2H₂O (green)
+
+**Coordination Isomerism:**
+- [Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆]
+
+### Stereoisomerism
+
+**Geometric (cis-trans) Isomerism:**
+
+For MA₂B₂ (square planar):
+- cis: A groups on same side; trans: A groups on opposite sides
+- Example: cis-[PtCl₂(NH₃)₂] (cisplatin, anticancer) vs trans-[PtCl₂(NH₃)₂]
+
+For MA₃B₃ (octahedral):
+- fac (facial): same ligands on one face
+- mer (meridional): same ligands in a plane
+
+**Optical Isomerism:**
+- Non-superimposable mirror images (enantiomers)
+- Shown by octahedral complexes with chelate ligands
+- [Co(en)₃]³⁺, [Co(en)₂Cl₂]⁺ (cis isomer only)
+- Named D (dextrorotatory) and L (levorotatory)
+- Racemic mixture: equimolar d+l
+
+---
+
+## 9.4 Bonding Theories
+
+### Werner's Theory
+- Primary valence = oxidation state (ionisable)
+- Secondary valence = coordination number (non-ionisable)
+
+### Valence Bond Theory (VBT)
+
+- Metal ion uses hybrid orbitals to form coordinate bonds with ligand lone pairs
+
+| CN | Geometry | Hybridisation |
+|----|---------|--------------|
+| 2 | Linear | sp |
+| 4 | Tetrahedral | sp³ |
+| 4 | Square planar | dsp² |
+| 6 | Octahedral | sp³d² (outer) or d²sp³ (inner) |
+
+**Inner orbital complex (low spin):**
+- Uses (n-1)d orbitals → d²sp³
+- Strong field ligands; d electrons pair up first
+- Diamagnetic or less paramagnetic
+
+**Outer orbital complex (high spin):**
+- Uses nd orbitals → sp³d²
+- Weak field ligands; d electrons don't pair up
+- More paramagnetic
+
+**Examples:**
+- [Fe(CN)₆]⁴⁻: Fe²⁺ (d⁶), strong CN⁻ ligand → d²sp³, 0 unpaired → diamagnetic
+- [Fe(H₂O)₆]²⁺: Fe²⁺ (d⁶), weak H₂O → sp³d², 4 unpaired → paramagnetic
+
+---
+
+### Crystal Field Theory (CFT)
+
+**Assumptions:**
+- Ligands are point charges
+- Only electrostatic interaction (no covalent bonding)
+
+**Crystal Field Splitting (Δ):**
+
+**Octahedral Field:** d-orbitals split into:
+- e_g (d_z², d_x²-y²): higher energy (+3/5 Δ_o = +6Dq each)
+- t₂g (d_xy, d_yz, d_xz): lower energy (−2/5 Δ_o = −4Dq each)
+```
+Δ_o = 10Dq
+```
+
+**Tetrahedral Field:** d-orbitals split into:
+- t₂ (d_xy, d_yz, d_xz): higher energy
+- e (d_z², d_x²-y²): lower energy
+```
+Δ_t = (4/9) Δ_o ≈ 0.44 Δ_o
+```
+(Tetrahedral complexes are almost always high spin)
+
+**Square Planar Field:** Δ_sp > Δ_o (much larger splitting)
+
+---
+
+### Spectrochemical Series
+(Increasing field strength / Increasing Δ):
+
+```
+I⁻ < Br⁻ < S²⁻ < SCN⁻ < Cl⁻ < NO₃⁻ < F⁻ < OH⁻ < ox²⁻ < H₂O < NCS⁻ < py < NH₃ < en < bipy < phen < NO₂⁻ < CN⁻ < CO
+```
+(WEAK field ← ————————→ STRONG field)
+
+- Weak field ligands: High spin, sp³d², outer orbital, more unpaired
+- Strong field ligands: Low spin, d²sp³, inner orbital, fewer unpaired
+
+---
+
+### Crystal Field Stabilisation Energy (CFSE)
+
+**Octahedral CFSE:**
+```
+CFSE = (-4Dq)(t₂g electrons) + (+6Dq)(e_g electrons)
+```
+
+| d-config | High spin | Low spin |
+|----------|-----------|---------|
+| d⁰ | 0 | 0 |
+| d¹ | −4Dq | −4Dq |
+| d² | −8Dq | −8Dq |
+| d³ | −12Dq | −12Dq |
+| d⁴ | −6Dq | −16Dq |
+| d⁵ | 0 | −20Dq |
+| d⁶ | −4Dq | −24Dq |
+| d⁷ | −8Dq | −18Dq |
+| d⁸ | −12Dq | −12Dq |
+| d⁹ | −6Dq | −6Dq |
+| d¹⁰ | 0 | 0 |
+
+---
+
+## 9.5 Important Complexes and Applications
+
+| Complex | Name | Application |
+|---------|------|------------|
+| [Ag(CN)₂]⁻ | Silver cyanide complex | Photography, silver extraction |
+| [Au(CN)₂]⁻ | Gold cyanide complex | Gold extraction |
+| [Fe(CN)₆]³⁻ | Ferricyanide | Spot test, photography |
+| [Fe(CN)₆]⁴⁻ | Ferrocyanide | Spot test |
+| cis-[PtCl₂(NH₃)₂] | Cisplatin | Anticancer drug |
+| [Ni(CO)₄] | Nickel tetracarbonyl | Mond process (Ni refining) |
+| [Fe(CO)₅] | Iron pentacarbonyl | Catalyst |
+| EDTA complexes | — | Water treatment, food preservation |
+
+---
+
+# 10. HALOALKANES AND HALOARENES
+
+## 10.1 Classification
+
+**Haloalkane:** Alkyl halide (halogen on sp³ carbon)
+- Primary (1°): RCH₂X
+- Secondary (2°): R₂CHX
+- Tertiary (3°): R₃CX
+
+**Haloarene:** Aryl halide (halogen on aromatic ring)
+
+---
+
+## 10.2 Preparation of Haloalkanes
+
+**1. From Alcohols:**
+```
+ROH + HX → RX + H₂O    (HI > HBr > HCl; Lucas reagent for HCl = anhy. ZnCl₂ + conc. HCl)
+ROH + PCl₅ → RCl + POCl₃ + HCl
+3ROH + PCl₃ → 3RCl + H₃PO₃
+3ROH + PBr₃ → 3RBr + H₃PO₃
+3ROH + PI₃ → 3RI + H₃PO₃
+ROH + SOCl₂ → RCl + SO₂ + HCl    (best method; with pyridine → retention; without → inversion)
+```
+
+**2. From Alkenes:**
+
+Hydrohalogenation (Markovnikov):
+```
+CH₂=CH₂ + HX → CH₃CH₂X    (anti-Markovnikov with peroxide, HBr only)
+```
+
+Halogenation:
+```
+CH₂=CH₂ + X₂ → CH₂X-CH₂X   (vicinal dihalide; anti addition)
+```
+
+**3. Halogen Exchange (Finkelstein Reaction):**
+```
+RCl + NaI → RI + NaCl    (in dry acetone; NaI soluble, NaCl precipitates)
+RBr + NaI → RI + NaBr
+```
+
+**4. Swarts Reaction:**
+```
+RCl + AgF → RF + AgCl    (or SbF₃)
+```
+
+**5. From Grignard Reagents + Halogen:**
+```
+RMgBr + Br₂ → RBr + MgBr₂
+```
+
+---
+
+## 10.3 Physical Properties
+
+- Polarity: C-X bond is polar (δ+ on C, δ- on X)
+- Boiling points: ↑ with chain length, branching ↓ BP, I > Br > Cl > F (vdW forces)
+- Density: higher than parent hydrocarbon
+- Insoluble in water (slightly); soluble in organic solvents
+- CHCl₃, CCl₄, CHBr₃: sweet smell; anaesthetic (CHCl₃)
+
+---
+
+## 10.4 Reactions of Haloalkanes
+
+### Nucleophilic Substitution
+
+**SN1 Mechanism:**
+- Two-step: ionisation (slow, RDS) → nucleophile attack (fast)
+- Carbocation intermediate (planar, sp²) → racemisation
+- Favoured by: 3° > 2° > 1°; polar protic solvents; weak nucleophiles
+- Rate = k[RX] (unimolecular)
+- Rearrangements possible
+
+**SN2 Mechanism:**
+- One-step: backside attack (Walden inversion, retention of configuration → inversion)
+- Transition state: pentacoordinate
+- Favoured by: 1° > 2° > 3°; polar aprotic solvents; strong nucleophiles; less hindered
+- Rate = k[RX][Nu] (bimolecular)
+- No rearrangements
+
+**Reactivity order:**
+- SN1: 3° > 2° > 1° > CH₃X
+- SN2: CH₃X > 1° > 2° > 3°
+
+**Common Nucleophiles and Products:**
+
+| Nucleophile | Product |
+|-------------|---------|
+| OH⁻ | Alcohol |
+| OR⁻ | Ether |
+| CN⁻ | Nitrile (carbon attack) |
+| NC⁻ | Isonitrile (nitrogen attack) |
+| NH₃ | Amine |
+| NO₂⁻ | Nitroalkane (O-attack) / Alkyl nitrite (O) |
+| AgCN | Isonitrile (N-attack) |
+| AgNO₂ | Nitroalkane (N-attack) |
+
+---
+
+### Elimination Reactions (E1 and E2)
+
+**E2 (Bimolecular):**
+```
+H-C-C-X + Base → C=C + HX + Base(H)
+Requirements: anti-periplanar H and X (180°)
+Rate = k[RX][Base]
+```
+
+**E1:**
+```
+Unimolecular; carbocation intermediate
+Rate = k[RX]
+```
+
+**Saytzev's Rule (Zaitsev):** More substituted (stable) alkene formed preferentially
+
+**Competition SN vs E:**
+- Strong base + high T → Elimination
+- Weak base, low T → Substitution
+- 3° always prefers elimination; 1° prefers substitution
+
+---
+
+### Reaction with Metals
+
+**Grignard Reagent (RMgX):**
+```
+RX + Mg → RMgX    (in dry ether/THF; anhydrous conditions)
+```
+Highly reactive; acts as C-nucleophile (carbanion-like)
+
+**Wurtz Reaction:**
+```
+2RX + 2Na → R-R + 2NaX    (in dry ether; symmetric alkane)
+```
+
+**Fittig Reaction:**
+```
+2ArX + 2Na → Ar-Ar + 2NaX
+```
+
+**Wurtz-Fittig Reaction:**
+```
+ArX + RX + 2Na → Ar-R + 2NaX
+```
+
+**Frankland Reaction:**
+```
+2RX + Zn → R₂Zn + ZnX₂   (dialkylzinc)
+```
+
+**Reformatsky Reaction:**
+```
+R-CO-R' + BrZnCH₂COOR'' → β-hydroxy ester (after hydrolysis)
+```
+
+---
+
+## 10.5 Preparation of Haloarenes
+
+**Electrophilic Aromatic Substitution:**
+```
+C₆H₆ + X₂ → C₆H₅X + HX    (Lewis acid catalyst: FeCl₃, FeBr₃, AlCl₃)
+```
+
+**From Diazonium Salts (Sandmeyer Reaction):**
+```
+ArN₂⁺ + CuX → ArX + N₂    (X = Cl, Br, CN)
+ArN₂⁺ + KI → ArI + N₂ + KBF₄   (no Cu needed for I)
+ArN₂⁺ + HBF₄ → ArF + N₂ + BF₃  (Balz-Schiemann reaction for F)
+```
+
+---
+
+## 10.6 Reactivity of Haloarenes
+
+- C–X bond shorter and stronger (partial double bond character due to resonance with ring)
+- Much less reactive in nucleophilic substitution (SN) than haloalkanes
+- Can undergo nucleophilic substitution with STRONG nucleophiles at HIGH TEMPERATURE (via benzyne mechanism)
+- Reactive in EAS; halogen is deactivating but ortho/para directing
+
+**Nucleophilic Aromatic Substitution (addition-elimination):**
+```
+C₆H₅Cl + NaOH (aq.) → C₆H₅OH + NaCl    (300°C, 300 atm)
+```
+(Dow process; halogen must be activated by -NO₂ groups ortho/para)
+
+---
+
+## 10.7 Polyhalogen Compounds
+
+**CCl₄:** Made by CS₂ + Cl₂; used as solvent, fire extinguisher (no H → no HCl)
+
+**Chloroform (CHCl₃):**
+- Oxidised by O₂ in light → phosgene (COCl₂, toxic): stored in dark, a little ethanol added
+- Reimer-Tiemann reaction: CHCl₃ + KOH + phenol → salicylaldehyde
+
+**Iodoform (CHI₃):**
+- Yellow ppt; antiseptic smell
+- Iodoform test: compound + I₂ + NaOH → CHI₃ (CH₃CO-, CH₃CH(OH)-, CH₃CHO positive)
+
+**DDT (dichlorodiphenyltrichloroethane):**
+- Insecticide; banned (persistent, bioaccumulates)
+
+**Freons (CFCs):**
+- Chlorofluorocarbons; refrigerants; deplete ozone layer
+
+---
+
+# 11. ALCOHOLS, PHENOLS AND ETHERS
+
+## 11.1 Alcohols
+
+### Classification
+- **1° alcohol:** OH on primary C (RCH₂OH)
+- **2° alcohol:** OH on secondary C (R₂CHOH)
+- **3° alcohol:** OH on tertiary C (R₃COH)
+- **Polyhydric alcohols:** Diols (glycol), Triols (glycerol)
+
+### Preparation of Alcohols
+
+**1. Hydration of Alkenes:**
+```
+CH₂=CH₂ + H₂O → CH₃CH₂OH    (H₂SO₄ catalyst; Markovnikov addition)
+CH₂=CH₂ + H₂O/B₂H₆ → CH₃CH₂OH   (hydroboration-oxidation; anti-Markovnikov)
+```
+
+**2. From Carbonyl Compounds:**
+```
+Aldehyde + H₂ → 1° alcohol
+Ketone + H₂ → 2° alcohol      (Ni catalyst or LiAlH₄ or NaBH₄)
+HCHO + RMgX → 1° alcohol (after hydrolysis)
+RCHO + R'MgX → 2° alcohol
+R₂CO + R'MgX → 3° alcohol
+```
+
+**3. From Esters (Saponification):**
+```
+RCOOR' + LiAlH₄ → RCH₂OH + R'OH
+```
+
+**4. From Grignard + Epoxide:**
+```
+RMgX + epoxide → primary alcohol
+```
+
+### Physical Properties
+- Hydrogen bonding: BP of alcohols >> alkanes of similar M.W.
+- Miscibility with water decreases with chain length
+- 1° < 2° < 3° acid strength (electron-releasing groups destabilise O⁻)
+
+---
+
+### Reactions of Alcohols
+
+**Acidic Nature:**
+```
+2R-OH + 2Na → 2R-ONa + H₂     (Na reacts with all alcohols)
+Acidity: H₂O > 1° > 2° > 3° (in gas phase opposite due to inductive effect)
+Phenol is more acidic than alcohols (resonance stabilisation of PhO⁻)
+```
+
+**Reaction with HX:**
+```
+ROH + HX → RX + H₂O
+Reactivity of HX: HI > HBr > HCl
+Reactivity of ROH: 3° > 2° > 1° (SN1 for 3°, SN2 for 1°)
+```
+Lucas Test: distinguish 1°, 2°, 3° with Lucas reagent (ZnCl₂/HCl)
+- 3°: immediate turbidity
+- 2°: turbidity in 5 min
+- 1°: no turbidity (at room temp)
+
+**Reaction with Phosphorus Halides and SOCl₂:**
+```
+ROH + PCl₅ → RCl + POCl₃ + HCl
+ROH + SOCl₂ → RCl + SO₂ + HCl    (in pyridine: retention; without: inversion)
+```
+
+**Dehydration:**
+```
+R-OH → alkene + H₂O    (H₂SO₄, 170°C; follows Saytzeff's rule)
+2R-OH → R-O-R + H₂O   (H₂SO₄, 130°C; Williamson-type ether synthesis)
+```
+
+**Oxidation:**
+```
+1° alcohol → aldehyde (PCC, CrO₃, pyridine) → carboxylic acid (KMnO₄, K₂Cr₂O₇/H₂SO₄)
+2° alcohol → ketone (K₂Cr₂O₇/H₂SO₄; PCC)
+3° alcohol → resistant (no α-H on C bearing OH for ketone formation)
+```
+Special Reagents:
+- PCC (pyridinium chlorochromate): 1° alcohol → aldehyde (no further oxidation)
+- MnO₂: allylic/benzylic alcohols → aldehydes/ketones
+- Jones reagent (CrO₃/H₂SO₄/acetone): 1° → acid, 2° → ketone
+
+**Esterification:**
+```
+R-OH + RCOOH → RCOOR + H₂O    (H⁺ catalyst; reversible; Fischer esterification)
+R-OH + RCOCl → RCOOR + HCl    (faster; irreversible)
+R-OH + (RCO)₂O → RCOOR + RCOOH   (irreversible)
+```
+
+**Iodoform Reaction:**
+- CH₃CH(OH)R + I₂/NaOH → CHI₃ + RCOONa (CHI₃ = iodoform, yellow ppt)
+- Positive for: ethanol, secondary alcohols with adjacent CH₃ group
+
+---
+
+## 11.2 Phenols
+
+### Preparation
+```
+Benzene sulphonic acid + NaOH (350°C, 100 atm) → C₆H₅ONa → C₆H₅OH + NaHCO₃
+Chlorobenzene + NaOH (300°C, 300 atm) → C₆H₅ONa → C₆H₅OH (Dow process)
+Cumene process: C₆H₅CH(CH₃)₂ + O₂ → PhC(CH₃)₂OOH + H⁺ → C₆H₅OH + CH₃COCH₃
+```
+
+### Acidity of Phenol
+```
+C₆H₅OH ⇌ C₆H₅O⁻ + H⁺    Ka = 10⁻¹⁰
+Phenol more acidic than alcohols (pKa ~10 vs ~16-18)
+But less acidic than carboxylic acids (pKa ~5)
+```
+
+Effect of substituents on phenol acidity:
+- Electron-withdrawing groups (NO₂, Cl) → increase acidity (stabilise phenoxide)
+- Electron-donating groups (CH₃, OH) → decrease acidity
+
+### Reactions of Phenols
+
+**With NaOH:**
+```
+C₆H₅OH + NaOH → C₆H₅ONa + H₂O    (unlike alcohols, phenol reacts with NaOH)
+But: C₆H₅OH + NaHCO₃ → NO reaction (weaker acid than H₂CO₃)
+```
+
+**Electrophilic Aromatic Substitution:**
+Phenol is strongly activated (OH is ortho/para director):
+
+Nitration:
+```
+C₆H₅OH + HNO₃(dilute) → o-/p-nitrophenol + H₂O    (room temp)
+C₆H₅OH + HNO₃(conc.)/H₂SO₄ → 2,4,6-trinitrophenol (picric acid)
+```
+
+Halogenation:
+```
+C₆H₅OH + Br₂(aq., no catalyst) → 2,4,6-tribromophenol↓ (white) + 3HBr
+```
+(Bromine water test for phenol)
+
+Sulphonation:
+```
+C₆H₅OH + H₂SO₄ → o-hydroxybenzenesulphonic acid (low T) or p-isomer (high T)
+```
+
+**Kolbe-Schmitt Reaction:**
+```
+C₆H₅ONa + CO₂ (130°C, 4-7 atm) → sodium salicylate → salicylic acid (aspirin precursor)
+```
+
+**Reimer-Tiemann Reaction:**
+```
+C₆H₅OH + CHCl₃ + KOH → salicylaldehyde (2-hydroxybenzaldehyde) + HCl
+```
+
+**Fries Rearrangement:**
+```
+C₆H₅OCOR + AlCl₃ → o-/p-hydroxyaryl ketone    (Lewis acid catalyst)
+```
+
+**Esterification:**
+```
+C₆H₅OH + CH₃COCl → C₆H₅OCOCH₃ (phenyl acetate) + HCl    (faster)
+Phenol less reactive than alcohol in esterification (less nucleophilic)
+```
+
+---
+
+## 11.3 Ethers
+
+### Preparation
+
+**Williamson's Synthesis:**
+```
+R-O⁻Na⁺ + R'-X → R-O-R' + NaX    (SN2; use 1°-alkyl halide; tertiary → elimination)
+```
+
+**Dehydration:**
+```
+2R-OH → R-O-R + H₂O    (H₂SO₄, 130°C; symmetrical ether only)
+```
+
+**Industrial:** Diethyl ether from ethanol + H₂SO₄
+
+### Physical Properties
+- Polar but no O-H bond → no H-bonding between ether molecules
+- BP lower than corresponding alcohols
+- Miscible with water due to H-bonding with water
+- Good solvents (Grignard reactions)
+
+### Reactions of Ethers
+
+**Cleavage with HX (excess):**
+```
+R-O-R' + HI → R-I + R'-OH (1 equiv) → R-I + R'-I + H₂O (excess)
+```
+Reactivity: HI > HBr > HCl
+
+**Formation of Peroxides:**
+```
+C₂H₅-O-C₂H₅ + O₂ → C₂H₅-O-O-C₂H₅ (diethyl peroxide; explosive!)
+```
+Diethyl ether should never be evaporated to dryness.
+
+**Friedel-Crafts with Aryl Ethers:**
+```
+C₆H₅-O-CH₃ + CH₃COCl + AlCl₃ → p-methoxyacetophenone + HCl
+```
+
+---
+
+# 12. ALDEHYDES, KETONES AND CARBOXYLIC ACIDS
+
+## 12.1 Aldehydes and Ketones
+
+### Preparation of Aldehydes
+
+**1. Oxidation of Primary Alcohols:**
+```
+RCH₂OH + PCC → RCHO    (PCC = pyridinium chlorochromate; mild oxidation)
+RCH₂OH + MnO₂ → RCHO   (for benzylic/allylic only)
+```
+
+**2. Rosenmund Reduction (Acid Chloride → Aldehyde):**
+```
+RCOCl + H₂ → RCHO + HCl    (Pd/BaSO₄ catalyst, quinoline poison)
+```
+
+**3. From Nitriles (Stephen Reduction):**
+```
+RCN + SnCl₂ + HCl → [RCH=NH]·HCl → RCHO (hydrolysis)
+```
+
+**4. Etard Reaction:**
+```
+ArCH₃ + CrO₂Cl₂ → ArCHO    (Chromyl chloride)
+```
+
+**5. Gattermann-Koch Reaction:**
+```
+C₆H₆ + CO + HCl + AlCl₃/CuCl → C₆H₅CHO (benzaldehyde)
+```
+
+**6. Ozonolysis of Alkenes:**
+```
+R-CH=CH-R' + O₃ → R-CHO + R'-CHO (after reductive workup with Zn/H₂O)
+```
+
+### Preparation of Ketones
+
+**1. Oxidation of Secondary Alcohols:**
+```
+R₂CHOH + K₂Cr₂O₇/H₂SO₄ → R₂C=O
+```
+
+**2. Friedel-Crafts Acylation:**
+```
+C₆H₆ + CH₃COCl + AlCl₃ → C₆H₅COCH₃ + HCl
+```
+
+**3. From Acid Chlorides:**
+```
+2RCOCl + R'₂Cd → R-CO-R + CdCl₂ + RCOCl   (Gilman reagent method)
+```
+
+**4. Dry Distillation of Calcium Salts:**
+```
+(RCOO)₂Ca → R-CO-R + CaCO₃    (symmetrical ketone)
+(RCOO)Ca + (R'COO)Ca → R-CO-R' (mixed) + 2CaCO₃
+```
+
+---
+
+### Reactions of Aldehydes and Ketones
+
+**Nucleophilic Addition (General):**
+```
+Nu: + C=O → Nu-C-O⁻ → Nu-C-OH (after protonation)
+```
+Reactivity: HCHO > RCHO > RCOR' (steric and electronic effects)
+Electron-withdrawing groups → increase reactivity; EDG → decrease
+
+**1. With HCN:**
+```
+RCHO + HCN → RCH(OH)CN (α-hydroxy nitrile / cyanohydrin)
+```
+(KCN + HCN; cyanohydrin useful for chain extension)
+
+**2. With NaHSO₃:**
+```
+RCHO + NaHSO₃ → RCHOH-SO₃Na (bisulphite addition compound, white ppt)
+```
+Aldehydes, methyl ketones, cyclic ketones (≤8C) only.
+Used to purify aldehydes.
+
+**3. With Alcohols:**
+```
+RCHO + ROH (1 equiv.) → RCH(OH)OR (hemiacetal)
+RCHO + 2ROH (excess, anhydrous HCl) → RCH(OR)₂ (acetal) + H₂O
+```
+Acetal is stable to base, hydrolysed by acid — used as protecting group.
+
+**4. With Ammonia Derivatives (Condensation):**
+```
+RCHO + H₂N-G → RCH=N-G + H₂O    (G = various groups)
+```
+
+| Reagent (H₂N-G) | Product | Name |
+|-----------------|---------|------|
+| NH₂OH | RCH=NOH | Oxime |
+| N₂H₄ | RCH=N-NH₂ | Hydrazone |
+| C₆H₅-NH-NH₂ | RCH=N-NHC₆H₅ | Phenylhydrazone |
+| (C₆H₅)₂N-NH₂ | RCH=N-N(C₆H₅)₂ | Diphenylhydrazone |
+| NH₂-NH-CO-NH₂ | RCH=N-NH-CO-NH₂ | Semicarbazone |
+| H₂N-NH-C₆H₅ | RCH=NNHPh | Phenylhydrazone |
+
+These are solid, sharp MP → identify carbonyl compounds.
+
+**5. Reduction:**
+```
+RCHO + H₂ (Ni, Pd, Pt) → RCH₂OH (1° alcohol)
+RCOR' + H₂ → RCHOHR' (2° alcohol)
+Clemmensen Reduction: C=O + Zn(Hg)/HCl → CH₂    (acid conditions)
+Wolff-Kishner Reduction: C=O + N₂H₄/KOH → CH₂   (basic conditions)
+```
+
+**6. Aldol Condensation:**
+```
+2CH₃CHO + NaOH (dilute) → CH₃CH(OH)CH₂CHO (aldol) → CH₃CH=CHCHO (crotonaldehyde, upon heating)
+```
+- Requires α-H
+- Cross aldol with two different ketones/aldehydes → mixture (useful only when one lacks α-H)
+
+**7. Cannizzaro Reaction:**
+```
+2HCHO + NaOH (conc.) → HCOO⁻Na⁺ + CH₃OH   (50% aldehyde oxidised, 50% reduced)
+```
+- For aldehydes WITHOUT α-H (HCHO, C₆H₅CHO, (CH₃)₃CCHO)
+- Self-oxidation-reduction
+
+**8. Tollen's Test (Silver Mirror Test):**
+```
+RCHO + 2[Ag(NH₃)₂]⁺ + 2OH⁻ → RCOO⁻ + 2Ag (silver mirror) + 4NH₃ + H₂O
+```
+- Positive: all aldehydes, HCOOH, glucose (reduces Tollens')
+- Negative: ketones (except α-diketones like benzil)
+
+**9. Fehling's Test:**
+```
+RCHO + Fehling's solution (Cu²⁺ complex) → RCOOH + Cu₂O↓ (brick red)
+```
+- Positive: aliphatic aldehydes, reducing sugars
+- Negative: aromatic aldehydes (C₆H₅CHO), ketones
+
+**10. Haloform Reaction:**
+```
+CH₃COCH₃ + 3X₂ + 3NaOH → CHX₃ (haloform) + CH₃COO⁻Na⁺ + 3NaX + 2H₂O
+```
+- Positive for: CH₃CO- group compounds (acetaldehyde, acetone, methyl ketones)
+- CHCl₃ = chloroform (colourless liquid); CHBr₃ = bromoform; CHI₃ = iodoform (yellow ppt)
+- Iodoform reaction: CH₃CHO, CH₃OH (oxidised to CH₃CHO first), CH₃CH(OH)- positive
+
+**11. Perkin Condensation:**
+```
+C₆H₅CHO + (CH₃CO)₂O + CH₃COO⁻Na⁺ → C₆H₅CH=CHCOOH (cinnamic acid) + CH₃COOH
+```
+
+**12. Benzoin Condensation:**
+```
+2C₆H₅CHO + KCN (catalyst) → C₆H₅CH(OH)COC₆H₅ (benzoin)
+```
+
+---
+
+## 12.2 Carboxylic Acids
+
+### Preparation
+
+**1. Oxidation:**
+```
+Primary alcohol → acid (KMnO₄, K₂Cr₂O₇/H₂SO₄)
+Aldehyde → acid (same reagents or Tollens')
+Side chain of benzene → acid (KMnO₄/H⁺ → COOH regardless of chain length)
+```
+
+**2. Hydrolysis:**
+```
+Nitrile: RCN + H₂O + H⁺ → RCOOH + NH₄⁺
+Amide: RCONH₂ + H₂O + H⁺ → RCOOH + NH₄⁺
+Ester: RCOOR' + H₂O + H⁺ → RCOOH + R'OH
+Acid anhydride: (RCO)₂O + H₂O → 2RCOOH
+```
+
+**3. Grignard + CO₂:**
+```
+RMgX + CO₂ → RCOOMgX → RCOOH (after hydrolysis)
+```
+
+**4. Industrial:**
+```
+CH₃OH + CO → CH₃COOH    (Monsanto process; Rh catalyst, 300 psi)
+```
+
+---
+
+### Physical Properties
+- Strong H-bonding (O-H···O=C); exist as dimers in vapour phase
+- Very high BP compared to alcohols of similar MW
+- Very soluble in water (short chain); long chain waxy solids
+
+---
+
+### Reactions of Carboxylic Acids
+
+**1. Acidic Nature:**
+```
+RCOOH ⇌ RCOO⁻ + H⁺
+pKa: acetic acid = 4.76; formic acid = 3.75
+```
+Effect on acidity:
+- EWG (Cl, NO₂) → increase acidity (stabilise RCOO⁻)
+- EDG (CH₃, OH) → decrease acidity
+
+Haloacids (Trichloroacetic > Dichloroacetic > Chloroacetic > Acetic)
+
+**2. Reactions with Metals, Bases:**
+```
+2RCOOH + 2Na → 2RCOONa + H₂↑
+RCOOH + NaOH → RCOONa + H₂O
+RCOOH + NaHCO₃ → RCOONa + H₂O + CO₂↑    (distinguishes from phenol)
+```
+
+**3. Esterification:**
+```
+RCOOH + R'OH ⇌ RCOOR' + H₂O    (H⁺ catalyst; reversible; use excess alcohol or remove water)
+Mechanism: Nucleophilic addition to C=O → tetrahedral intermediate → elimination of H₂O
+```
+
+**4. Acid Halide Formation:**
+```
+RCOOH + SOCl₂ → RCOCl + SO₂ + HCl   (best)
+RCOOH + PCl₅ → RCOCl + POCl₃ + HCl
+RCOOH + PCl₃ → RCOCl + H₃PO₃
+```
+
+**5. Anhydride Formation:**
+```
+2RCOOH → (RCO)₂O + H₂O   (heat with P₂O₅ or strong dehydrating agent)
+```
+
+**6. Decarboxylation:**
+```
+RCOO⁻Na⁺ + NaOH → R-H + Na₂CO₃    (soda lime; Dumas)
+RCOOAg + Br₂(CCl₄) → RBr + CO₂ + AgBr   (Hunsdiecker reaction)
+```
+
+**7. Hell-Volhard-Zelinsky (HVZ) Reaction:**
+```
+RCOOH + Br₂ + PBr₃ → RCH(Br)COOH   (α-bromination)
+```
+
+**8. Reduction:**
+```
+RCOOH + LiAlH₄ → RCH₂OH (primary alcohol)
+RCOOH does NOT react with NaBH₄
+```
+
+---
+
+# 13. AMINES
+
+## 13.1 Classification
+
+- **Primary (1°):** R-NH₂ (one alkyl group)
+- **Secondary (2°):** R₂NH (two alkyl groups)
+- **Tertiary (3°):** R₃N (three alkyl groups)
+- **Quaternary:** R₄N⁺ (4 alkyl groups + positive charge)
+- Aromatic: PhNH₂ (aniline), Ph₂NH, etc.
+
+---
+
+## 13.2 Preparation of Amines
+
+**1. Reduction of Nitro Compounds:**
+```
+RNO₂ + 6[H] → RNH₂ + 2H₂O    (Fe + HCl, or Sn + HCl, or H₂/Ni)
+C₆H₅NO₂ + Fe + HCl → C₆H₅NH₂ (aniline) + FeCl₂ + H₂O
+```
+
+**2. Reduction of Nitriles:**
+```
+RCN + 2H₂ (Ni) → RCH₂NH₂    (1° amine, one more C)
+```
+
+**3. Reduction of Amides:**
+```
+RCONH₂ + LiAlH₄ → RCH₂NH₂
+```
+
+**4. Gabriel Phthalimide Synthesis (1° amine only):**
+```
+Phthalimide + KOH → K-phthalimide + RX → N-alkyl phthalimide + KOH/H₂O → RNH₂ + phthalic acid
+```
+Gives only primary amine; no 2° or 3°
+
+**5. Hofmann Bromamide Degradation:**
+```
+RCONH₂ + Br₂ + 4NaOH → RNH₂ + Na₂CO₃ + 2NaBr + 2H₂O    (1° amine, one fewer C)
+```
+
+**6. Ammonolysis of Alkyl Halides:**
+```
+RX + NH₃ → RNH₂ + HX  (but over-alkylation gives mixture of 1°, 2°, 3°, QAS)
+```
+
+---
+
+## 13.3 Physical Properties
+
+- Hydrogen bonding (N–H···N): lower BP than corresponding alcohols (N less electronegative)
+- 1° and 2° amines: H-bonding; 3° amines: no N–H bond → lower BP than 1° and 2°
+- Fishy odour (low MW amines)
+- Solubility: lower MW amines soluble in water; decrease with chain length
+
+---
+
+## 13.4 Reactions of Amines
+
+### Basic Nature
+
+**Basicity order of amines:**
+- Gas phase: 3° > 2° > 1° > NH₃ (inductive effect only)
+- Aqueous solution: 2° > 1° > 3° > NH₃ (solvent + inductive + steric effects)
+- Aniline << aliphatic amines (lone pair in resonance with ring → less available)
+- Electron-withdrawing groups on ring → decrease basicity
+- Electron-donating groups on ring → increase basicity
+- pKb: aniline = 9.4; methylamine = 3.4; dimethylamine = 3.3; trimethylamine = 4.2
+
+**Reaction with acids:**
+```
+RNH₂ + HCl → RNH₃⁺Cl⁻ (alkylammonium chloride)
+RNH₂ + H₂SO₄ → (RNH₃)⁺HSO₄⁻
+```
+
+### Acylation
+```
+RNH₂ + CH₃COCl → CH₃CONHR + HCl    (amide; in pyridine)
+RNH₂ + (CH₃CO)₂O → CH₃CONHR + CH₃COOH
+```
+
+### Reaction with Nitrous Acid (HNO₂)
+
+**Aliphatic:**
+- 1° amine + HNO₂ → unstable diazonium → N₂ + alcohol/alkene/other products
+- 2° amine + HNO₂ → N-nitrosamine (R₂N-NO, yellow oil)
+- 3° amine + HNO₂ → no reaction (no N–H)
+
+**Aromatic (with NaNO₂ + HCl at 0°C):**
+- 1° amine + NaNO₂ + HCl → stable ArN₂⁺ Cl⁻ (diazonium salt)
+```
+C₆H₅NH₂ + NaNO₂ + HCl → C₆H₅N₂⁺Cl⁻ + NaCl + H₂O
+```
+
+### Reactions of Diazonium Salts
+
+**Replacement reactions (Sandmeyer, etc.):**
+```
+ArN₂⁺ + CuCl → ArCl + N₂    (Sandmeyer)
+ArN₂⁺ + CuBr → ArBr + N₂
+ArN₂⁺ + CuCN → ArCN + N₂
+ArN₂⁺ + KI → ArI + N₂ + KBF₄
+ArN₂⁺ + HBF₄ → ArF + N₂ + BF₃ (Balz-Schiemann)
+ArN₂⁺ + H₂O/H⁺ → ArOH + N₂   (phenol)
+ArN₂⁺ + H₃PO₂ → Ar-H + N₂    (deamination)
+```
+
+**Coupling reactions (Electrophilic aromatic substitution):**
+```
+ArN₂⁺ + C₆H₅OH → 4-hydroxyazobenzene (azo dye, orange-red)    (at 0°C, pH 9)
+ArN₂⁺ + C₆H₅NH₂ → 4-aminoazobenzene (azo dye)    (at 0°C, pH 5)
+```
+Coupling always occurs at para position (or ortho if para blocked).
+Azo compounds are coloured → dyes (aniline yellow, orange II, methyl orange)
+
+### Carbylamine Test (1° amines only)
+```
+R-NH₂ + CHCl₃ + KOH → R-NC + HCl    (isocyanide, carbylamine; terrible smell)
+```
+Used to identify 1° amines only.
+
+### Hofmann Elimination
+```
+R₄N⁺OH⁻ (heat) → alkene + R₃N + H₂O    (less substituted alkene preferentially; anti-Hofmann or anti-Saytzev)
+```
+
+---
+
+# 14. BIOMOLECULES
+
+## 14.1 Carbohydrates
+
+**Definition:** Polyhydroxy aldehydes/ketones or substances that yield them on hydrolysis.
+
+**General Formula:** Cₙ(H₂O)ₘ (hence "hydrates of carbon")
+
+**Classification:**
+
+| Type | Definition | Examples |
+|------|-----------|---------|
+| Monosaccharides | Cannot be hydrolysed further | Glucose, Fructose, Galactose |
+| Disaccharides | Yield 2 monosaccharides on hydrolysis | Sucrose, Maltose, Lactose |
+| Polysaccharides | Many monosaccharide units | Starch, Glycogen, Cellulose |
+
+Also: Reducing sugars (have free aldehyde/ketone) vs Non-reducing (no free anomeric OH, e.g., sucrose)
+
+---
+
+### Glucose (C₆H₁₂O₆)
+
+**Open chain structure:**
+- Aldopentose: CHO-CHOH-CHOH-CHOH-CHOH-CH₂OH (D-glucose)
+
+**Evidence of structure:**
+- 6C, 1 CHO, 5 OH
+- Reacts with HCN → cyanohydrin (proves –CHO)
+- Reacts with acetic anhydride → pentaacetate (proves 5 OH)
+
+**Fischer projection:** Determines relative configuration (D or L)
+- D-glucose: OH on right at highest numbered chiral centre (C5)
+- L-glucose: OH on left at C5
+
+**Haworth Projection (Cyclic structure):**
+- Ring formed by reaction of C1 and C5 (6-membered ring = pyranose)
+- α-D-glucose: OH on C1 below ring
+- β-D-glucose: OH on C1 above ring (same side as C6-OH)
+- Anomers: differ only at C1 (anomeric carbon)
+
+**Mutarotation:** α-D-glucose (specific rotation +112.2°) ⇌ β-D-glucose (+18.7°) in solution; equilibrium: +52.6°
+
+**Reactions of Glucose:**
+- Reduces Tollens' and Fehling's (reducing sugar)
+- Fermentation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (yeast/zymase)
+- Oxidation: glucose → gluconic acid (Br₂ water) or glucaric acid (HNO₃)
+- Reduction: glucose → sorbitol (NaBH₄)
+- Glycoside formation: glucose + methanol + HCl → methyl glucoside (acetal)
+
+---
+
+### Disaccharides
+
+| Name | Monomers | Linkage | Reducing? | Notes |
+|------|---------|---------|-----------|-------|
+| Sucrose | α-Glucose + β-Fructose | α1-β2 | No | Invert sugar (hydrolysis) |
+| Maltose | 2 α-Glucose | α1→4 | Yes | Malt sugar; starch hydrolysis |
+| Lactose | Galactose + Glucose | β1→4 | Yes | Milk sugar |
+
+**Invert Sugar:** Equal mixture of glucose + fructose from sucrose hydrolysis (rotation inverts from + to −)
+
+### Polysaccharides
+
+| Name | Monomer | Linkage | Structure | Function |
+|------|---------|---------|-----------|---------|
+| Starch | α-Glucose | α1→4 (amylose); α1→6 (amylopectin) | Amylose: linear; Amylopectin: branched | Energy storage (plants) |
+| Glycogen | α-Glucose | α1→4 and α1→6 | Highly branched | Energy storage (animals) |
+| Cellulose | β-Glucose | β1→4 | Linear; H-bonded sheets | Structural (plants) |
+
+---
+
+## 14.2 Amino Acids
+
+**General structure:** H₂N–CHR–COOH (α-amino acid)
+
+**Zwitterion:** NH₃⁺–CHR–COO⁻ (at isoelectric point)
+
+**Isoelectric Point (pI):** pH at which amino acid has zero net charge
+
+**Essential Amino Acids (not synthesised by body):**
+Valine, Leucine, Isoleucine, Phenylalanine, Methionine, Lysine, Threonine, Tryptophan
+
+**Classification:**
+- Non-polar (hydrophobic): Glycine, Alanine, Valine, Leucine
+- Polar neutral: Serine, Threonine, Cysteine
+- Polar acidic: Aspartate, Glutamate (−COOH)
+- Polar basic: Lysine, Arginine (−NH₂), Histidine (imidazole)
+
+---
+
+## 14.3 Proteins
+
+**Peptide bond:** CONH formed between −COOH of one amino acid and −NH₂ of another (condensation).
+
+**Primary structure:** Sequence of amino acids (peptide bonds)
+
+**Secondary structure:** Regular folding due to H-bonds
+- α-helix: H-bonds within same chain
+- β-pleated sheet: H-bonds between different chains
+
+**Tertiary structure:** 3D folding; disulphide bonds, hydrophobic interactions, H-bonds
+
+**Quaternary structure:** Multiple polypeptide subunits
+
+**Denaturation:** Disruption of 3D structure without breaking peptide bonds (heat, pH change)
+
+**Fibrous proteins:** Long, insoluble (keratin, collagen, myosin)
+**Globular proteins:** Spherical, soluble (haemoglobin, enzymes)
+
+---
+
+## 14.4 Enzymes
+
+- Biological catalysts; protein in nature (some RNA)
+- Highly specific (lock-and-key model or induced fit)
+- Active site: region where substrate binds
+- Factors: Temperature (optimal ~37°C), pH (optimal 6-8), inhibitors
+
+---
+
+## 14.5 Nucleic Acids
+
+**Components:**
+- Nucleotide = Nitrogenous base + Pentose sugar + Phosphate group
+- Nucleoside = Nitrogenous base + Pentose sugar
+
+**Bases:**
+- Purines: Adenine (A), Guanine (G) (double ring)
+- Pyrimidines: Cytosine (C), Thymine (T, DNA only), Uracil (U, RNA only) (single ring)
+
+**DNA:** Deoxyribose sugar; double helix (Watson-Crick model)
+- Base pairing: A–T (2 H-bonds), G–C (3 H-bonds)
+- Antiparallel strands; 5' to 3' direction
+
+**RNA:** Ribose sugar; mostly single stranded
+- Types: mRNA, rRNA, tRNA
+
+---
+
+## 14.6 Vitamins
+
+| Vitamin | Chemical Name | Deficiency Disease | Solubility |
+|---------|--------------|-------------------|-----------|
+| A | Retinol | Night blindness | Fat |
+| B₁ | Thiamine | Beri-beri | Water |
+| B₂ | Riboflavin | Cheilosis | Water |
+| B₃ | Niacin | Pellagra | Water |
+| B₅ | Pantothenic acid | Burning feet | Water |
+| B₆ | Pyridoxal | Convulsions | Water |
+| B₇ | Biotin | Dermatitis | Water |
+| B₉ | Folic acid | Anaemia | Water |
+| B₁₂ | Cyanocobalamin | Pernicious anaemia | Water |
+| C | Ascorbic acid | Scurvy | Water |
+| D | Calciferol | Rickets | Fat |
+| E | Tocopherol | Sterility | Fat |
+| K | Phylloquinone | Impaired clotting | Fat |
+
+**Fat-soluble:** A, D, E, K (stored in body; toxicity if excess)
+**Water-soluble:** B-complex, C (not stored; must be replenished daily)
+
+---
+
+## 14.7 Hormones
+
+| Hormone | Gland | Function |
+|---------|-------|---------|
+| Insulin | Pancreas (β-cells) | Glucose metabolism ↓ blood glucose |
+| Glucagon | Pancreas (α-cells) | ↑ blood glucose |
+| Adrenaline | Adrenal medulla | Fight-or-flight |
+| Thyroxine | Thyroid | Metabolic rate |
+| Testosterone | Testes | Male sex characteristics |
+| Oestrogen | Ovaries | Female sex characteristics |
+| Growth hormone | Pituitary | Growth |
+| Oxytocin | Pituitary (posterior) | Labour, milk ejection |
+
+---
+
+# 15. POLYMERS
+
+## 15.1 Classification
+
+### Based on Source
+- Natural: Cellulose, starch, proteins, natural rubber, nucleic acids
+- Synthetic: Nylon, Teflon, Bakelite, PVC
+
+### Based on Structure
+- Linear: PVC, HDPE, nylon
+- Branched: LDPE (branches → lower density)
+- Cross-linked: Bakelite, Melamine, vulcanised rubber
+
+### Based on Polymerisation Mechanism
+
+**Addition polymerisation (chain growth):**
+- Monomer has C=C double bond
+- Free radical, cationic, or anionic mechanism
+- No byproduct
+
+**Condensation polymerisation (step growth):**
+- Loss of small molecule (H₂O, HCl, NH₃)
+- Polyesters, polyamides (nylons)
+- Two different functional groups
+
+---
+
+## 15.2 Types of Polymers
+
+### Addition Polymers
+
+| Monomer | Polymer | Uses |
+|---------|---------|------|
+| Ethylene (H₂C=CH₂) | Polyethylene (LDPE/HDPE) | Bags, films, pipes |
+| Propylene | Polypropylene | Ropes, bottles, carpets |
+| Vinyl chloride | PVC (polyvinyl chloride) | Pipes, floor tiles, wire insulation |
+| Styrene | Polystyrene | Packaging, insulation |
+| Tetrafluoroethylene | Teflon (PTFE) | Non-stick coating |
+| Acrylonitrile | Orlon (PAN) | Fibres, fabrics |
+| Methyl methacrylate | PMMA (Perspex, Plexiglass) | Optical lenses, windows |
+| Isoprene (2-methyl-1,3-butadiene) | Natural rubber (cis-polyisoprene) | Tyres, gloves |
+| Chloroprene (2-chloro-1,3-butadiene) | Neoprene | Oil-resistant rubber |
+
+**LDPE vs HDPE:**
+- LDPE: Free radical, branched, soft, low density, polythene bags
+- HDPE: Ziegler-Natta catalyst (TiCl₄ + Al(C₂H₅)₃), linear, hard, high density, buckets
+
+### Condensation Polymers
+
+| Name | Monomers | Linkage | Uses |
+|------|---------|---------|------|
+| Nylon-6,6 | Hexamethylenediamine + Adipic acid | Amide (–CONH–) | Textiles, ropes |
+| Nylon-6 | Caprolactam | Amide | Fabrics |
+| Dacron (Terylene, PET) | Ethylene glycol + Terephthalic acid | Ester | Bottles, fabrics |
+| Bakelite | Phenol + Formaldehyde | C–C (methylene bridges) | Electrical, handles |
+| Melamine-formaldehyde | Melamine + Formaldehyde | C–N | Crockery, laminates |
+| Glyptal | Ethylene glycol + Phthalic acid | Ester | Paints, varnishes |
+| Urea-formaldehyde | Urea + HCHO | C–N | Adhesives |
+
+---
+
+## 15.3 Rubber
+
+### Natural Rubber
+- cis-polyisoprene (1,4-addition polymer of isoprene)
+- Structure: all cis double bonds → coiled structure → elastic
+- Cannot be used directly (sticky, soft, loses shape)
+- Vulcanisation: Natural rubber + S (3–5%) at 100–180°C → cross-linking by S–S bridges
+- Vulcanised rubber: harder, less sticky, good elastic range, better wear resistance
+
+### Synthetic Rubbers
+
+| Name | Monomers | Property | Uses |
+|------|---------|---------|------|
+| Buna-S (SBR) | Butadiene + Styrene | Good tensile strength | Tyres |
+| Buna-N (NBR) | Butadiene + Acrylonitrile | Resistant to oils | Seals, gaskets |
+| Neoprene | Chloroprene | Oil/chemical resistant | Wetsuits, seals |
+| Thiokol | Ethylene chloride + Na₂S₄ | Resistant to organic solvents | Fuel hoses |
+
+---
+
+## 15.4 Important Terms
+
+**Degree of polymerisation (DP):** Average number of monomer units per polymer chain
+- Higher DP → higher MW → stronger, harder polymer
+
+**Thermoplastics:** Soften on heating, harden on cooling; linear/branched; recyclable (PVC, PE, nylon)
+
+**Thermosetting plastics:** Set permanently on heating; cross-linked; not recyclable (Bakelite, Melamine)
+
+**Copolymers:** Two or more monomers → mixed polymer (e.g., Buna-S, Nylon-6,6)
+
+**Homopolymers:** Single monomer (e.g., PE, PVC)
+
+---
+
+# 16. CHEMISTRY IN EVERYDAY LIFE
+
+## 16.1 Drugs (Medicines)
+
+**Drug:** Chemical that alters biochemical/physiological processes in the body
+
+### Classification by Pharmacological Action
+
+**1. Analgesics (Pain relievers):**
+- Narcotic (addictive): Morphine, Heroin, Codeine — act on CNS, opiate receptors
+- Non-narcotic: Aspirin (salicylates), Ibuprofen, Paracetamol (NSAIDS → inhibit prostaglandin synthesis)
+
+**2. Tranquillisers (Psychotherapeutic drugs):**
+- Barbiturates: Phenobarbitone, Amytal, Seconal — sleep inducers; inhibit CNS
+- Benzodiazepines: Diazepam (Valium), Chlordiazepoxide — anti-anxiety
+- Non-barbiturates: Equanil (meprobamate) — mild sedatives
+
+**3. Antimicrobials:**
+
+Antibiotics: Chemical substances produced by microorganisms that kill or inhibit bacteria
+- Bactericidal: Kill bacteria (Penicillin, Ofloxacin)
+- Bacteriostatic: Inhibit growth (Erythromycin, Tetracycline, Chloramphenicol)
+
+Penicillin: Inhibits cell wall synthesis in bacteria
+Broad-spectrum antibiotic: Active against both Gram+ and Gram− bacteria (Ampicillin, Amoxicillin, Chloramphenicol)
+Narrow-spectrum: Active against specific group (Penicillin G: Gram+ only)
+
+**4. Antiseptics and Disinfectants:**
+
+| Antiseptics (for living tissue) | Disinfectants (for non-living) |
+|--------------------------------|-------------------------------|
+| 0.2% phenol solution | 1% phenol solution |
+| Dettol (chloroxylenol + terpineol) | Cl₂ (0.2-0.4 ppm in water supply) |
+| Bithionol (in soaps) | SO₂ (preservation) |
+| Iodoform (CHI₃) | Formaldehyde solution (formalin) |
+| 1% AgNO₃ (eye drops) | |
+| H₂O₂ (3% for wounds) | |
+
+**5. Antifertility Drugs:**
+- Norethindrone (progestins): Inhibit ovulation
+- Progesterone derivatives: Oral contraceptives
+
+**6. Antihistamines:**
+- Block histamine receptors → treat allergies
+- Examples: Brompheniramine, Terfenadine, Promethazine
+
+**7. Antacids:**
+- Neutralise stomach acid (HCl)
+- Al(OH)₃, Mg(OH)₂, NaHCO₃, Al₂O₃·Mg(OH)₂
+
+**8. Antimalarials:**
+- Chloroquine, Primaquine, Quinine (from cinchona bark)
+
+---
+
+## 16.2 Drug-Target Interaction
+
+**Enzyme as drug target:**
+- Competitive inhibitor: binds at active site; blocks substrate
+- Non-competitive inhibitor: binds elsewhere (allosteric site); changes shape of active site
+- Aspirin: irreversibly inhibits cyclooxygenase (COX) → no prostaglandin synthesis → anti-inflammatory, analgesic, antipyretic
+
+**Receptor as drug target:**
+- Agonists: bind and activate receptors (mimic natural ligand)
+- Antagonists: bind and block receptors; do not activate
+
+---
+
+## 16.3 Food Additives
+
+| Category | Function | Examples |
+|----------|---------|---------|
+| Preservatives | Prevent spoilage | Salt, sugar, vinegar, NaBenzoate, SO₂ |
+| Antioxidants | Prevent rancidity | BHA (butylated hydroxyanisole), BHT (butylated hydroxytoluene), Vitamin E, Ascorbic acid |
+| Artificial sweeteners | Sweet taste, no/low calories | Saccharin (550× sweet), Aspartame (100×), Alitame (2000×), Sucralose (600×) |
+| Artificial colours | Aesthetic appeal | Tartrazine, Sunset yellow |
+| Emulsifiers | Stabilise emulsions | Lecithin, Glyceryl monostearate |
+| Flavouring agents | Enhance flavour | Vanillin, Monosodium glutamate |
+
+**Aspartame:** Unstable at high T; not suitable for cooking
+
+**Alitame:** Very stable, not suitable for all uses (stays sweet too long)
+
+---
+
+## 16.4 Soaps and Detergents
+
+### Soaps
+
+**Saponification:**
+```
+Fat (glyceryl ester) + 3NaOH → Soap (RCOONa) + Glycerol
+```
+
+**Structure of soap molecule:** Long non-polar tail (hydrophobic) + polar head (–COO⁻Na⁺, hydrophilic)
+
+**Micelle formation:** Soap molecules aggregate in water; tails inward, heads outward; spherical
+
+**Cleansing action:** Oil/grease trapped inside micelle → emulsified → washed away
+
+**Limitations of soap:**
+- Doesn't work in hard water (Ca²⁺, Mg²⁺ form insoluble scum with soap)
+- Doesn't work in acidic medium (soap converted to free fatty acid + precipitation)
+
+---
+
+### Detergents
+
+**Synthetic detergents:** Alkylbenzene sulphonates (ABS) or alkyl sulphates
+
+**Types:**
+
+| Type | Examples | Properties |
+|------|---------|-----------|
+| Anionic | Sodium alkylbenzenesulphonate, sodium lauryl sulphate | Most common; laundry, shampoos |
+| Cationic | Cetyltrimethylammonium bromide (CTAB) | Germicidal; hair conditioners, fabric softeners |
+| Non-ionic | Glycol esters, polyethylene glycol ethers | No charge; shampoos, liquid dishwash |
+
+**Advantages over soap:**
+- Work in hard water (sulphonate group doesn't form insoluble salts with Ca²⁺, Mg²⁺)
+- Work in acidic medium
+
+---
+
+## 16.5 Rocket Propellants
+
+**Solid propellants:**
+- Fuel: Aluminium powder
+- Oxidant: Ammonium perchlorate (NH₄ClO₄)
+
+**Liquid propellants:**
+- Liquid H₂ (fuel) + Liquid O₂ (oxidant)
+- Hydrazine (N₂H₄) + N₂O₄
+
+---
+
+# APPENDIX: KEY FORMULAS SUMMARY
+
+## Electrochemistry
+```
+E_cell = E°_cell - (0.0592/n) log Q    [Nernst at 25°C]
+ΔG = -nFE_cell
+ΔG° = -RT ln K = -nFE°_cell
+log K = nE°_cell / 0.0592
+m = ZQ = ZIt = MIt/nF
+```
+
+## Chemical Kinetics
+```
+k = A e^(-Ea/RT)    [Arrhenius]
+log(k₂/k₁) = (Ea/2.303R)(1/T₁ - 1/T₂)
+Zero order: [A] = [A]₀ - kt; t½ = [A]₀/2k
+1st order: [A] = [A]₀e^(-kt); t½ = 0.693/k
+2nd order: 1/[A] = 1/[A]₀ + kt; t½ = 1/(k[A]₀)
+```
+
+## Solutions
+```
+π = MRT = iMRT    [osmotic pressure]
+ΔTb = iKbm    ΔTf = iKfm
+(p°-ps)/p° = i×χ_B
+i = 1 + (n-1)α  [dissociation]  or  i = 1 - α(1-1/n)  [association]
+```
+
+## Solid State
+```
+ρ = ZM/(Na·a³)    [density of unit cell]
+CFSE(Oh) = (-4)(t₂g) + (+6)(e_g) in Dq units
+r_void/r_atom: Tetrahedral = 0.225; Octahedral = 0.414
+PE: SC = 52.4%; BCC = 68%; FCC = 74%
+```
+
+## Coordination Compounds
+```
+μ = √[n(n+2)] BM    [spin-only magnetic moment; n = unpaired electrons]
+Δt = (4/9)Δo    [tetrahedral vs octahedral splitting]
+```
+
+---
