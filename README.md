@@ -12572,3 +12572,1418 @@ PE: SC = 52.4%; BCC = 68%; FCC = 74%
 ```
 
 ---
+
+# 📚 JEE Missing Concepts — Complete Supplement
+> All topics missing from the main notes, organized by subject and chapter.
+> Add this file alongside your main notes for 100% JEE coverage.
+
+---
+
+## TABLE OF CONTENTS
+
+1. [Class 11 Mathematics](#class-11-mathematics)
+2. [Class 12 Mathematics](#class-12-mathematics)
+3. [Class 11 Physics](#class-11-physics)
+4. [Class 12 Physics](#class-12-physics)
+5. [Class 11 Chemistry](#class-11-chemistry)
+6. [Class 12 Chemistry](#class-12-chemistry)
+
+---
+
+---
+
+# CLASS 11 MATHEMATICS
+
+---
+
+## 1. Permutations & Combinations — Derangements
+
+### Derangement Formula
+A **derangement** is a permutation where NO element appears in its original position.
+
+```
+Number of derangements of n objects:
+
+Dₙ = n! × [1 - 1/1! + 1/2! - 1/3! + ... + (-1)ⁿ/n!]
+
+     n
+Dₙ = Σ  (-1)^k × n!/k!
+    k=0
+
+Dₙ = n! × Σ (-1)^k / k!
+```
+
+**Compact Recursive Formula:**
+```
+Dₙ = (n-1)(Dₙ₋₁ + Dₙ₋₂)
+
+D₁ = 0
+D₂ = 1
+D₃ = 2
+D₄ = 9
+D₅ = 44
+D₆ = 265
+```
+
+**Approximate Formula (for large n):**
+```
+Dₙ ≈ n!/e     (e = 2.71828...)
+```
+
+**Probability of derangement:**
+```
+P(derangement) = Dₙ/n! ≈ 1/e ≈ 0.368
+```
+
+**JEE Example:** 4 letters put into 4 envelopes randomly. Probability ALL are in wrong envelopes = D₄/4! = 9/24 = 3/8
+
+---
+
+## 2. Probability — Additional Distributions
+
+### Geometric Distribution
+Probability of first success on the nth trial (Bernoulli trials):
+
+```
+P(X = n) = q^(n-1) × p
+
+where p = probability of success
+      q = 1 - p = probability of failure
+      n = 1, 2, 3, ...
+
+Mean: E(X) = 1/p
+Variance: Var(X) = q/p²
+```
+
+### Poisson Distribution
+For rare events (n → ∞, p → 0, np = λ = constant):
+
+```
+P(X = r) = e^(-λ) × λʳ / r!
+
+Mean: E(X) = λ
+Variance: Var(X) = λ
+Standard deviation: σ = √λ
+
+Note: Mean = Variance (characteristic property)
+```
+
+**When to use Poisson:** Number of accidents per day, phone calls per hour, defects per unit.
+
+---
+
+## 3. Sequences & Series — Additional Results
+
+### Sum of Series using Vₙ Method
+For series where Tₙ can be written as f(n+1) - f(n):
+
+```
+Sₙ = Tₙ₊₁ - T₁ (telescoping)
+```
+
+### Infinite GP — Careful Cases
+```
+If |r| ≥ 1: Sum does NOT exist (diverges)
+If |r| < 1: S∞ = a/(1-r)
+
+Sum of infinite GP starting from rth term:
+S from rth term = arʳ⁻¹/(1-r)
+```
+
+### Important Number Theory Results
+```
+Sum of first n odd numbers = n²
+Sum of first n even numbers = n(n+1)
+
+Product GP: If a₁, a₂, ..., aₙ are in GP:
+a₁ × aₙ = a₂ × aₙ₋₁ = a₃ × aₙ₋₂ = ... (equidistant products equal)
+```
+
+---
+
+---
+
+# CLASS 12 MATHEMATICS
+
+---
+
+## 1. Continuity & Differentiability — Missing Results
+
+### Continuity of Composite Functions
+```
+If f is continuous at a, and g is continuous at f(a),
+then g∘f is continuous at a.
+```
+
+### Sandwich Theorem (Squeeze Theorem)
+```
+If f(x) ≤ g(x) ≤ h(x) near a, and
+lim f(x) = lim h(x) = L
+x→a        x→a
+Then: lim g(x) = L
+      x→a
+```
+
+### L'Hôpital's Rule — Extended Cases
+```
+For 0/0 or ∞/∞ forms:
+lim f(x)/g(x) = lim f'(x)/g'(x)
+x→a              x→a
+
+For 0×∞: convert to 0/0 or ∞/∞
+For ∞-∞: rationalize or find common denominator
+For 1^∞, 0⁰, ∞⁰: take logarithm first
+
+1^∞ type: lim [f(x)]^g(x) where f→1, g→∞
+= e^{lim g(x)×[f(x)-1]}      (KEY SHORTCUT)
+```
+
+### Differentiability at a Point — Key Rules
+```
+If f'(a) exists → f is continuous at a
+Converse FALSE: |x| is continuous at 0 but not differentiable
+
+f is NOT differentiable at:
+- Sharp corners (|x| at x=0)
+- Vertical tangents
+- Discontinuities
+- Cusps
+```
+
+### Clairaut's Equation (Differential Equations)
+```
+y = px + f(p)    where p = dy/dx
+
+Solution: Differentiate w.r.t. x:
+p = p + xp' + f'(p)p'
+→ p'[x + f'(p)] = 0
+
+Either: p' = 0 → p = c → General solution: y = cx + f(c)
+Or: x + f'(p) = 0 → Singular solution (envelope of family)
+```
+
+---
+
+## 2. Integrals — Missing Formulas
+
+### Reduction Formulas
+
+**For ∫sinⁿx dx:**
+```
+∫sinⁿx dx = -sinⁿ⁻¹x·cosx/n + (n-1)/n × ∫sinⁿ⁻²x dx
+```
+
+**For ∫cosⁿx dx:**
+```
+∫cosⁿx dx = cosⁿ⁻¹x·sinx/n + (n-1)/n × ∫cosⁿ⁻²x dx
+```
+
+**For ∫tanⁿx dx:**
+```
+∫tanⁿx dx = tanⁿ⁻¹x/(n-1) - ∫tanⁿ⁻²x dx
+```
+
+**For ∫secⁿx dx:**
+```
+∫secⁿx dx = secⁿ⁻²x·tanx/(n-1) + (n-2)/(n-1) × ∫secⁿ⁻²x dx
+```
+
+---
+
+### Integration of √(ax² + bx + c) type
+
+**Step:** Complete the square first, then use standard forms.
+
+```
+∫√(a²-x²) dx = (x/2)√(a²-x²) + (a²/2)sin⁻¹(x/a) + C
+
+∫√(x²+a²) dx = (x/2)√(x²+a²) + (a²/2)ln|x+√(x²+a²)| + C
+
+∫√(x²-a²) dx = (x/2)√(x²-a²) - (a²/2)ln|x+√(x²-a²)| + C
+```
+
+**For general ∫√(ax²+bx+c) dx:**
+```
+Step 1: Write ax²+bx+c = a[(x + b/2a)² + (c/a - b²/4a²)]
+Step 2: Substitute t = x + b/2a
+Step 3: Use standard form above
+```
+
+---
+
+### Important Integration Results
+
+**∫eˣ[f(x) + f'(x)] dx = eˣf(x) + C**
+
+**Special cases:**
+```
+∫eˣ(sinx + cosx) dx = eˣsinx + C
+∫eˣ(cosx - sinx) dx = eˣcosx + C
+∫eˣ(tanx + sec²x) dx = eˣtanx + C
+∫eˣ(1 + lnx) dx = eˣlnx + C
+∫eˣ(x + 1)/x² dx = eˣ/x + C
+```
+
+**Integration of eˢⁱⁿˣ, eᶜᵒˢˣ type:**
+```
+∫eᵃˣ sin(bx) dx = eᵃˣ(a·sin(bx) - b·cos(bx))/(a²+b²) + C
+
+∫eᵃˣ cos(bx) dx = eᵃˣ(a·cos(bx) + b·sin(bx))/(a²+b²) + C
+```
+
+**King's Property (Definite Integral):**
+```
+∫[0 to π] x·f(sinx) dx = (π/2)∫[0 to π] f(sinx) dx
+
+∫[0 to π/2] f(sinx) dx = ∫[0 to π/2] f(cosx) dx
+
+∫[0 to 2π] f(sinx) dx = 2∫[0 to π] f(sinx) dx (if f(2π-x)=f(x))
+```
+
+---
+
+## 3. Differential Equations — Complete Methods
+
+### Linear DE — Step by Step
+
+**Form: dy/dx + Py = Q**
+```
+Step 1: Find IF = e^(∫P dx)
+Step 2: Multiply both sides by IF
+Step 3: LHS = d/dx[y × IF]
+Step 4: Integrate both sides:
+        y × IF = ∫Q × IF dx + C
+```
+
+**Example: dy/dx + y/x = x²**
+```
+P = 1/x, Q = x²
+IF = e^(∫1/x dx) = e^(lnx) = x
+y·x = ∫x²·x dx = ∫x³ dx = x⁴/4 + C
+y = x³/4 + C/x
+```
+
+### Bernoulli's Equation — Complete Solution
+```
+dy/dx + Py = Qyⁿ
+
+Step 1: Divide by yⁿ:
+y⁻ⁿ dy/dx + Py¹⁻ⁿ = Q
+
+Step 2: Let z = y¹⁻ⁿ:
+dz/dx = (1-n)y⁻ⁿ dy/dx
+
+Step 3: Equation becomes:
+1/(1-n) × dz/dx + Pz = Q
+
+Step 4: Solve as linear DE in z.
+```
+
+### Exact Differential Equations
+```
+M dx + N dy = 0 is EXACT if ∂M/∂y = ∂N/∂x
+
+Solution:
+∫M dx (y constant) + ∫(terms of N with no x) dy = C
+```
+
+---
+
+## 4. Probability — Conditional & Bayes Extended
+
+### Total Probability with Continuous Partition
+```
+If B₁, B₂, ..., Bₙ partition sample space:
+P(A) = Σ P(Bᵢ)·P(A|Bᵢ)
+
+Posterior (Bayes):
+P(Bᵢ|A) = P(Bᵢ)·P(A|Bᵢ) / Σ P(Bⱼ)·P(A|Bⱼ)
+```
+
+### Variance Properties (Missing)
+```
+Var(aX + b) = a²Var(X)
+Var(X + Y) = Var(X) + Var(Y)  (if X, Y independent)
+Var(X - Y) = Var(X) + Var(Y)  (if X, Y independent)
+SD(aX + b) = |a|·SD(X)
+```
+
+---
+
+---
+
+# CLASS 11 PHYSICS
+
+---
+
+## 1. Waves — Missing Formula
+
+### Wave Intensity with Medium Properties
+```
+Intensity: I = 2π²f²A²ρv
+
+where:
+ρ = density of medium (kg/m³)
+v = wave speed (m/s)
+f = frequency (Hz)
+A = amplitude (m)
+
+Also: I ∝ A² ∝ f² ∝ ρv (for same amplitude)
+```
+
+### Energy of a Wave
+```
+Energy per unit length = 2π²f²A²μ
+
+where μ = linear mass density (for string)
+
+Power transmitted: P = 2π²f²A²μv
+```
+
+### Phase Velocity vs Group Velocity
+```
+Phase velocity: vₚ = ω/k = λf
+
+Group velocity: vg = dω/dk
+
+In non-dispersive medium: vₚ = vg
+In dispersive medium: vₚ ≠ vg
+```
+
+---
+
+## 2. Mechanical Properties of Solids — Missing Relations
+
+### Complete Elastic Constants Relations
+```
+Y = 2G(1 + σ)
+Y = 3B(1 - 2σ)
+Y = 9BG/(3B + G)
+G = 3BY/(9B - Y)
+B = YG/(9G - 3Y)
+
+For rubber: σ ≈ 0.5 → B → ∞ (incompressible)
+For cork: σ ≈ 0 → ideal for bottle corks (no lateral expansion)
+```
+
+### Torsional Rigidity
+```
+Torque to twist a cylinder by angle θ:
+τ = (πηr⁴/2L) × θ
+
+where η = modulus of rigidity (shear modulus)
+      r = radius, L = length
+```
+
+### Beam Bending — Depression Formula
+```
+For a beam of length L, width b, depth d, loaded at centre with W:
+
+Depression δ = WL³/(4Ybd³)    (for rectangular cross-section, simply supported)
+```
+
+---
+
+## 3. Gravitation — Missing Results
+
+### Gravitational Field Inside Non-uniform Bodies
+```
+For hollow sphere: g = 0 everywhere inside
+For solid sphere (uniform): g = (GM/R³)r  (linear variation inside)
+```
+
+### Orbital Mechanics — Additional
+```
+Vis-viva equation: v² = GM(2/r - 1/a)
+
+where a = semi-major axis, r = current distance from focus
+
+At periapsis (closest): r = a(1-e), v = v_max
+At apoapsis (farthest): r = a(1+e), v = v_min
+
+Conservation: v_max/v_min = (1+e)/(1-e)
+
+Angular momentum: L = m√(GMa(1-e²))  (constant)
+```
+
+---
+
+## 4. Thermal Properties — Missing
+
+### Stefan's Law — Net Radiation (More Detail)
+```
+Net power radiated by body at T in surroundings at T₀:
+P_net = εσA(T⁴ - T₀⁴)
+
+Rate of cooling (Newton's law limit, T - T₀ << T₀):
+dT/dt ≈ -4εσAT₀³(T - T₀)/mc  (exponential cooling)
+
+Time to cool from T₁ to T₂:
+t = mc/(4εσAT₀³) × ln[(T₁-T₀)/(T₂-T₀)]
+```
+
+### Thermal Resistance — Networks
+```
+Series (end to end): R_total = R₁ + R₂ + R₃
+
+Parallel (side by side): 1/R_total = 1/R₁ + 1/R₂
+
+Thermal current (analogous to electric):
+H = ΔT/R_thermal    (analogous to I = V/R)
+```
+
+---
+
+---
+
+# CLASS 12 PHYSICS
+
+---
+
+## 1. Moving Charges — Velocity Selector
+
+### Velocity Selector
+```
+Electric force = Magnetic force (particle travels straight)
+
+qE = qvB
+
+v = E/B    (only particles with this speed pass through)
+
+Used in: Mass spectrometers, particle accelerators
+```
+
+### Mass Spectrometer
+```
+After velocity selector: particle enters magnetic field B'
+Radius: r = mv/(qB')
+Mass: m = qB'r/v = qB'rB/E
+
+Charge-to-mass ratio: q/m = E/(B'·r·B)
+```
+
+---
+
+## 2. Ray Optics — Complete Magnification
+
+### Telescope Magnifications (All Cases)
+
+**Astronomical Telescope:**
+```
+Normal adjustment (image at ∞):
+M = -f₀/fₑ    (negative = inverted)
+Tube length = f₀ + fₑ
+
+Image at near point D:
+M = -f₀/fₑ × (1 + fₑ/D)
+Tube length = f₀ + uₑ  (where uₑ = fₑD/(fₑ+D))
+```
+
+**Compound Microscope:**
+```
+Image at ∞ (normal): M = -(L/f₀) × (D/fₑ)
+
+Image at near point D: M = -(L/f₀) × (1 + D/fₑ)
+
+where L = tube length = distance between lenses - f₀ - fₑ
+```
+
+**Simple Microscope:**
+```
+Image at ∞: M = D/f
+Image at D: M = 1 + D/f
+```
+
+### Mirror — Additional Results
+```
+For a concave mirror, object placed between F and P:
+Image is virtual, erect, magnified, behind mirror.
+
+Newton's mirror formula (distances from focus):
+x₁ × x₂ = f²
+where x₁ = object distance from F, x₂ = image distance from F
+```
+
+---
+
+## 3. Wave Optics — Missing Topics
+
+### Coherence
+```
+Two sources are COHERENT if:
+1. Same frequency
+2. Constant phase difference
+3. Same polarisation (for complete interference)
+
+Coherence length: Lc = λ²/Δλ
+Coherence time: tc = Lc/c = λ²/(cΔλ)
+```
+
+### Diffraction at Circular Aperture (Airy Disc)
+```
+First dark ring (Airy disc boundary):
+sinθ = 1.22λ/D
+
+Angular radius of central bright disc:
+θ_min = 1.22λ/D
+
+Resolving power of telescope:
+θ_min = 1.22λ/D   (Rayleigh criterion)
+```
+
+### Fresnel vs Fraunhofer Diffraction
+```
+Fresnel (near field): Source and screen at finite distance
+Fraunhofer (far field): Source and screen at infinity (or use lenses)
+
+JEE uses Fraunhofer (single slit, double slit)
+```
+
+### Missing YDSE Results
+```
+Fringe shift when slab of thickness t, RI n inserted:
+Extra path = (n-1)t
+Number of fringes shifted = (n-1)t/λ
+Central fringe shifts toward slab side.
+
+When one slit covered: interference pattern disappears
+→ only single slit diffraction pattern
+
+Maximum number of bright fringes visible:
+N_max = d/λ + 1 (approximately, limited by diffraction envelope)
+```
+
+---
+
+## 4. Modern Physics — Missing
+
+### de Broglie Wavelength — All Cases
+```
+For particle accelerated through V:
+λ = h/√(2mqV)
+
+For electron: λ = 12.27/√V  Å     (V in volts)
+For proton: λ = 0.286/√V  Å
+For neutron: λ = 0.286/√V  Å  (same as proton, similar mass)
+
+For thermal particle (KE = 3kT/2):
+λ = h/√(3mkT)
+
+For particle with KE = E:
+λ = h/√(2mE)
+
+Relativistic (for electrons at very high energy):
+λ = hc/√(E² - m₀²c⁴) ≈ hc/E   (if E >> m₀c²)
+```
+
+### Atomic Physics — More Hydrogen Results
+```
+Orbital frequency: νₙ = me⁴Z²/(4ε₀²h³n³)
+
+Relation between orbital frequency and photon frequency:
+ν_photon ≠ ν_orbital  (Bohr correspondence: equal for large n)
+
+Number of spectral lines from level n:
+= n(n-1)/2
+
+From level n to ground: series of (n-1) lines
+```
+
+### Nuclear Binding Energy — More
+```
+Packing fraction = (M - A)/A
+
+Nuclear fission energy calculation:
+Q = (m_reactants - m_products) × 931.5 MeV/u
+
+For U-235 fission: Q ≈ 200 MeV
+→ 1 kg U-235 → energy ≈ 8.2 × 10¹³ J ≈ 20,000 tons TNT
+```
+
+---
+
+## 5. Semiconductors — Missing Topics
+
+### Zener Diode — Voltage Regulator Circuit
+```
+Circuit: Input voltage Vᵢₙ (variable) → Series resistor Rₛ → Load Rₗ (in parallel with Zener)
+
+Zener breakdown voltage = Vz (constant output)
+
+Current through Rₛ: Iₛ = (Vᵢₙ - Vz)/Rₛ
+Load current: Iₗ = Vz/Rₗ
+Zener current: Iz = Iₛ - Iₗ
+
+Condition for regulation:
+Iz(min) ≤ Iz ≤ Iz(max)
+
+For regulation to work:
+Vᵢₙ(min) > Vz(1 + Rₛ/Rₗ)
+```
+
+### Transistor as Oscillator
+```
+Uses LC tank circuit in feedback loop.
+
+Frequency of oscillation: f = 1/(2π√LC)
+
+Condition for sustained oscillation (Barkhausen criterion):
+1. Total phase shift = 0° or 360°
+2. Loop gain = 1
+
+Types: Hartley oscillator, Colpitts oscillator
+```
+
+### Logic Circuit — NAND/NOR as Universal Gates
+
+**Using NAND only:**
+```
+NOT: A → NAND → Ā        (A connected to both inputs)
+AND: (A NAND B) NAND → AB
+OR:  (A NAND A) NAND (B NAND B) = A + B
+```
+
+**Using NOR only:**
+```
+NOT: A → NOR → Ā
+OR:  (A NOR B) NOR → A+B
+AND: (A NOR A) NOR (B NOR B) = A·B
+```
+
+### Half Adder and Full Adder
+```
+Half Adder:
+Sum S = A ⊕ B = AB̄ + ĀB
+Carry C = AB
+
+Full Adder (adds 3 bits A, B, Cᵢₙ):
+Sum S = A ⊕ B ⊕ Cᵢₙ
+Carry Cₒᵤₜ = AB + BCᵢₙ + ACᵢₙ
+```
+
+---
+
+## 6. Electromagnetic Induction — LC Oscillations
+
+### LC Oscillations
+```
+When a charged capacitor is connected to an inductor:
+
+q(t) = Q₀cos(ωt + φ)    (charge oscillates)
+I(t) = -Q₀ω·sin(ωt + φ) (current oscillates)
+
+Angular frequency: ω = 1/√(LC)
+Frequency: f = 1/(2π√(LC))
+Time period: T = 2π√(LC)
+
+Energy:
+Electrical PE in capacitor: Uc = q²/2C = Q₀²cos²(ωt)/2C
+Magnetic PE in inductor: UL = LI²/2 = LQ₀²ω²sin²(ωt)/2
+
+Total energy: U = Q₀²/2C = LI₀²/2 (conserved, ideal LC)
+
+Analogy:
+LC oscillation ↔ SHM
+q ↔ x (displacement)
+I ↔ v (velocity)
+L ↔ m (mass)
+1/C ↔ k (spring constant)
+```
+
+---
+
+## 7. Alternating Current — Missing
+
+### Series and Parallel Resonance Comparison
+```
+Series RLC Resonance:
+- Impedance MINIMUM = R
+- Current MAXIMUM
+- Voltage across L and C can be >> supply voltage
+
+Parallel RLC Resonance (Tank Circuit):
+- Impedance MAXIMUM = L/(CR)
+- Current MINIMUM
+- Used in radio tuning
+- ω₀ = √(1/LC - R²/L²) ≈ 1/√LC (for small R)
+```
+
+### Power Factor Correction
+```
+Inductive load has lagging current → low power factor.
+
+To improve: Connect capacitor in parallel.
+
+Required C = P·tanφ/(ω·V²_rms)
+
+where φ = original phase angle
+```
+
+---
+
+---
+
+# CLASS 11 CHEMISTRY
+
+---
+
+## 1. Atomic Structure — Exceptional Configurations
+
+### Palladium Exception
+```
+Pd (46): Expected [Kr]4d⁸5s²
+         Actual    [Kr]4d¹⁰5s⁰
+
+(Both 4d completely filled AND 5s empty — unique among elements)
+```
+
+### Complete List of d-block Exceptions
+```
+Cr (24): [Ar]3d⁵4s¹    (half-filled d)
+Cu (29): [Ar]3d¹⁰4s¹   (fully-filled d)
+Mo (42): [Kr]4d⁵5s¹    (half-filled d)
+Ru (44): [Kr]4d⁷5s¹    (half-filled d irregular)
+Rh (45): [Kr]4d⁸5s¹
+Pd (46): [Kr]4d¹⁰5s⁰   (unique — no s electrons!)
+Ag (47): [Kr]4d¹⁰5s¹   (fully-filled d)
+La (57): [Xe]5d¹6s²    (no 4f!)
+Ce (58): [Xe]4f¹5d¹6s²
+Gd (64): [Xe]4f⁷5d¹6s² (half-filled f → 5d¹ instead of f⁸)
+Au (79): [Xe]4f¹⁴5d¹⁰6s¹
+Pt (78): [Xe]4f¹⁴5d⁹6s¹
+```
+
+---
+
+## 2. Chemical Bonding — Missing Structures
+
+### Formal Charge — Key Examples
+```
+Molecule: N₂O (nitrous oxide)
+
+Structure A: N=N=O    → FC on central N = 5-0-4/2 = +1; left N = -1; O = 0
+Structure B: N≡N-O    → FC on N = 0; N = +1; O = -1
+
+Resonance of N₂O: combination of both structures.
+```
+
+### Back Bonding (pπ-dπ)
+```
+Occurs when: p-orbital (full) of one atom donates into empty d-orbital of another.
+
+Example: BF₃ → B has empty p-orbital; F has filled p-orbitals
+F donates lone pair into empty p of B → partial double bond character
+B-F bond shorter than expected for single bond.
+
+SiF₄ vs CF₄:
+Si has empty 3d orbitals → back bonding from F → SiF₄ is stronger
+C has no d orbitals → no back bonding → CF₄ weaker
+```
+
+### Bent's Rule
+```
+More electronegative substituents prefer hybrid orbitals with MORE p-character
+(i.e., less s-character → smaller bond angle toward electronegative group)
+
+Example: F-P-F angle < H-P-H angle in mixed phosphorus compounds
+```
+
+---
+
+## 3. Organic Chemistry — Reaction Mechanisms
+
+### Saytzev vs Hofmann Elimination — Full Comparison
+```
+Saytzev (Zaitsev) Rule:
+More substituted (stable) alkene is the MAJOR product.
+Conditions: Small base, weak base, heated, polar solvent.
+Example: KOH/alcohol (KOH is not bulky)
+
+Hofmann Rule:
+Less substituted alkene is MAJOR product.
+Conditions: BULKY base (t-BuOK, Et₃N).
+Steric hindrance prevents removal of H from internal (crowded) carbon.
+Example: (CH₃)₃CO⁻K⁺ (potassium tert-butoxide)
+
+Hofmann Elimination (from quaternary ammonium salt):
+R₄N⁺OH⁻ (heat) → less substituted alkene + R₃N + H₂O
+Always gives LESS substituted alkene (anti-Saytzev).
+```
+
+### E1 vs E2 vs E1cb Comparison
+```
+E2:
+- Bimolecular
+- Anti-periplanar geometry required (H and X at 180°)
+- Strong base
+- Rate = k[RX][Base]
+- Concerted (one step)
+
+E1:
+- Unimolecular
+- Carbocation intermediate
+- Weak base/nucleophile, polar protic solvent
+- Rate = k[RX]
+- Rearrangements possible
+- 3° > 2° only
+
+E1cb:
+- Carbanion intermediate
+- Poor leaving group, strong base, acidic β-H
+- Example: Elimination from β-haloketones
+- Rate determined by first step (C-H bond breaking)
+```
+
+---
+
+## 4. Hydrocarbons — Ozonolysis of Alkynes
+
+### Ozonolysis of Alkynes
+```
+Terminal alkyne + O₃, then H₂O:
+R-C≡CH → R-COOH + CO₂ + H₂O
+
+(The terminal CH gives CO₂, not HCOOH)
+
+Internal alkyne + O₃, then H₂O:
+R-C≡C-R' → R-COOH + R'-COOH
+
+With reductive workup (Zn/H₂O):
+R-C≡C-R' → R-CHO + R'-CHO  (aldehydes, if conditions controlled)
+```
+
+### Birch Reduction (of aromatic rings)
+```
+Benzene + Na or Li / liquid NH₃ + ROH → 1,4-cyclohexadiene
+
+Conditions: Alkali metal in liquid ammonia (−33°C) + alcohol (proton source)
+
+EDG groups: Reduction occurs at UNSUBSTITUTED positions
+EWG groups: Reduction occurs at SUBSTITUTED positions
+
+Uses: Partial reduction without full hydrogenation
+Example: Reduction of anisole → 2,5-dihydroanisole
+```
+
+---
+
+## 5. Equilibrium — Missing Results
+
+### Relationship ΔG and Equilibrium (Complete)
+```
+ΔG = ΔG° + RT ln Q
+
+At equilibrium: ΔG = 0, Q = K
+→ ΔG° = -RT ln K
+
+ΔG° < 0 → K > 1 → forward reaction favoured
+ΔG° > 0 → K < 1 → reverse reaction favoured
+ΔG° = 0 → K = 1 → neither strongly favoured
+
+ΔG° = -2.303RT log K
+log K = -ΔG°/(2.303RT)
+```
+
+### Reactions in Terms of Kp
+```
+For: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)
+
+Kp = p²(SO₃) / [p²(SO₂) × p(O₂)]
+
+Increasing pressure → shifts to product side (fewer moles of gas)
+Calculating degree of dissociation from Kp:
+
+For PCl₅(g) ⇌ PCl₃(g) + Cl₂(g):
+If α = degree of dissociation, P = total pressure:
+Kp = α²P/(1-α²)  ≈ α²P (for small α)
+```
+
+---
+
+## 6. Thermodynamics — Trouton's Rule
+
+### Trouton's Rule
+```
+ΔSvap = ΔHvap/Tb ≈ 88 J/mol·K
+
+(for most non-associating liquids)
+
+Used to estimate boiling point:
+Tb ≈ ΔHvap / 88
+
+Exceptions (higher ΔSvap):
+- Water (109 J/mol·K) → H-bonding in liquid
+- Ethanol (110 J/mol·K)
+- Liquids with ordered structure
+
+Lower ΔSvap: Very symmetrical molecules (CCl₄ ≈ 85)
+```
+
+---
+
+---
+
+# CLASS 12 CHEMISTRY
+
+---
+
+## 1. Electrochemistry — Missing Formulas
+
+### Concentration Cell EMF
+```
+A cell where both electrodes are same metal but different concentrations:
+
+E = (0.0592/n) × log(C₂/C₁)     at 25°C
+
+where C₂ > C₁ (higher concentration = cathode)
+
+Example: Cu | Cu²⁺(0.01M) || Cu²⁺(1M) | Cu
+E = (0.0592/2) × log(1/0.01) = 0.0296 × 2 = 0.0592 V
+```
+
+### EMF Temperature Dependence
+```
+dE/dT = ΔS/nF
+
+If dE/dT > 0: ΔS > 0 (entropy increases)
+If dE/dT < 0: ΔS < 0 (entropy decreases)
+
+ΔH = -nFE + nFT(dE/dT)   [Gibbs-Helmholtz]
+```
+
+### Electrolysis — Overpotential
+```
+Actual potential needed for electrolysis > theoretical (due to overpotential)
+
+E_actual = E_theoretical + η (overpotential)
+
+H₂ overpotential on Hg is very high → Cl₂ preferentially discharged from concentrated NaCl
+(even though E°(Cl₂) > E°(H₂))
+```
+
+---
+
+## 2. Chemical Kinetics — Additional Rate Laws
+
+### Parallel Reactions
+```
+A → B  (rate k₁)
+A → C  (rate k₂)
+
+-d[A]/dt = (k₁ + k₂)[A]
+
+k_effective = k₁ + k₂
+
+[B]/[C] = k₁/k₂  (ratio of products = ratio of rate constants)
+```
+
+### Consecutive Reactions
+```
+A → B → C   (k₁, k₂)
+
+d[A]/dt = -k₁[A]
+d[B]/dt = k₁[A] - k₂[B]
+d[C]/dt = k₂[B]
+
+[A] = [A]₀ e^(-k₁t)
+[B] = k₁[A]₀/(k₂-k₁) × (e^(-k₁t) - e^(-k₂t))
+
+Time for maximum [B]:
+t_max = ln(k₂/k₁)/(k₂-k₁)
+```
+
+### Steady State Approximation
+```
+For intermediate I in A → I → P (slow then fast):
+
+d[I]/dt ≈ 0  (intermediate doesn't accumulate)
+
+[I] = k₁[A]/(k₋₁ + k₂)
+Rate = k₂[I] = k₁k₂[A]/(k₋₁ + k₂)
+```
+
+### Michaelis-Menten Equation (Enzyme Kinetics)
+```
+E + S ⇌ ES → E + P
+
+Rate = Vmax[S]/(Km + [S])
+
+Vmax = k₂[E]total
+Km = (k₋₁ + k₂)/k₁  (Michaelis constant)
+
+When [S] = Km: rate = Vmax/2
+High [S]: rate → Vmax (zero order in S)
+Low [S]: rate = (Vmax/Km)[S] (first order in S)
+```
+
+---
+
+## 3. p-Block — Missing Structures and Compounds
+
+### XeO₂F₂ and XeO₃F₂
+```
+XeO₂F₂:
+- Xe has 2 O (double bond), 2 F (single bond), 1 lone pair
+- Shape: See-saw (trigonal bipyramidal electron pairs)
+- sp³d hybridisation
+
+XeO₃F₂:
+- Xe has 3 O, 2 F, 0 lone pairs
+- Shape: Trigonal bipyramidal (O at equatorial, F at axial)
+- sp³d hybridisation
+- Molecular (not ionic)
+```
+
+### Interhalogen Compounds — Bond Lengths and Properties
+```
+Bond length order (for same halogen):
+XY > XY₃ > XY₅ > XY₇
+(more electronegative halogens attached → bond shorter)
+
+Dipole moments:
+ClF₃: μ ≠ 0 (T-shape, polar)
+BrF₃: μ ≠ 0 (T-shape, polar)
+IF₅: μ ≠ 0 (square pyramidal, polar)
+XeF₄: μ = 0 (square planar, non-polar)
+
+Reactivity: Reactivity decreases as n increases in XFₙ
+(XF most reactive; XF₇ least)
+```
+
+### Nitrogen Oxoacids — Complete
+```
+Hyponitrous acid: H₂N₂O₂  (N in +1)
+  HON=NOH  (trans) or cis isomer
+  
+Nitrous acid: HNO₂  (N in +3)
+  H-O-N=O  (angular)
+  Weak acid, pKa = 3.37
+  
+Nitric acid: HNO₃  (N in +5)
+  Planar molecule, bond between N-O and N=O
+  
+Nitrosyl chloride: NOCl (N in +3 formally)
+  Used in organic synthesis
+```
+
+---
+
+## 4. d- and f-Block — Missing
+
+### Lanthanoid Magnetic Moments (with Orbital Contribution)
+```
+For lanthanoids, BOTH spin and orbital angular momentum contribute:
+
+J = total angular momentum quantum number
+μ = gJ√[J(J+1)] BM
+
+where gJ = Landé g-factor = 1 + [S(S+1) - L(L+1) + J(J+1)] / [2J(J+1)]
+
+For ground state term symbol ²ˢ⁺¹Lⱼ use Hund's rules:
+1. Maximize S
+2. Maximize L
+3. J = |L-S| if shell less than half-filled; J = L+S if more than half-filled
+
+Example: Sm³⁺ (4f⁵): S=5/2, L=5, J=5/2 → μ = 1.55 BM
+        (spin-only would give √35 = 5.92 BM — very different!)
+
+Note: For d-block, orbital contribution mostly quenched → spin-only formula works.
+For f-block, orbital contribution significant → use full formula.
+```
+
+### Actinoids — Uranium Extraction
+```
+Pitchblende (UO₂·U₃O₈) → treated with H₂SO₄ → UO₂SO₄
+
+UO₂SO₄ + Na₂CO₃ → Na₄[UO₂(CO₃)₃]  (soluble complex)
+
+Reduction: U⁶⁺ → U⁴⁺ → U metal (electrolysis or Ca reduction)
+
+UF₆ is used in uranium enrichment (gaseous diffusion/centrifuge)
+U-235 enriched from natural U-238 abundance ratio.
+```
+
+---
+
+## 5. Coordination Compounds — Missing Concepts
+
+### Stability Constant (β) of Complexes
+```
+For: M + nL ⇌ [MLₙ]
+
+Overall stability constant: β = [[MLₙ]] / ([M][L]ⁿ)
+
+Stepwise stability constants: K₁ > K₂ > K₃... (generally)
+
+log β values (larger = more stable):
+[Ag(CN)₂]⁻: log β = 21.1 (very stable)
+[Fe(CN)₆]⁴⁻: log β = 35.4 (very stable)
+[CuEDTA]²⁻: log β = 18.8
+[CaEDTA]²⁻: log β = 10.7
+
+Factors increasing stability:
+- High charge on metal ion
+- Small size of metal ion
+- Chelate effect (polydentate > monodentate)
+- Match of metal HSAB nature with ligand
+```
+
+### EAN Rule (Effective Atomic Number)
+```
+EAN = Z - charge + 2 × (number of electron pairs from ligands)
+    = Z - oxidation state + 2 × CN
+
+Stable complexes tend to have EAN = next noble gas number
+
+Example: [Fe(CO)₅]: Fe = 26, OS = 0, CN = 5
+EAN = 26 + 2×5 = 36 = Kr ✓ (stable)
+
+[Co(NH₃)₆]³⁺: Co = 27, OS = +3, CN = 6
+EAN = 27 - 3 + 12 = 36 = Kr ✓
+
+18-electron rule (same concept) important for organometallics.
+```
+
+### Trans Effect
+```
+In square planar complexes (especially Pt²⁺):
+Some ligands labilise (weaken) the ligand TRANS to themselves.
+
+Trans-directing ability:
+CN⁻ ≈ CO > NO₂⁻ > I⁻ > Br⁻ > Cl⁻ > NH₃ > OH⁻ > H₂O
+
+Used to synthesize specific geometric isomers:
+cis-[PtCl₂(NH₃)₂]: start from [PtCl₄]²⁻, add NH₃ (Cl is trans director → cis product)
+trans-[PtCl₂(NH₃)₂]: start from [Pt(NH₃)₄]²⁺, add Cl⁻ (NH₃ is trans director → trans product)
+```
+
+---
+
+## 6. Aldehydes & Ketones — Missing Reactions
+
+### Meerwein-Ponndorf-Verley (MPV) Reduction
+```
+Carbonyl compound + Al(OiPr)₃ + isopropanol → alcohol
+
+Mechanism: Hydride transfer from isopropanol via Al
+Product: Alcohol (from carbonyl); Acetone (from isopropanol)
+
+Selective: Reduces C=O, does NOT reduce C=C
+Useful for α,β-unsaturated carbonyls → reduces only C=O
+```
+
+### Baeyer-Villiger Oxidation
+```
+Ketone + mCPBA (or H₂O₂/H⁺) → ester or lactone
+
+R-CO-R' + [O] → R-CO-O-R' (ester)
+
+Migratory aptitude (which group migrates to O):
+tert > cyclohexyl > sec > Ph > primary > CH₃ > H
+
+Example:
+Cyclohexanone + mCPBA → ε-caprolactone (6-membered lactone)
+CH₃-CO-C₆H₅ → CH₃-CO-O-C₆H₅ (phenyl group migrates preferentially)
+```
+
+### Knoevenagel Condensation
+```
+Aldehyde + active methylene compound (base catalyst) → α,β-unsaturated product
+
+RCHO + CH₂(COOC₂H₅)₂ → RCH=C(COOC₂H₅)₂ + H₂O
+(piperidine catalyst)
+```
+
+### Reformatsky Reaction
+```
+Carbonyl + α-bromo ester + Zn → β-hydroxy ester
+
+R-CO-R' + Zn + BrCH₂COOR'' → R(R')C(OH)CH₂COOR'' (after hydrolysis)
+
+Organozinc is less reactive than Grignard → tolerates ester group
+```
+
+---
+
+## 7. Biomolecules — Missing Details
+
+### Fructose Anomers
+```
+Fructose (2-ketohexose, C₆H₁₂O₆):
+- Furanose form (5-membered ring): C2–C5 bond
+- Pyranose form (6-membered ring): C2–C6 bond
+
+α-D-fructofuranose: OH at C2 on same side as C6-CH₂OH (below ring in Haworth)
+β-D-fructofuranose: OH at C2 on opposite side
+
+In sucrose: β-D-fructofuranose linked to α-D-glucopyranose (C1-C2 linkage)
+Hence sucrose is a NON-REDUCING sugar (both anomeric carbons in glycosidic bond).
+```
+
+### RNA Secondary Structure
+```
+RNA can fold back on itself forming:
+1. Hairpin loop: Single strand folds, complementary bases pair → stem-loop
+2. Bulge loop: Unpaired bases on one strand
+3. Internal loop: Unpaired bases on both strands
+4. Pseudoknot: Complex crossing of stem-loops
+
+tRNA has cloverleaf secondary structure:
+- Acceptor stem (3' end: -CCA-OH where amino acid attaches)
+- Anticodon loop (reads mRNA)
+- D-loop and TψC loop
+```
+
+### Enzyme Inhibition Types
+```
+Competitive inhibition:
+- Inhibitor binds active site
+- Vmax unchanged; Km increases
+- Overcome by high [S]
+- Example: Sulfa drugs inhibit folate synthesis
+
+Non-competitive inhibition:
+- Inhibitor binds allosteric site (not active site)
+- Vmax decreases; Km unchanged
+- Cannot be overcome by high [S]
+
+Uncompetitive inhibition:
+- Binds only enzyme-substrate complex
+- Both Vmax and Km decrease (ratio unchanged)
+```
+
+---
+
+## 8. Polymers — Missing
+
+### ABS Plastic
+```
+ABS = Acrylonitrile-Butadiene-Styrene terpolymer
+
+Monomers:
+- Acrylonitrile (CH₂=CH-CN): chemical resistance, hardness
+- Butadiene (CH₂=CH-CH=CH₂): toughness, impact resistance
+- Styrene (CH₂=CH-C₆H₅): rigidity, ease of processing
+
+Properties: High impact strength, rigid, good surface finish
+Uses: LEGO bricks, automotive parts, keyboards, helmets
+```
+
+### Nylon Varieties
+```
+Nylon-6,6: Hexamethylenediamine + Adipic acid
+Nylon-6: Ring-opening of caprolactam
+Nylon-6,10: Hexamethylenediamine + Sebacic acid (water resistant)
+Nylon-4,6: Higher thermal resistance
+
+Nylon-6 vs Nylon-6,6:
+Both have amide bonds; Nylon-6 made by ring opening; Nylon-6,6 by condensation.
+Nylon-6,6: higher Tm (265°C); Nylon-6: easier processing
+```
+
+### Polymer Glass Transition Temperature (Tg)
+```
+Tg = temperature below which polymer behaves as glassy/brittle
+   = temperature above which polymer becomes rubbery/flexible
+
+Factors increasing Tg:
+- Rigid main chain (aromatic rings)
+- Large/bulky side groups
+- Cross-linking
+- Polarity (intermolecular forces)
+
+Examples:
+Polystyrene: Tg = 100°C
+PMMA: Tg = 105°C
+PVC: Tg = 87°C
+Polyethylene: Tg = -120°C
+Natural rubber: Tg = -70°C
+```
+
+---
+
+## 9. Solid State — Additional Crystal Systems
+
+### Hexagonal Close Packing (HCP) vs CCP in Detail
+```
+HCP (ABAB...):
+- Unit cell: hexagonal prism
+- Z = 2 (1/6 × 12 corners + 1/2 × 2 face + 3 inside = 6; /3 for rhombus = 2)
+  More precisely: 6 atoms per hexagonal unit cell
+- CN = 12
+- c/a = 1.633 (ideal ratio)
+- Examples: Mg, Zn, Ti, Be, Cd
+
+CCP/FCC (ABCABC...):
+- Unit cell: cube
+- Z = 4
+- CN = 12
+- Examples: Cu, Ag, Au, Al, Ni, Pb
+```
+
+### Space Lattice vs Crystal Structure
+```
+Space lattice: Mathematical array of points
+Basis: Atom/group of atoms placed at each lattice point
+Crystal structure = Space lattice + Basis
+
+14 Bravais lattices × different bases = 230 space groups (all possible crystal structures)
+```
+
+---
+
+## 10. Solutions — Missing
+
+### Relative Lowering of Vapour Pressure — Complete Derivation
+```
+For solution of non-volatile solute B in volatile solvent A:
+
+Raoult's Law: pA = pA° × χA
+
+Relative lowering = (pA° - pA)/pA° = 1 - χA = χB
+
+For dilute solution:
+χB = nB/(nA + nB) ≈ nB/nA (nA >> nB)
+= (wB/MB)/(wA/MA) = wBMA/(MBwA)
+
+This gives: MB = wBMA(pA° - pA) / (wA × pA° - actually pA)
+More precisely: MB = wBMApA° / [wA(pA° - pA)]
+```
+
+### Osmotic Pressure — Semipermeable Membrane Types
+```
+Natural semipermeable membranes: pig bladder, egg membrane
+Artificial: Cu₂[Fe(CN)₆] (copper ferrocyanide in porous pot — Pfeffer's cell)
+
+Osmotic pressure measurement more accurate than:
+- ΔTb: Needs accurate thermometer (±0.001°C)
+- ΔTf: Supercooling problem
+- RLVP: Very small changes
+→ Osmometry preferred for high MW polymers (small concentration gives measurable π)
+```
+
+---
+
+# QUICK REVISION SUMMARY TABLE
+
+| Topic | Key Formula | JEE Importance |
+|-------|-------------|----------------|
+| Derangements | Dₙ = (n-1)(Dₙ₋₁ + Dₙ₋₂) | ★★★ |
+| Reduction integrals | ∫sinⁿx dx reduction | ★★★ |
+| eˢⁱⁿ integration | ∫eᵃˣsin(bx)dx formula | ★★★★ |
+| LC Oscillations | f = 1/(2π√LC) | ★★★★ |
+| Velocity selector | v = E/B | ★★★ |
+| Concentration cell | E = (0.0592/n)log(C₂/C₁) | ★★★★ |
+| Parallel/consecutive reactions | rate laws | ★★★ |
+| Baeyer-Villiger | migratory aptitude | ★★★ |
+| Stability constant β | larger β = more stable | ★★★ |
+| Trans effect | CN⁻ > NO₂⁻ > Cl⁻ > NH₃ | ★★★ |
+| EAN rule | EAN = Z - OS + 2CN | ★★★ |
+| ABS plastic | Acrylonitrile+Butadiene+Styrene | ★★ |
+| Tyndall effect vs coherence | colloid vs wave optics | ★★★ |
+| Airy disc | θ_min = 1.22λ/D | ★★★ |
+| Trouton's rule | ΔSvap ≈ 88 J/mol·K | ★★ |
+| Birch reduction | Na/liq NH₃ → partial reduction | ★★★ |
+
+---
+
