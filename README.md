@@ -4282,3 +4282,2235 @@ Doppler: f' = f(v ± v_o)/(v ∓ v_s)
 
 ---
 
+# ⚡ IIT JEE CLASS 12 PHYSICS — COMPLETE NOTES
+### Every Concept | Every Formula | Every Detail | JEE Advanced Level
+
+> **Syllabus Coverage:** Complete NCERT + JEE Advanced + Previous Year Patterns  
+> **Chapters:** Electrostatics → Current Electricity → Magnetism → EMI → AC → Optics → Modern Physics → Semiconductors
+
+---
+
+## 📚 TABLE OF CONTENTS
+
+1. [Electric Charges & Fields](#1-electric-charges--fields)
+2. [Electrostatic Potential & Capacitance](#2-electrostatic-potential--capacitance)
+3. [Current Electricity](#3-current-electricity)
+4. [Moving Charges & Magnetism](#4-moving-charges--magnetism)
+5. [Magnetism & Matter](#5-magnetism--matter)
+6. [Electromagnetic Induction (EMI)](#6-electromagnetic-induction)
+7. [Alternating Current (AC)](#7-alternating-current)
+8. [Electromagnetic Waves](#8-electromagnetic-waves)
+9. [Ray Optics & Optical Instruments](#9-ray-optics--optical-instruments)
+10. [Wave Optics](#10-wave-optics)
+11. [Dual Nature of Radiation & Matter](#11-dual-nature-of-radiation--matter)
+12. [Atoms](#12-atoms)
+13. [Nuclei](#13-nuclei)
+14. [Semiconductor Electronics](#14-semiconductor-electronics)
+15. [Communication Systems](#15-communication-systems)
+
+---
+
+# 1. ELECTRIC CHARGES & FIELDS
+
+## 1.1 Electric Charge
+
+**Properties of Charge:**
+- Charge is scalar quantity
+- SI unit: Coulomb (C)
+- Charge is quantized: Q = ne, where e = 1.6 × 10⁻¹⁹ C, n = integer
+- Charge is conserved (cannot be created or destroyed)
+- Charge is invariant (independent of velocity of observer)
+- Two types: positive (+) and negative (−)
+
+### Quantization of Charge:
+```
+Q = ±ne
+n = 1, 2, 3, ...
+e = 1.6 × 10⁻¹⁹ C (elementary charge)
+```
+
+## 1.2 Coulomb's Law
+
+```
+F = kq₁q₂/r²  =  q₁q₂/(4πε₀r²)
+
+k = 1/(4πε₀) = 9 × 10⁹ N·m²/C²
+ε₀ = 8.854 × 10⁻¹² C²/(N·m²)  [permittivity of free space]
+
+Vector form:
+F⃗₁₂ = kq₁q₂r̂₁₂/r²
+```
+
+### In a Medium:
+```
+F_medium = kq₁q₂/(εᵣr²) = F_vacuum/εᵣ
+
+εᵣ = relative permittivity (dielectric constant)
+ε = ε₀εᵣ  (absolute permittivity)
+```
+
+### Coulomb vs Gravitational Force:
+```
+F_E/F_G = ke²/(Gm_e²) ≈ 10⁴²  (electrostatic force is far stronger)
+```
+
+## 1.3 Electric Field
+
+```
+E⃗ = F⃗/q₀  (force per unit positive test charge)
+
+Unit: N/C = V/m
+Dimensions: [M¹L¹T⁻³A⁻¹]
+```
+
+### Electric Field due to Point Charge:
+```
+E = kQ/r²  (magnitude)
+E⃗ = kQr̂/r²  (vector, away from +Q, toward −Q)
+```
+
+### Superposition Principle:
+```
+E⃗_total = E⃗₁ + E⃗₂ + E⃗₃ + ...  (vector sum)
+```
+
+### Electric Field — Important Cases:
+
+**Along axis of a dipole (end-on position):**
+```
+E_axial = 2kp/r³  (for r >> a)
+```
+
+**Along perpendicular bisector of dipole (broad-on):**
+```
+E_equatorial = kp/r³  (opposite to dipole moment direction)
+```
+
+**At center of uniformly charged ring:**
+```
+E = 0 (by symmetry)
+```
+
+**On axis of charged ring at distance x:**
+```
+E = kQx / (R² + x²)^(3/2)
+
+Maximum E at x = R/√2, E_max = kQ/(3√3 R²/2)
+```
+
+**Infinite line charge (linear charge density λ):**
+```
+E = λ/(2πε₀r)  (perpendicular to line)
+```
+
+**Infinite plane sheet (surface charge density σ):**
+```
+E = σ/(2ε₀)  (on each side, perpendicular to sheet)
+```
+
+**Between two parallel sheets (+σ and −σ):**
+```
+E = σ/ε₀ (between them, uniform)
+E = 0 (outside)
+```
+
+## 1.4 Electric Field Lines
+
+- Start from positive, end on negative charge
+- Never cross each other
+- Tangent at any point = direction of E⃗
+- Density ∝ magnitude of E
+- Always perpendicular to equipotential surface
+- No closed loops in electrostatics
+
+## 1.5 Electric Dipole
+
+```
+Electric dipole moment: p⃗ = q × 2a⃗  (from −q to +q)
+Unit: C·m
+
+Torque in uniform field: τ⃗ = p⃗ × E⃗ = pE·sinθ
+Potential energy: U = −p⃗ · E⃗ = −pE·cosθ
+
+Stable equilibrium: θ = 0 (p⃗ ∥ E⃗)
+Unstable equilibrium: θ = 180°
+```
+
+## 1.6 Gauss's Law
+
+```
+∮E⃗ · dA⃗ = Q_enclosed/ε₀
+
+Φ_E = Q_enc/ε₀  (Total electric flux through closed surface)
+
+Electric flux: Φ = E⃗ · A⃗ = EA·cosθ
+Unit: N·m²/C = V·m
+```
+
+### Applications of Gauss's Law:
+
+**Uniformly charged sphere (solid, total charge Q, radius R):**
+```
+Outside (r > R): E = kQ/r²  [same as point charge]
+On surface (r = R): E = kQ/R²
+Inside (r < R): E = kQr/R³ = ρr/3ε₀  [increases linearly]
+```
+
+**Spherical shell (hollow):**
+```
+Outside (r > R): E = kQ/r²
+Inside (r < R): E = 0  [No field inside shell!]
+On surface: E = kQ/R² = σ/ε₀
+```
+
+**Long straight wire (λ = charge/length):**
+```
+E = λ/(2πε₀r)
+```
+
+**Infinite plane sheet (σ = charge/area):**
+```
+E = σ/(2ε₀)
+```
+
+**Conducting sphere:**
+```
+E_inside = 0 (electrostatic shielding)
+E_surface = σ/ε₀ (normal to surface)
+E_outside = kQ/r²
+```
+
+---
+
+# 2. ELECTROSTATIC POTENTIAL & CAPACITANCE
+
+## 2.1 Electric Potential
+
+```
+V = W/q₀ = U/q₀  (work done per unit charge)
+
+Unit: Volt (V) = J/C
+Dimensions: [M¹L²T⁻³A⁻¹]
+
+V is a scalar quantity!
+```
+
+### Due to Point Charge:
+```
+V = kQ/r = Q/(4πε₀r)
+```
+
+### Relation between E and V:
+```
+E = −dV/dr  (in 1D)
+
+E⃗ = −∇V = −(∂V/∂x î + ∂V/∂y ĵ + ∂V/∂z k̂)
+
+(E points from high V to low V)
+```
+
+### Potential — Important Cases:
+
+**Due to dipole:**
+```
+V = kp·cosθ/r²
+
+Axial (θ = 0): V = kp/r²
+Equatorial (θ = 90°): V = 0
+```
+
+**On axis of charged ring:**
+```
+V = kQ/√(R² + x²)
+```
+
+**Inside uniformly charged solid sphere:**
+```
+V_inside = kQ(3R² − r²)/(2R³)  [varies as quadratic]
+V_surface = kQ/R
+V_center = 3kQ/2R = (3/2)V_surface
+```
+
+**Inside shell:**
+```
+V_inside = kQ/R = V_surface = constant
+```
+
+## 2.2 Equipotential Surfaces
+
+- All points at same potential
+- E⃗ is always perpendicular to equipotential surface
+- No work done moving charge along equipotential
+- Closer equipotential lines → stronger field
+- For point charge: concentric spheres
+- For uniform field: parallel planes
+
+## 2.3 Potential Energy
+
+```
+System of two charges:
+U = kq₁q₂/r
+
+System of multiple charges:
+U = k × Σᵢ<ⱼ (qᵢqⱼ/rᵢⱼ)   [sum each pair once]
+
+Work done in moving charge q from A to B:
+W = q(V_A − V_B) = −q·ΔV
+```
+
+## 2.4 Conductors in Electric Field
+
+1. E = 0 inside conductor
+2. All charge resides on surface
+3. Surface is equipotential
+4. E is perpendicular to surface
+5. E_surface = σ/ε₀ (just outside)
+6. Charge accumulates more on sharp points (lightning rod principle)
+
+**Electrostatic Shielding:** Hollow conductor shields interior from external fields.
+
+## 2.5 Capacitance
+
+```
+C = Q/V
+
+Unit: Farad (F) = C/V
+1 μF = 10⁻⁶ F, 1 nF = 10⁻⁹ F, 1 pF = 10⁻¹² F
+
+Capacitance depends ONLY on geometry, not on Q or V.
+```
+
+### Capacitance Formulas:
+
+**Isolated sphere:**
+```
+C = 4πε₀R
+```
+
+**Parallel Plate Capacitor:**
+```
+C = ε₀A/d  (no dielectric)
+C = Kε₀A/d  (with dielectric of constant K)
+
+E between plates = σ/ε₀ = V/d
+```
+
+**Spherical Capacitor (inner radius a, outer radius b):**
+```
+C = 4πε₀ab/(b − a)
+```
+
+**Cylindrical Capacitor (radii a, b, length L):**
+```
+C = 2πε₀L/ln(b/a)
+```
+
+## 2.6 Combinations of Capacitors
+
+### Series:
+```
+1/C_eff = 1/C₁ + 1/C₂ + 1/C₃ + ...
+
+Charge same on each: Q₁ = Q₂ = Q
+Voltage divides: V₁/V₂ = C₂/C₁
+```
+
+### Parallel:
+```
+C_eff = C₁ + C₂ + C₃ + ...
+
+Voltage same on each: V₁ = V₂ = V
+Charge divides: Q₁/Q₂ = C₁/C₂
+```
+
+## 2.7 Energy Stored in Capacitor
+
+```
+U = ½QV = ½CV² = Q²/2C
+
+Energy density (energy per unit volume):
+u = ½ε₀E²  (without dielectric)
+u = ½KE₀E²  (with dielectric K)
+```
+
+### Energy when capacitors are connected:
+```
+Common potential: V = (C₁V₁ + C₂V₂)/(C₁ + C₂)  [charge conserved]
+
+Energy lost = ½C₁C₂(V₁−V₂)²/(C₁+C₂)  [always positive!]
+```
+
+## 2.8 Dielectrics
+
+```
+Dielectric constant: K = C/C₀ = E₀/E
+
+Polarization: P = ε₀(K−1)E = χₑε₀E
+χₑ = K − 1 = electric susceptibility
+
+Effect of dielectric:
+- C increases by K times
+- E decreases by K times
+- V decreases by K times (if Q constant)
+- Q increases by K times (if V constant)
+```
+
+### Dielectric inserted in charged capacitor:
+| Condition | C | V | E | Q | U |
+|-----------|---|---|---|---|---|
+| Battery connected (V const) | KC₀ | V₀ | E₀ | KQ₀ | KU₀ |
+| Battery disconnected (Q const) | KC₀ | V₀/K | E₀/K | Q₀ | U₀/K |
+
+---
+
+# 3. CURRENT ELECTRICITY
+
+## 3.1 Electric Current
+
+```
+I = dQ/dt = nAve
+
+n = number density of free electrons
+A = cross-sectional area
+v = drift velocity
+e = charge on electron
+
+Unit: Ampere (A) = C/s
+```
+
+### Drift Velocity:
+```
+v_d = eEτ/m = eVτ/(mL)
+
+τ = relaxation time (mean time between collisions)
+```
+
+## 3.2 Ohm's Law & Resistance
+
+```
+V = IR  (Ohm's Law)
+R = ρL/A
+
+ρ = resistivity (Ω·m)
+L = length
+A = cross-sectional area
+```
+
+### Temperature Dependence:
+```
+R_T = R₀(1 + αΔT) = R₀[1 + α(T − T₀)]
+
+α = temperature coefficient of resistance
+
+Metals: α > 0 (R increases with T)
+Semiconductors/insulators: α < 0 (R decreases with T)
+Alloys (Nichrome, Manganin): α ≈ 0 (nearly constant R)
+```
+
+### Conductance & Conductivity:
+```
+G = 1/R  (conductance, unit: Siemens = Ω⁻¹)
+σ = 1/ρ  (conductivity, unit: S/m or Ω⁻¹m⁻¹)
+```
+
+### Relation between σ and microscopic quantities:
+```
+σ = ne²τ/m  (derived from drift velocity)
+```
+
+## 3.3 Combinations of Resistors
+
+### Series:
+```
+R_eff = R₁ + R₂ + R₃ + ...
+I same, V divides
+V₁/V₂ = R₁/R₂
+```
+
+### Parallel:
+```
+1/R_eff = 1/R₁ + 1/R₂ + 1/R₃ + ...
+V same, I divides
+I₁/I₂ = R₂/R₁
+
+For two resistors: R_eff = R₁R₂/(R₁ + R₂)
+```
+
+### Special Cases:
+```
+n identical resistors in series: R_eff = nR
+n identical resistors in parallel: R_eff = R/n
+
+Wire of resistance R cut into n equal pieces:
+Each piece: R/n
+All in parallel: R/n²
+```
+
+## 3.4 EMF & Internal Resistance
+
+```
+EMF (ε): Work done per unit charge = Energy per unit charge
+Terminal voltage: V = ε − Ir  (discharging)
+Terminal voltage: V = ε + Ir  (charging)
+
+Current: I = ε/(R + r)
+
+Power delivered to external R: P = I²R = ε²R/(R + r)²
+Maximum power: when R = r → P_max = ε²/4r
+```
+
+### Cells in Combination:
+
+**Series:**
+```
+ε_eff = ε₁ + ε₂ + ... (if same polarity)
+r_eff = r₁ + r₂ + ...
+I = Σε/(R + Σr)
+```
+
+**Parallel (identical cells):**
+```
+ε_eff = ε
+r_eff = r/n
+I = nε/(nR + r)
+```
+
+## 3.5 Kirchhoff's Laws
+
+### KCL (Junction Rule):
+```
+ΣI_in = ΣI_out  (Conservation of charge)
+At any junction: ΣI = 0
+```
+
+### KVL (Loop Rule):
+```
+Σ(ΔV) = 0 around any closed loop  (Conservation of energy)
+
+Sign conventions:
+- Cross resistor in direction of I: ΔV = −IR
+- Cross resistor against direction of I: ΔV = +IR
+- Cross EMF from − to + : ΔV = +ε
+- Cross EMF from + to −: ΔV = −ε
+```
+
+## 3.6 Wheatstone Bridge
+
+```
+Balanced condition: P/Q = R/S  (no current through galvanometer)
+
+If P/Q = R/S → galvanometer reads zero (null condition)
+```
+
+### Meter Bridge:
+```
+R/S = l/(100 − l)
+R = S × l/(100 − l)
+
+l = balance length (cm)
+```
+
+## 3.7 Potentiometer
+
+**Principle:** The potential drop across a wire of uniform cross-section is proportional to its length.
+
+```
+V ∝ l
+
+EMF comparison:
+ε₁/ε₂ = l₁/l₂
+
+Internal resistance:
+r = R(l₁ − l₂)/l₂
+
+where l₁ = balance length without external R
+      l₂ = balance length with external R
+```
+
+> **Potentiometer vs Voltmeter:** Potentiometer draws no current → more accurate measurement!
+
+## 3.8 Electrical Power & Energy
+
+```
+Power: P = VI = I²R = V²/R
+
+Energy: E = Pt = VIt = I²Rt
+
+Unit: Watt (W), kilowatt-hour (kWh)
+1 kWh = 3.6 × 10⁶ J
+
+Joule's Law: Heat produced H = I²Rt
+```
+
+---
+
+# 4. MOVING CHARGES & MAGNETISM
+
+## 4.1 Magnetic Force on Moving Charge (Lorentz Force)
+
+```
+F⃗ = q(v⃗ × B⃗)
+|F| = qvB·sinθ
+
+F⃗_total = q(E⃗ + v⃗ × B⃗)  [Lorentz force — total electromagnetic]
+```
+
+### Properties:
+- Perpendicular to both v⃗ and B⃗
+- Does NO work on the charge (power = F⃗·v⃗ = 0)
+- Does NOT change speed, only direction
+- Cannot change KE of particle
+
+## 4.2 Motion of Charged Particle in Magnetic Field
+
+### Circular Motion:
+```
+qvB = mv²/r
+
+Radius: r = mv/(qB)
+
+Time period: T = 2πm/(qB)  [independent of v and r!]
+
+Frequency (cyclotron): f = qB/(2πm)  [independent of v!]
+
+Angular frequency: ω = qB/m
+```
+
+### Helical Motion (v has component ∥ to B):
+```
+Pitch: p = v_∥ × T = 2πmv_∥/(qB)
+Radius of helix: r = mv_⊥/(qB)
+```
+
+## 4.3 Cyclotron
+
+```
+Resonance condition: ν_rf = qB/(2πm)
+
+Maximum KE:
+KE_max = q²B²R²/(2m)
+
+where R = radius of dee
+```
+
+> **Limitation:** Cannot accelerate electrons (relativistic effects). Works only for heavy positive ions.
+
+## 4.4 Force on Current-Carrying Conductor
+
+```
+F⃗ = I(L⃗ × B⃗)
+|F| = BIL·sinθ
+
+For curved wire:
+F = BI(L_eff)  where L_eff = straight line from start to end
+```
+
+### Force Between Two Parallel Wires:
+```
+F/L = μ₀I₁I₂/(2πd)
+
+Parallel currents → attractive
+Anti-parallel currents → repulsive
+
+Definition of 1 Ampere: Current that produces F/L = 2×10⁻⁷ N/m between two parallel wires 1 m apart.
+```
+
+## 4.5 Torque on Current Loop
+
+```
+τ⃗ = m⃗ × B⃗ = NIAB·sinθ
+
+m⃗ = NIA n̂  [magnetic dipole moment]
+|m| = NIA
+
+where N = turns, I = current, A = area
+
+Potential energy: U = −m⃗ · B⃗ = −mB·cosθ
+```
+
+## 4.6 Biot-Savart Law
+
+```
+dB⃗ = (μ₀/4π) × (Idl⃗ × r̂)/r²
+
+μ₀ = 4π × 10⁻⁷ T·m/A  [permeability of free space]
+```
+
+### Magnetic Field — Important Results:
+
+**At center of circular loop (radius R):**
+```
+B = μ₀I/(2R)  (N turns: B = μ₀NI/2R)
+```
+
+**On axis of circular loop at distance x:**
+```
+B = μ₀IR²/[2(R² + x²)^(3/2)]
+
+At center (x = 0): B = μ₀I/2R  [maximum]
+Far away (x >> R): B = μ₀IR²/2x³ = μ₀m/2πx³
+```
+
+**Finite straight wire (angle α₁ and α₂):**
+```
+B = (μ₀I/4πd)(sinα₂ + sinα₁)
+
+where d = perpendicular distance from wire
+```
+
+**Infinite straight wire:**
+```
+B = μ₀I/(2πr)  (circular field lines around wire)
+```
+
+**Semi-infinite wire:**
+```
+B = μ₀I/(4πr)
+```
+
+**At center of square loop (side a):**
+```
+B = 2√2μ₀I/(πa)
+```
+
+## 4.7 Ampere's Circuital Law
+
+```
+∮B⃗ · dl⃗ = μ₀I_enclosed
+
+(Analogous to Gauss's law for electric field)
+```
+
+### Applications:
+
+**Long straight solenoid (n = turns/length):**
+```
+B_inside = μ₀nI  (uniform, parallel to axis)
+B_outside = 0
+```
+
+**Toroid (N turns, mean radius R):**
+```
+B_inside = μ₀NI/(2πR) = μ₀nI  (where n = N/2πR)
+B_outside = 0
+B in hole = 0
+```
+
+**Long coaxial cable (inner radius a, outer radius b):**
+```
+r < a: B = μ₀Ir/(2πa²)
+a < r < b: B = μ₀I/(2πr)
+r > b: B = 0 (for coaxial, opposite currents)
+```
+
+## 4.8 Galvanometer, Ammeter & Voltmeter
+
+### Galvanometer:
+```
+Full-scale deflection current: I_g
+Coil resistance: G
+```
+
+### Conversion to Ammeter (shunt S):
+```
+S = I_g × G/(I − I_g) = I_g·G/(I − I_g)
+
+Ammeter R_eff = GS/(G+S)  [very small — connected in series]
+```
+
+### Conversion to Voltmeter (series resistance R):
+```
+R = V/I_g − G = (V − I_g·G)/I_g
+
+Voltmeter R_eff = G + R  [very large — connected in parallel]
+```
+
+---
+
+# 5. MAGNETISM & MATTER
+
+## 5.1 Bar Magnet
+
+### Magnetic Field of Bar Magnet:
+
+**On axial line (end-on):**
+```
+B_axial = μ₀/(4π) × 2Mr/(r² − l²)²
+
+For r >> l: B_axial = μ₀/(4π) × 2M/r³ = μ₀m/2πr³
+```
+
+**On equatorial line (broad-on):**
+```
+B_equatorial = μ₀/(4π) × M/(r² + l²)^(3/2)
+
+For r >> l: B_equatorial = μ₀/(4π) × M/r³ = μ₀m/4πr³
+```
+
+```
+B_axial/B_equatorial = 2  (for r >> l)
+```
+
+## 5.2 Gauss's Law for Magnetism
+
+```
+∮B⃗ · dA⃗ = 0
+
+(No magnetic monopoles — field lines always form closed loops)
+```
+
+## 5.3 Magnetic Quantities
+
+| Quantity | Symbol | Definition | Unit |
+|----------|--------|-----------|------|
+| Magnetic intensity | H | B/μ − M | A/m |
+| Magnetization | M | m/V | A/m |
+| Magnetic susceptibility | χ | M/H | dimensionless |
+| Relative permeability | μᵣ | μ/μ₀ = 1 + χ | dimensionless |
+
+```
+B = μ₀(H + M) = μ₀μᵣH = μH
+```
+
+## 5.4 Types of Magnetic Materials
+
+| Property | Diamagnetic | Paramagnetic | Ferromagnetic |
+|----------|------------|--------------|---------------|
+| χ | Small negative (−10⁻⁶ to −10⁻⁵) | Small positive (10⁻⁵ to 10⁻³) | Very large positive (10² to 10⁵) |
+| μᵣ | Slightly < 1 | Slightly > 1 | >> 1 |
+| Behavior in field | Weakly repelled | Weakly attracted | Strongly attracted |
+| Examples | Bi, Cu, Pb, H₂O, NaCl | Al, Mn, O₂, Pt | Fe, Co, Ni |
+| Temperature | Independent | Curie's law: χ ∝ 1/T | Above Curie temp → paramagnetic |
+
+### Curie's Law (paramagnetic):
+```
+χ = C/T  (C = Curie constant)
+```
+
+### Curie-Weiss Law (ferromagnetic, T > T_C):
+```
+χ = C/(T − T_C)  (T_C = Curie temperature)
+```
+
+## 5.5 Hysteresis
+
+- **Hysteresis loop** = B-H curve for ferromagnet
+- **Retentivity:** B remaining when H = 0 (remnant magnetism)
+- **Coercivity:** H needed to reduce B to zero
+- **Area of hysteresis loop** = energy dissipated per cycle per unit volume
+
+| Material | Retentivity | Coercivity | Use |
+|---------|------------|-----------|-----|
+| Soft iron | High | Low | Electromagnets, transformer cores |
+| Steel/Alnico | High | High | Permanent magnets |
+
+## 5.6 Earth's Magnetism
+
+```
+Angle of Declination: Angle between geographic north and magnetic north
+
+Angle of Dip (Inclination): Angle of Earth's field with horizontal
+- Magnetic poles: dip = 90°
+- Magnetic equator: dip = 0°
+
+Horizontal component: B_H = B·cosδ
+Vertical component: B_V = B·sinδ
+tanδ = B_V/B_H
+
+|B| = √(B_H² + B_V²)
+```
+
+---
+
+# 6. ELECTROMAGNETIC INDUCTION
+
+## 6.1 Magnetic Flux
+
+```
+Φ_B = ∫B⃗ · dA⃗ = BA·cosθ
+
+Unit: Weber (Wb) = T·m²
+Dimensions: [M¹L²T⁻²A⁻¹]
+```
+
+## 6.2 Faraday's Laws
+
+### First Law:
+> An EMF is induced in a circuit when the magnetic flux through it changes.
+
+### Second Law:
+```
+ε = −dΦ_B/dt
+
+For N turns: ε = −N(dΦ_B/dt)
+```
+
+### Lenz's Law:
+> The induced current opposes the change in flux causing it (consequence of energy conservation).
+
+```
+ε = −dΦ/dt  (the negative sign represents Lenz's law)
+```
+
+## 6.3 Motional EMF
+
+```
+EMF in a rod of length L moving with velocity v in field B:
+ε = BvL  (when v, B, L are mutually perpendicular)
+
+More generally: ε = ∫(v⃗ × B⃗) · dl⃗
+```
+
+### Rotating rod in magnetic field:
+```
+ε = ½BωL²  (rod rotating about one end)
+ε = BωL²/2
+```
+
+### Rotating coil:
+```
+ε = NBAω·sin(ωt) = ε₀·sin(ωt)
+
+ε₀ = NBAω = peak EMF
+```
+
+## 6.4 Self-Inductance
+
+```
+Φ = LI  →  L = Φ/I = NΦ_B/I
+
+ε = −L(dI/dt)
+
+Unit: Henry (H) = V·s/A = Ω·s
+Dimensions: [M¹L²T⁻²A⁻²]
+```
+
+### Self-Inductance Formulas:
+
+**Solenoid (n turns/length, length l, area A):**
+```
+L = μ₀n²Al = μ₀N²A/l
+```
+
+**Toroid (N turns, mean radius R, area A):**
+```
+L = μ₀N²A/(2πR)
+```
+
+## 6.5 Mutual Inductance
+
+```
+Φ₂₁ = MI₁  →  M = Φ₂₁/I₁
+
+ε₂ = −M(dI₁/dt)
+
+Neumann's formula: M = μ₀N₁N₂A/l  (for coaxial solenoids)
+```
+
+### Coupling Coefficient:
+```
+k = M/√(L₁L₂)   (0 ≤ k ≤ 1)
+
+M_max = √(L₁L₂)  (when k = 1, perfect coupling)
+```
+
+## 6.6 Energy Stored in Inductor
+
+```
+U = ½LI²
+
+Energy density: u = B²/(2μ₀)  [analogous to ½ε₀E² for capacitor]
+```
+
+## 6.7 Growth and Decay of Current (RL Circuit)
+
+### Growth (switch closed):
+```
+I(t) = I₀(1 − e^(−t/τ))
+
+I₀ = ε/R  (final steady state current)
+τ = L/R  (time constant)
+```
+
+### Decay (source removed):
+```
+I(t) = I₀·e^(−t/τ)
+```
+
+> At t = τ: current is 63.2% of final (growth) or 36.8% of initial (decay)
+
+## 6.8 Eddy Currents
+
+- Induced currents in bulk conductors by changing B
+- Always oppose cause (Lenz's law)
+- Cause heating (I²R losses)
+- **Applications:** Induction cookers, electromagnetic braking, speedometers, metal detectors
+- **Minimization:** Laminated cores (thin sheets with insulation between them)
+
+---
+
+# 7. ALTERNATING CURRENT
+
+## 7.1 AC Fundamentals
+
+```
+v(t) = V₀·sin(ωt) = V_m·sin(ωt)
+i(t) = I₀·sin(ωt + φ)
+
+V₀ = peak voltage, I₀ = peak current
+ω = 2πf = 2π/T
+```
+
+### RMS Values:
+```
+V_rms = V₀/√2 ≈ 0.707 V₀
+I_rms = I₀/√2 ≈ 0.707 I₀
+
+Average value over half cycle: V_avg = 2V₀/π ≈ 0.637 V₀
+
+Form factor = V_rms/V_avg = π/(2√2) ≈ 1.11
+```
+
+## 7.2 Phasors
+
+- Phasors are rotating vectors representing AC quantities
+- Magnitude = amplitude (peak value)
+- Angle with x-axis = phase
+- x-component = instantaneous value
+
+## 7.3 AC Circuit Elements
+
+### Pure Resistor:
+```
+v = V₀·sinωt → i = I₀·sinωt  (in phase)
+Z_R = R
+Power: P = V_rms·I_rms = I²_rms·R  (average power)
+```
+
+### Pure Inductor:
+```
+v = V₀·sinωt → i = I₀·sin(ωt − π/2)  (current LAGS by 90°)
+X_L = ωL  (inductive reactance)
+Z_L = jωL
+Power: P_avg = 0  (purely reactive)
+```
+
+### Pure Capacitor:
+```
+v = V₀·sinωt → i = I₀·sin(ωt + π/2)  (current LEADS by 90°)
+X_C = 1/(ωC)  (capacitive reactance)
+Z_C = 1/(jωC)
+Power: P_avg = 0  (purely reactive)
+```
+
+> **Memory:** "ELI the ICE man" — In inductor L, EMF (E) leads I; In capacitor C, I leads E.
+
+## 7.4 Series RLC Circuit
+
+```
+Z = √(R² + (X_L − X_C)²) = √(R² + (ωL − 1/ωC)²)
+
+Phase angle: tanφ = (X_L − X_C)/R
+
+I₀ = V₀/Z
+
+If X_L > X_C: inductive (current lags)
+If X_L < X_C: capacitive (current leads)
+If X_L = X_C: resonance (purely resistive)
+```
+
+## 7.5 Resonance in RLC Circuit
+
+```
+At resonance: X_L = X_C
+ωL = 1/(ωC)
+ω₀ = 1/√(LC)   [resonant angular frequency]
+f₀ = 1/(2π√(LC))
+
+At resonance:
+- Z = R (minimum impedance)
+- I = V/R (maximum current)
+- φ = 0 (in phase)
+- V_L = V_C (but opposite in phase, so they cancel)
+```
+
+### Quality Factor (Q-factor):
+```
+Q = ω₀L/R = 1/(ω₀CR) = (1/R)√(L/C)
+
+Q = Resonant frequency / Bandwidth = ω₀/Δω
+
+Higher Q → sharper resonance, more selective
+```
+
+### Bandwidth:
+```
+Δω = R/L = ω₀/Q
+Δf = R/(2πL)
+```
+
+## 7.6 Power in AC Circuits
+
+```
+Instantaneous power: p = vi = V₀I₀·sinωt·sin(ωt − φ)
+
+Average power: P_avg = ½V₀I₀·cosφ = V_rms·I_rms·cosφ
+
+Power factor: cosφ = R/Z
+
+Apparent power: S = V_rms·I_rms  [VA]
+Real power: P = S·cosφ  [W]
+Reactive power: Q = S·sinφ  [VAR]
+S² = P² + Q²
+```
+
+| Circuit | Phase angle φ | Power factor cosφ | Average Power |
+|---------|-------------|------------------|--------------|
+| Pure R | 0 | 1 | V_rms·I_rms |
+| Pure L | 90° | 0 | 0 |
+| Pure C | −90° | 0 | 0 |
+| RLC at resonance | 0 | 1 | V_rms·I_rms |
+
+## 7.7 Transformer
+
+```
+Turns ratio: N₁/N₂ = V₁/V₂ = I₂/I₁
+
+Step-up: N₂ > N₁ → V₂ > V₁, I₂ < I₁
+Step-down: N₂ < N₁ → V₂ < V₁, I₂ > I₁
+
+Efficiency: η = P_output/P_input = V₂I₂/(V₁I₁)
+
+For ideal transformer: η = 100%
+
+Power losses: Copper loss (I²R), Core/Iron loss (eddy currents + hysteresis)
+```
+
+---
+
+# 8. ELECTROMAGNETIC WAVES
+
+## 8.1 Maxwell's Equations
+
+1. **Gauss's Law (Electric):** ∮E⃗ · dA⃗ = Q/ε₀
+2. **Gauss's Law (Magnetic):** ∮B⃗ · dA⃗ = 0
+3. **Faraday's Law:** ∮E⃗ · dl⃗ = −dΦ_B/dt
+4. **Ampere-Maxwell Law:** ∮B⃗ · dl⃗ = μ₀(I + ε₀ dΦ_E/dt)
+
+### Displacement Current:
+```
+I_D = ε₀(dΦ_E/dt) = ε₀·d(EA)/dt
+
+Maxwell's correction to Ampere's law: includes displacement current
+This predicted electromagnetic waves!
+```
+
+## 8.2 EM Waves
+
+```
+Speed in vacuum: c = 1/√(μ₀ε₀) = 3 × 10⁸ m/s
+
+In medium: v = 1/√(με) = c/n
+
+Refractive index: n = c/v = √(εᵣμᵣ) ≈ √εᵣ (for non-magnetic)
+
+E⃗ and B⃗ are perpendicular to each other and to direction of propagation
+E/B = c
+```
+
+### Properties:
+- Transverse waves (E and B ⊥ to propagation)
+- Travel at c in vacuum
+- Not deflected by E or B fields
+- Can travel through vacuum
+- Carry energy and momentum
+- Obey superposition
+
+### EM Wave Equations:
+```
+E = E₀·sin(kx − ωt)
+B = B₀·sin(kx − ωt)
+E₀/B₀ = c
+```
+
+### Energy and Intensity:
+```
+Energy density: u = ½ε₀E² + B²/(2μ₀) = ε₀E²  (E and B contribute equally)
+
+Intensity: I = u × c = ε₀cE₀²/2 = cB₀²/(2μ₀) = E₀B₀/(2μ₀)
+
+Radiation pressure: P_rad = I/c  (for perfect absorption)
+                   P_rad = 2I/c (for perfect reflection)
+```
+
+## 8.3 Electromagnetic Spectrum
+
+| Name | Wavelength | Frequency | Source/Use |
+|------|-----------|-----------|-----------|
+| Radio waves | > 0.1 m | < 3 GHz | AM/FM radio, TV |
+| Microwaves | 1mm–0.1m | 3GHz–300GHz | Radar, microwave oven, satellite |
+| Infrared | 700nm–1mm | 3×10¹¹–4.3×10¹⁴ Hz | Heat, remote controls, thermal imaging |
+| Visible | 400–700 nm | 4.3×10¹⁴–7.5×10¹⁴ Hz | Human vision |
+| Ultraviolet | 10–400 nm | 7.5×10¹⁴–3×10¹⁶ Hz | Sterilization, vitamin D, ozone |
+| X-rays | 0.01–10 nm | 3×10¹⁶–3×10¹⁹ Hz | Medical imaging, crystallography |
+| Gamma rays | < 0.01 nm | > 3×10¹⁹ Hz | Nuclear reactions, cancer treatment |
+
+---
+
+# 9. RAY OPTICS & OPTICAL INSTRUMENTS
+
+## 9.1 Reflection
+
+```
+Laws of Reflection:
+1. Angle of incidence = Angle of reflection (i = r)
+2. Incident ray, reflected ray, and normal are coplanar
+```
+
+### Plane Mirror:
+- Image is virtual, erect, same size
+- Image is laterally inverted
+- Image distance = Object distance (behind mirror)
+- Mirror moves by x → image moves by 2x
+
+### Spherical Mirrors:
+
+**Sign Convention (New Cartesian):**
+- All distances from pole
+- Along incident ray direction: positive
+- Against incident ray: negative
+
+**Mirror Formula:**
+```
+1/v + 1/u = 1/f = 2/R
+
+f = R/2
+
+Magnification: m = −v/u = h_i/h_o
+
+m > 0: erect image (virtual)
+m < 0: inverted image (real)
+|m| > 1: magnified
+|m| < 1: diminished
+```
+
+| Object position | Image (Concave) | Image (Convex) |
+|----------------|----------------|----------------|
+| At infinity | F, real, inverted, point | F, virtual, erect, diminished |
+| Beyond C | Between F and C, real, inverted, diminished | Behind mirror, virtual, erect, diminished |
+| At C | At C, real, inverted, same size | — |
+| Between F and C | Beyond C, real, inverted, magnified | Behind mirror, virtual, erect, diminished |
+| At F | At infinity | Behind mirror, virtual, erect, diminished |
+| Between P and F | Behind mirror, virtual, erect, magnified | Behind mirror, virtual, erect, diminished |
+
+## 9.2 Refraction
+
+```
+Snell's Law: n₁·sinθ₁ = n₂·sinθ₂
+            μ₁sinθ₁ = μ₂sinθ₂
+
+n = c/v = absolute refractive index
+n₂₁ = n₂/n₁ = sinθ₁/sinθ₂ = v₁/v₂ = λ₁/λ₂
+```
+
+### Critical Angle & TIR:
+```
+At critical angle: θ₂ = 90°
+sinC = n₂/n₁ = 1/n  (for n₁ > n₂, going from denser to rarer)
+
+Total Internal Reflection: θ₁ > C
+
+Applications: Optical fiber, diamond sparkle, mirage, prism instruments
+```
+
+### Optical Fiber:
+```
+Acceptance angle: sinθ_max = √(n₁² − n₂²)
+NA (Numerical Aperture) = sinθ_max
+```
+
+## 9.3 Refraction at Spherical Surface
+
+```
+n₂/v − n₁/u = (n₂ − n₁)/R
+
+Power of surface: P = (n₂ − n₁)/R
+```
+
+## 9.4 Lens Formula & Magnification
+
+```
+1/v − 1/u = 1/f  [Lens formula]
+
+m = v/u = h_i/h_o
+
+For lens: m = v/u (unlike mirror, no negative sign)
+m > 0: same side as object → virtual, erect
+m < 0: other side → real, inverted
+```
+
+### Lens Maker's Equation:
+```
+1/f = (n−1)[1/R₁ − 1/R₂]
+
+n = refractive index of lens material
+R₁, R₂ = radii of curvature (sign convention applies)
+
+Power: P = 1/f  [f in metres → P in Diopters (D)]
+```
+
+### Combination of Lenses:
+```
+In contact: 1/f_eq = 1/f₁ + 1/f₂ + ...
+            P_eq = P₁ + P₂ + ...
+
+Separated by distance d: 1/f_eq = 1/f₁ + 1/f₂ − d/(f₁f₂)
+```
+
+### Displacement Method (to find f):
+```
+f = (D² − d²)/(4D)
+
+where D = distance between object and screen
+      d = distance between two positions of lens
+```
+
+## 9.5 Prism
+
+```
+Deviation: δ = (i₁ + i₂) − A   (A = prism angle)
+
+At minimum deviation: i₁ = i₂ = i, r₁ = r₂ = r = A/2
+
+n = sin[(A + δ_m)/2] / sin(A/2)
+
+For small angle prism:
+δ = (n − 1)A
+```
+
+### Dispersion:
+```
+Angular dispersion: δ_V − δ_R = (n_V − n_R)A
+
+Dispersive power: ω = (n_V − n_R)/(n_y − 1) = (δ_V − δ_R)/δ_y
+
+where subscripts V, R, y = violet, red, yellow
+```
+
+## 9.6 Optical Instruments
+
+### Simple Microscope (Magnifying Glass):
+```
+M = 1 + D/f  (for image at near point D = 25 cm)
+M = D/f  (for image at infinity, relaxed eye)
+```
+
+### Compound Microscope:
+```
+M = m_o × m_e
+
+m_o = −v_o/u_o  (magnification of objective, real image)
+m_e = 1 + D/f_e  (magnification of eyepiece)
+
+Approximate: M = L × D/(f_o × f_e)
+
+where L = tube length (distance between lenses minus focal lengths)
+```
+
+### Astronomical Telescope (Normal adjustment):
+```
+M = −f_o/f_e  (negative = inverted image)
+
+Tube length = f_o + f_e
+```
+
+### Terrestrial Telescope:
+Same as astronomical but with erecting lens → image is erect.
+
+### Resolving Power:
+```
+Telescope: RP = D/(1.22λ)
+Microscope: RP = 2n·sinα/λ  (Abbe criterion)
+
+Limit of resolution (telescope): θ_min = 1.22λ/D
+```
+
+---
+
+# 10. WAVE OPTICS
+
+## 10.1 Huygens' Principle
+
+1. Every point on a wavefront acts as a source of secondary spherical wavelets
+2. The new wavefront is the common tangent to all secondary wavelets
+
+### Laws of Reflection and Refraction from Huygens' Principle:
+```
+Refraction: sinθ₁/sinθ₂ = v₁/v₂ = n₂/n₁
+```
+
+## 10.2 Young's Double Slit Experiment (YDSE)
+
+```
+Setup: Two slits S₁ and S₂, separation d, screen at distance D
+
+Path difference: Δ = d·sinθ ≈ dy/D  (for small θ)
+
+Fringe width: β = λD/d
+
+Condition for bright fringe: Δ = nλ → y_n = nλD/d
+Condition for dark fringe: Δ = (2n−1)λ/2 → y_n = (2n−1)λD/2d
+```
+
+### Intensity in YDSE:
+```
+I = 4I₀·cos²(δ/2)  (if both slits have equal intensity I₀)
+
+where δ = phase difference = (2π/λ) × path difference
+
+I_max = 4I₀ (constructive, δ = 0, 2π, 4π...)
+I_min = 0  (destructive, δ = π, 3π, 5π...)
+```
+
+### With initial phase difference (or path difference):
+```
+For unequal intensities I₁ and I₂:
+I = I₁ + I₂ + 2√(I₁I₂)·cosδ
+
+I_max = (√I₁ + √I₂)²
+I_min = (√I₁ − √I₂)²
+
+I_max/I_min = [(√I₁ + √I₂)/(√I₁ − √I₂)]²
+```
+
+### Effect of Immersing in Medium:
+```
+λ_medium = λ/n → β_medium = λD/(nd)  (fringe width decreases)
+```
+
+### Effect of Moving Source:
+```
+Extra path difference introduced at S
+If source moves by y₀: Fringe shift = (y₀/D_s) × (D/d) where D_s = source to slit dist.
+```
+
+## 10.3 Single Slit Diffraction
+
+```
+Condition for minima: a·sinθ = nλ  (n = ±1, ±2, ...)
+y_n = nλD/a
+
+Width of central maximum: 2λD/a = 2y₁
+
+Angular half-width of central max: θ = λ/a
+
+Secondary maxima: a·sinθ = (2n+1)λ/2  (approximate)
+```
+
+### Intensity Pattern:
+```
+I = I₀[sin(α)/α]²  where α = πa·sinθ/λ
+
+Central max: I₀ at θ = 0
+First secondary max: I₀/22 at α = 3π/2
+```
+
+## 10.4 Diffraction Grating
+
+```
+d(sinθ + sinα) = mλ  (general grating equation)
+
+For normal incidence (α = 0):
+d·sinθ = mλ  (m = 0, ±1, ±2, ...)
+
+Resolving power: RP = λ/dλ = mN
+
+where N = total number of slits, m = order
+```
+
+## 10.5 Polarization
+
+### Malus's Law:
+```
+I = I₀·cos²θ
+
+where θ = angle between polarizer and analyzer
+I₀ = intensity after first polarizer = I_unpolarized/2
+```
+
+### Brewster's Law:
+```
+At polarizing angle (Brewster's angle) i_B:
+n = tan(i_B)
+
+Reflected ray is completely polarized (perpendicular to plane of incidence)
+i_B + r_B = 90°
+```
+
+## 10.6 Thin Film Interference
+
+```
+For reflected rays (thin film of thickness t, refractive index n):
+
+Constructive (if one reflection has phase change):
+2nt = (2m+1)λ/2 = (m + ½)λ
+
+Destructive:
+2nt = mλ
+
+(Phase change of π on reflection from denser medium)
+```
+
+---
+
+# 11. DUAL NATURE OF RADIATION & MATTER
+
+## 11.1 Photoelectric Effect
+
+**Observations:**
+1. Instantaneous emission of electrons
+2. Minimum frequency (threshold) required
+3. Max KE ∝ frequency (not intensity)
+4. Photocurrent ∝ intensity
+5. Stopping potential independent of intensity
+
+### Einstein's Photoelectric Equation:
+```
+KE_max = hν − φ = h(ν − ν₀)
+
+φ = hν₀ = work function (minimum energy to eject electron)
+ν₀ = threshold frequency
+λ₀ = c/ν₀ = threshold wavelength
+
+eV₀ = KE_max = hν − φ
+
+V₀ = stopping potential
+```
+
+### Work Functions of Common Metals:
+| Metal | φ (eV) |
+|-------|--------|
+| Cs | 2.0 |
+| Na | 2.3 |
+| Ag | 4.3 |
+| Pt | 5.65 |
+
+```
+h = 6.626 × 10⁻³⁴ J·s = 4.136 × 10⁻¹⁵ eV·s
+hc = 1240 eV·nm = 12400 eV·Å
+```
+
+## 11.2 Photon Properties
+
+```
+Energy: E = hν = hc/λ
+
+Momentum: p = h/λ = E/c = hν/c
+
+Mass: m = E/c² = h/(λc)  [equivalent mass, photon has zero rest mass]
+
+Rest mass of photon = 0
+
+Speed in vacuum = c always
+```
+
+## 11.3 de Broglie Hypothesis (Wave-Particle Duality)
+
+```
+de Broglie wavelength: λ = h/p = h/(mv)
+
+For particle accelerated through voltage V:
+λ = h/√(2mqV)   [non-relativistic]
+
+For electron: λ = 12.27/√V  Å  (V in volts)
+
+For thermal particles (kinetic energy = 3kT/2):
+λ = h/√(3mkT)
+```
+
+### Davisson-Germer Experiment:
+Experimentally confirmed wave nature of electrons through electron diffraction.
+
+```
+nλ = d·sinφ  (for diffraction peaks)
+```
+
+## 11.4 Heisenberg Uncertainty Principle
+
+```
+Δx · Δpₓ ≥ h/(4π) = ℏ/2  (ℏ = h/2π = 1.055 × 10⁻³⁴ J·s)
+
+ΔE · Δt ≥ ℏ/2
+
+ΔL · Δθ ≥ ℏ/2
+```
+
+> This is fundamental (not due to measurement limitations) — particles do NOT have definite position AND momentum simultaneously.
+
+---
+
+# 12. ATOMS
+
+## 12.1 Rutherford's Nuclear Model
+
+- Most of atom is empty space
+- All positive charge concentrated in tiny nucleus
+- Electrons orbit nucleus
+
+**Failure:** Could not explain stability (accelerating electrons should radiate and spiral in), nor discrete spectral lines.
+
+## 12.2 Bohr's Model of Hydrogen Atom
+
+### Bohr's Postulates:
+1. Electrons move in fixed circular orbits without radiating
+2. Only orbits where angular momentum = nh/(2π) are allowed
+3. Radiation emitted/absorbed when electron changes orbit
+
+### Quantization of Angular Momentum:
+```
+L = mvr = nℏ = nh/(2π)  (n = 1, 2, 3, ...)
+```
+
+### Radius of nth Orbit (Bohr radius):
+```
+rₙ = n²a₀/Z
+
+a₀ = 0.529 Å = 0.0529 nm  (Bohr radius for n=1, Z=1)
+rₙ = n² × 0.529/Z  Å
+```
+
+### Velocity of Electron:
+```
+vₙ = Ze²/(2ε₀hn) = (e²/4πε₀ℏ) × Z/n = αc × Z/n
+
+α = fine structure constant = 1/137
+v₁ = 2.18 × 10⁶ m/s for hydrogen
+```
+
+### Total Energy:
+```
+KE = Ze²/(8πε₀rₙ) = 13.6Z²/n²  eV
+PE = −Ze²/(4πε₀rₙ) = −27.2Z²/n²  eV
+E_n = −13.6Z²/n²  eV
+
+E₁ = −13.6 eV  (ground state of H)
+E_n = E₁/n²
+
+Ionization energy = |E₁| = 13.6 eV (for H)
+```
+
+### Frequency & Wavelength of Emitted Photon:
+```
+hν = E_n₂ − E_n₁  (transition from n₂ to n₁, n₂ > n₁)
+
+Rydberg formula:
+1/λ = RH × Z²(1/n₁² − 1/n₂²)
+
+RH = 1.097 × 10⁷ m⁻¹  (Rydberg constant)
+```
+
+## 12.3 Spectral Series of Hydrogen
+
+| Series | n₁ | n₂ | Region |
+|--------|-----|-----|--------|
+| Lyman | 1 | 2,3,4,... | UV |
+| Balmer | 2 | 3,4,5,... | Visible (first 4 lines) |
+| Paschen | 3 | 4,5,6,... | Near IR |
+| Brackett | 4 | 5,6,7,... | IR |
+| Pfund | 5 | 6,7,8,... | Far IR |
+
+```
+For Balmer series (visible):
+Hα: 3→2, λ = 656.3 nm (red)
+Hβ: 4→2, λ = 486.1 nm (blue-green)
+Hγ: 5→2, λ = 434.0 nm (violet)
+Hδ: 6→2, λ = 410.2 nm (violet)
+```
+
+## 12.4 Limitations of Bohr Model
+
+- Cannot explain spectra of multi-electron atoms
+- Cannot explain intensity of spectral lines
+- Cannot explain fine structure (splitting of lines)
+- Cannot explain chemical bonding
+- Violates Heisenberg uncertainty principle (assumes fixed orbits)
+
+---
+
+# 13. NUCLEI
+
+## 13.1 Nuclear Properties
+
+```
+Atomic number: Z = number of protons
+Mass number: A = number of protons + neutrons (nucleons)
+Neutron number: N = A − Z
+
+Nuclear radius: R = R₀A^(1/3)
+R₀ = 1.2 × 10⁻¹⁵ m = 1.2 fm
+
+Nuclear volume ∝ A
+Nuclear density ≈ 2.3 × 10¹⁷ kg/m³  [constant for all nuclei!]
+```
+
+### Isotopes, Isobars, Isotones:
+| Term | Same | Different |
+|------|------|-----------|
+| Isotopes | Z | A, N |
+| Isobars | A | Z, N |
+| Isotones | N | Z, A |
+
+## 13.2 Mass Defect & Binding Energy
+
+```
+Mass defect: Δm = Zmp + Nmn − M_nucleus
+(M_nucleus < Zmp + Nmn — Einstein's mass-energy relation!)
+
+Binding Energy: BE = Δm × c²
+               BE = Δm × 931.5 MeV/u
+
+Binding Energy per nucleon: BE/A
+
+1 u (atomic mass unit) = 1.66 × 10⁻²⁷ kg = 931.5 MeV/c²
+```
+
+### BE/A Curve:
+- Rises steeply for light nuclei (fusion releases energy)
+- Peaks at Fe-56 (~8.8 MeV/nucleon) — most stable
+- Slowly decreases for heavy nuclei (fission releases energy)
+
+## 13.3 Radioactive Decay
+
+### Types:
+
+**α-decay:**
+```
+ᴬ_Z X → ᴬ⁻⁴_(Z−2) Y + ⁴_₂He (α particle)
+
+Alpha = ⁴He nucleus (2 protons + 2 neutrons)
+Stopped by paper or few cm of air
+```
+
+**β⁻-decay:**
+```
+ᴬ_Z X → ᴬ_(Z+1) Y + e⁻ + ν̄_e
+
+Neutron → Proton + electron + antineutrino
+Stopped by few mm of aluminum
+```
+
+**β⁺-decay (Positron emission):**
+```
+ᴬ_Z X → ᴬ_(Z−1) Y + e⁺ + ν_e
+
+Proton → Neutron + positron + neutrino
+```
+
+**Electron Capture:**
+```
+p + e⁻ → n + ν_e
+```
+
+**γ-decay:**
+```
+No change in Z or A — nucleus goes from excited to ground state
+Stopped by thick lead or concrete
+```
+
+### Radioactive Decay Law:
+```
+N(t) = N₀·e^(−λt)
+
+Activity: A = −dN/dt = λN = A₀e^(−λt)
+
+Half-life: T₁/₂ = ln2/λ = 0.693/λ
+
+Mean life: τ = 1/λ = T₁/₂/ln2 = 1.44T₁/₂
+
+After n half-lives: N = N₀/2ⁿ, A = A₀/2ⁿ
+
+Unit of Activity: Becquerel (Bq) = 1 decay/s
+                  1 Curie (Ci) = 3.7 × 10¹⁰ Bq
+```
+
+## 13.4 Nuclear Reactions
+
+```
+Q-value = (Mass of reactants − Mass of products) × c²
+        = (KE of products − KE of reactants)
+
+Q > 0: Exothermic (energy released)
+Q < 0: Endothermic (energy absorbed)
+```
+
+### Fission:
+```
+²³⁵_₉₂U + n → ⁹⁶_₃₆Kr + ¹³⁷_₅₆Ba + 3n + Q
+
+Q ≈ 200 MeV per fission
+
+Chain reaction: k = number of neutrons causing further fission
+k < 1: Subcritical (reaction dies)
+k = 1: Critical (steady reaction) — nuclear reactor
+k > 1: Supercritical — nuclear bomb
+```
+
+### Fusion:
+```
+²_₁H + ³_₁H → ⁴_₂He + n + 17.6 MeV
+
+Requires very high temperature (10⁷ K) — thermonuclear reaction
+Sun's energy source, hydrogen bomb
+```
+
+---
+
+# 14. SEMICONDUCTOR ELECTRONICS
+
+## 14.1 Energy Bands in Solids
+
+```
+Valence band: Filled with valence electrons
+Conduction band: Empty or partially filled
+Band gap (E_g): Energy gap between them
+
+Conductors: E_g = 0 (bands overlap)
+Semiconductors: E_g small (Si: 1.1 eV, Ge: 0.67 eV)
+Insulators: E_g large (Diamond: 5.5 eV)
+```
+
+## 14.2 Intrinsic Semiconductors
+
+- Pure semiconductor (Si or Ge)
+- At 0K: acts as insulator (all electrons in valence band)
+- At room temp: thermal energy breaks some bonds → electron-hole pairs
+- n = p = nᵢ (intrinsic carrier concentration)
+- Conductivity increases with temperature (opposite to metals!)
+
+## 14.3 Extrinsic Semiconductors
+
+### n-type (donor impurity):
+```
+Add pentavalent atoms (P, As, Sb) to Si
+Extra electron → majority carriers are electrons
+nₑ >> nₕ
+Fermi level moves toward conduction band
+```
+
+### p-type (acceptor impurity):
+```
+Add trivalent atoms (B, Al, Ga, In) to Si
+Hole created → majority carriers are holes
+nₕ >> nₑ
+Fermi level moves toward valence band
+```
+
+### Mass Action Law:
+```
+nₑ × nₕ = nᵢ²  (always valid in thermal equilibrium)
+```
+
+## 14.4 p-n Junction Diode
+
+### Formation:
+- p-n junction formed at interface
+- Diffusion of holes to n-side, electrons to p-side
+- Depletion layer (no free carriers) forms
+- Built-in electric field (n→p) developed
+- Contact potential (barrier potential) ≈ 0.3V (Ge), 0.7V (Si)
+
+### Forward Bias (p to +, n to −):
+```
+Barrier reduces, current flows easily
+I = I₀(e^(eV/kT) − 1)  (Shockley diode equation)
+
+I₀ = reverse saturation current
+Cut-in voltage: 0.3V (Ge), 0.7V (Si)
+```
+
+### Reverse Bias (p to −, n to +):
+```
+Barrier increases, only leakage current (~μA)
+At breakdown voltage: large reverse current flows
+```
+
+## 14.5 Diode Circuits
+
+### Half-Wave Rectifier:
+```
+Output frequency = Input frequency (f)
+Ripple factor r = 1.21
+Efficiency η = 40.6%
+V_dc = V_m/π ≈ 0.318V_m
+I_dc = I_m/π
+```
+
+### Full-Wave Rectifier (Centre-tap):
+```
+Output frequency = 2f
+Ripple factor r = 0.48
+Efficiency η = 81.2%
+V_dc = 2V_m/π ≈ 0.636V_m
+I_dc = 2I_m/π
+```
+
+### Bridge Rectifier:
+```
+Output frequency = 2f
+Same as full-wave but no centre tap needed
+Uses 4 diodes instead of 2
+```
+
+### Filter Capacitor:
+```
+V_ripple = I_dc/(fC)  (full-wave)
+Ripple factor = 1/(4√3 fCR_L)
+```
+
+## 14.6 Special Purpose Diodes
+
+### Zener Diode:
+```
+Works in reverse breakdown (Zener breakdown or avalanche)
+Used as voltage regulator
+
+For voltage regulation:
+V_out = V_Z (constant)
+I_Z = (V_in − V_Z)/R_s − I_L
+
+Condition: I_Z(min) < I_Z < I_Z(max)
+```
+
+### LED (Light Emitting Diode):
+```
+Emits photon when electron-hole recombination occurs:
+hν ≈ E_g  (photon energy ≈ band gap)
+
+Different band gaps → different colors
+GaAs: infrared
+GaP: green/red
+GaN: blue/UV
+InGaN: white
+```
+
+### Photodiode:
+- Operated in reverse bias
+- Light creates electron-hole pairs → increases reverse current
+- Photocurrent ∝ Light intensity
+- Used in light detectors, solar cells
+
+### Solar Cell:
+```
+P-V characteristics: similar to diode
+Fill Factor FF = P_max/(V_oc × I_sc)
+Efficiency η = P_max/P_incident
+```
+
+## 14.7 Bipolar Junction Transistor (BJT)
+
+### Structure:
+- Three regions: Emitter (E), Base (B), Collector (C)
+- Two types: npn and pnp
+- Emitter is heavily doped, collector is lightly doped, base is very thin
+
+### Current Relations:
+```
+I_E = I_B + I_C
+
+α = I_C/I_E  (common base current gain, < 1, ≈ 0.95–0.99)
+β = I_C/I_B  (common emitter current gain, ≈ 20–200)
+
+β = α/(1 − α)
+α = β/(β + 1)
+```
+
+### Operating Regions:
+| Region | E-B junction | C-B junction | Use |
+|--------|-------------|-------------|-----|
+| Active | Forward | Reverse | Amplifier |
+| Saturation | Forward | Forward | Switch ON |
+| Cutoff | Reverse | Reverse | Switch OFF |
+
+### Common Emitter Amplifier:
+```
+Voltage gain: A_v = −β × R_C/r_be
+
+Input resistance: R_in = β × r_e ≈ βr_e
+where r_e = 26mV/I_E (at room temp)
+
+Power gain: A_p = β² × R_C/r_be
+
+Phase shift: 180° (inverting amplifier)
+```
+
+## 14.8 Logic Gates
+
+### Basic Gates:
+
+**AND gate:**
+```
+Y = A · B
+Output HIGH only when both inputs HIGH
+```
+
+**OR gate:**
+```
+Y = A + B
+Output HIGH when at least one input HIGH
+```
+
+**NOT gate (Inverter):**
+```
+Y = Ā
+Output is complement of input
+```
+
+**NAND gate (Universal):**
+```
+Y = A̅·̅B̅ = ̄(AB)
+Can implement all other gates
+```
+
+**NOR gate (Universal):**
+```
+Y = A̅+̅B̅ = ̄(A+B)
+Can implement all other gates
+```
+
+**XOR gate:**
+```
+Y = A ⊕ B = AB̄ + ĀB
+Output HIGH when inputs are DIFFERENT
+```
+
+**XNOR gate:**
+```
+Y = A ⊙ B = AB + ĀB̄
+Output HIGH when inputs are SAME
+```
+
+### Boolean Algebra Theorems:
+```
+De Morgan's Laws:
+̄(A + B) = Ā · B̄   (NOT-OR = NAND-like)
+̄(A · B) = Ā + B̄   (NOT-AND = NOR-like)
+
+Identity laws: A+0=A, A·1=A
+Complement: A+Ā=1, A·Ā=0
+Idempotent: A+A=A, A·A=A
+Absorption: A+AB=A, A(A+B)=A
+```
+
+## 14.9 Operational Amplifier (Op-Amp Basics)
+
+```
+Ideal Op-Amp:
+- Infinite open-loop gain (A → ∞)
+- Infinite input impedance (R_in → ∞)
+- Zero output impedance (R_out = 0)
+- Infinite bandwidth
+
+Inverting amplifier: A_v = −R_f/R_in
+Non-inverting amplifier: A_v = 1 + R_f/R_in
+```
+
+---
+
+# 15. COMMUNICATION SYSTEMS
+
+## 15.1 Basic Elements
+
+```
+Signal → Transmitter → Channel → Receiver → Output
+
+Analog: continuous variation (music, voice)
+Digital: discrete values (0 and 1)
+```
+
+## 15.2 Bandwidth
+
+```
+Audio signal: 20 Hz to 20 kHz (bandwidth ≈ 20 kHz)
+Video signal: bandwidth ≈ 4.2 MHz
+AM broadcast: 540 kHz to 1600 kHz
+FM broadcast: 88 MHz to 108 MHz
+```
+
+## 15.3 Modulation
+
+**Need for modulation:**
+- Audio frequencies have short range
+- Multiple signals would mix (need carrier differentiation)
+- Antennas would be impractically large
+
+### Amplitude Modulation (AM):
+```
+c(t) = A_c·sin(ω_c t)  [carrier]
+m(t) = A_m·sin(ω_m t)  [message]
+
+AM signal: s(t) = A_c[1 + m_a·sin(ω_m t)]·sin(ω_c t)
+
+Modulation index: m_a = A_m/A_c  (0 ≤ m_a ≤ 1)
+
+AM contains:
+- Carrier: frequency f_c, amplitude A_c
+- USB (Upper Sideband): frequency f_c + f_m
+- LSB (Lower Sideband): frequency f_c − f_m
+
+Bandwidth of AM = 2 × f_m(max)
+```
+
+### Frequency Modulation (FM):
+```
+Frequency of carrier varies with message signal
+
+Modulation index: β = Δf/f_m
+
+Advantages of FM over AM:
+- Less noise susceptibility
+- Better audio quality
+- No change in amplitude → less interference
+```
+
+## 15.4 Range of Communication
+
+```
+Ground wave: follows Earth's curvature
+Range = √(2Rh)  where R = Earth's radius, h = antenna height
+
+For two antennas of heights h_t and h_r:
+d_max = √(2Rh_t) + √(2Rh_r)
+
+Sky wave: reflects from ionosphere (F layer, ≈ 250 km)
+Used for HF (3–30 MHz) international communication
+
+Space wave (line of sight): above 40 MHz, satellite communication
+```
+
+---
+
+# 📊 QUICK REFERENCE — IMPORTANT CONSTANTS (Class 12)
+
+| Constant | Value |
+|----------|-------|
+| ε₀ (permittivity of free space) | 8.85 × 10⁻¹² C²/(N·m²) |
+| μ₀ (permeability of free space) | 4π × 10⁻⁷ T·m/A |
+| k = 1/(4πε₀) | 9 × 10⁹ N·m²/C² |
+| c (speed of light) | 3 × 10⁸ m/s |
+| e (electron charge) | 1.6 × 10⁻¹⁹ C |
+| m_e (electron mass) | 9.11 × 10⁻³¹ kg |
+| m_p (proton mass) | 1.67 × 10⁻²⁷ kg |
+| m_n (neutron mass) | 1.675 × 10⁻²⁷ kg |
+| h (Planck's constant) | 6.626 × 10⁻³⁴ J·s |
+| ℏ = h/2π | 1.055 × 10⁻³⁴ J·s |
+| hc | 1240 eV·nm |
+| k_B (Boltzmann constant) | 1.38 × 10⁻²³ J/K |
+| N_A (Avogadro's number) | 6.022 × 10²³ mol⁻¹ |
+| 1 eV | 1.6 × 10⁻¹⁹ J |
+| 1 u (atomic mass unit) | 1.66 × 10⁻²⁷ kg = 931.5 MeV/c² |
+| R_H (Rydberg constant) | 1.097 × 10⁷ m⁻¹ |
+| a₀ (Bohr radius) | 0.529 Å |
+| σ (Stefan's constant) | 5.67 × 10⁻⁸ W/(m²K⁴) |
+
+---
+
+# 🎯 JEE-SPECIFIC TIPS & TRICKS
+
+## High-Weightage Topics (Class 12, based on trends):
+1. **Electrostatics + Capacitors** — 3–4 questions every year
+2. **Current Electricity** — Kirchhoff's + Wheatstone
+3. **Electromagnetic Induction + AC Circuits** — frequently combined
+4. **Ray Optics + Wave Optics** — both important
+5. **Modern Physics** — photoelectric, Bohr model, nuclei
+6. **Semiconductors** — diode, transistor, logic gates
+
+## Critical Formulas to Memorize Instantly:
+
+### Electric Field (must know all cases):
+```
+Point charge: E = kq/r²
+Line charge: E = λ/2πε₀r
+Sheet: E = σ/2ε₀
+Inside sphere (uniform): E = kQr/R³
+Outside sphere: E = kQ/r²
+Inside conducting shell: E = 0
+```
+
+### Magnetic Field (must know all cases):
+```
+Infinite wire: B = μ₀I/2πr
+Center of loop: B = μ₀I/2R
+Solenoid: B = μ₀nI
+Toroid: B = μ₀NI/2πr
+Moving charge: B = μ₀qv sinθ/4πr²
+```
+
+### Optics Quick Checks:
+```
+Mirror: 1/v + 1/u = 1/f
+Lens: 1/v − 1/u = 1/f
+Lens maker's: 1/f = (n−1)(1/R₁ − 1/R₂)
+Prism min dev: n = sin[(A+δ)/2]/sin(A/2)
+TIR: sinC = 1/n
+YDSE fringe: β = λD/d
+```
+
+## Common JEE Traps:
+- Sign convention: **different** for mirrors (1/v + 1/u = 1/f) and lenses (1/v − 1/u = 1/f)
+- Magnetic force does **no work** — KE doesn't change in pure magnetic field
+- At resonance: Z = R (minimum), I is maximum — V_L and V_C can be >> V_source!
+- Zener diode works in **reverse bias** (unlike normal diode)
+- Transistor: common emitter has 180° phase shift, common base doesn't
+- In YDSE: extra path difference from optical path length (nL), not geometrical
+- Binding energy per nucleon: **Iron is most stable** (peak at Fe-56)
+- Half-life: After n half-lives, N = N₀/2ⁿ (don't use N₀/n!)
+
+---
+
+# 📝 FORMULA SHEET — ONE-PAGE SUMMARY (Class 12)
+
+```
+ELECTROSTATICS
+F = kq₁q₂/r² | E = kQ/r² | V = kQ/r | U = kq₁q₂/r
+E = −dV/dr | C = ε₀A/d | U_cap = ½CV²
+ε = −N(dΦ/dt) | F = q(E + v×B)
+
+CURRENT ELECTRICITY
+V = IR | R = ρL/A | I = nAve | P = VI = I²R
+KCL: ΣI = 0 | KVL: ΣV = 0 | Bridge: P/Q = R/S
+Potentiometer: ε₁/ε₂ = l₁/l₂
+
+MAGNETISM
+F = qvBsinθ | F = BILsinθ | τ = NIAB sinθ
+B_wire = μ₀I/2πr | B_loop-center = μ₀I/2R | B_solenoid = μ₀nI
+r = mv/qB | T = 2πm/qB | F/L = μ₀I₁I₂/2πd
+
+EMI & AC
+ε = −dΦ/dt | ε = BvL | L = NΦ/I | U_L = ½LI²
+X_L = ωL | X_C = 1/ωC | Z = √(R²+(X_L−X_C)²)
+ω₀ = 1/√LC | Q = ω₀L/R | P = V_rms·I_rms·cosφ
+Transformer: N₁/N₂ = V₁/V₂ = I₂/I₁
+
+OPTICS
+Mirror: 1/v + 1/u = 1/f | m = −v/u
+Lens: 1/v − 1/u = 1/f | m = v/u | P = 1/f(m)
+Snell: n₁sinθ₁ = n₂sinθ₂ | TIR: sinC = n₂/n₁
+YDSE: β = λD/d | I = 4I₀cos²(δ/2)
+Diffraction: a sinθ = nλ | Malus: I = I₀cos²θ
+
+MODERN PHYSICS
+E = hν = hc/λ | p = h/λ | KE_max = hν − φ = eV₀
+λ_dB = h/mv | Δx·Δp ≥ ℏ/2
+E_n = −13.6Z²/n² eV | rₙ = n²a₀/Z
+
+NUCLEAR
+R = R₀A^(1/3) | BE = Δmc² | N = N₀e^(−λt)
+T₁/₂ = 0.693/λ | τ = 1/λ | A = λN
+
+SEMICONDUCTORS
+Diode: I = I₀(e^(eV/kT)−1) | β = I_C/I_B | α = β/(1+β)
+A_v(CE) = −βR_C/r_be | NAND/NOR are universal gates
+```
+
+---
+
